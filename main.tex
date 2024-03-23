@@ -1,47 +1,64 @@
-\documentclass[conference,a4paper]{IEEEtran}
-\IEEEoverridecommandlockouts
-\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
-    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
-
-% Language setting
-% Replace `english' with e.g. `spanish' to change the document language
-\usepackage[english]{babel}
-
-% Set page size and margins
-% Replace `letterpaper' with `a4paper' for UK/EU standard size
-%\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
-
-% Useful packages
-\usepackage{amsmath}
-\usepackage{graphicx}
-\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\documentclass[10pt,a4paper,twocolumn,twoside]{extarticle}
 
 \title{Progress Report}
+\author{Samuel James Frost}
+\def\ID{20184093}
+\input{header.tex}
+
+\newcommand{\kcal}{kcal mol\(^{-1}\)}
+\usepackage{amsmath}
+\usepackage[style=chem-rsc,citestyle=chem-rsc]{biblatex}
+\addbibresource{references.bib}
+
+\usepackage[font=small]{caption}
+\usepackage{lipsum}
+\usepackage{xcolor}
+
+\newcommand{\al}{\emph{et al. }}
+\newcommand{\oA}{\si{\angstrom}}
+\renewcommand{\d}{\text{d}}
+\title{Frist Year Progress Report}
 \author{Samuel~J.~Frost}
 
 \begin{document}
-\maketitle
+	\thispagestyle{empty}
+	\twocolumn[
+	\begin{@twocolumnfalse}
+		\begin{center}
+			\vspace*{-10mm}
+			{\Large\scshape\papertitle}\\
+			\vspace{2ex}
+			{\itshape\paperauthor}
+		\end{center}
+		\centering\noindent\rule{0.9\textwidth}{0.4pt}
+		\begin{abstract}
+			Certainly! Here's an abstract for your first year PhD progress report!
+		\end{abstract}
+		\centering\noindent\rule{0.9\textwidth}{0.4pt}\\
+		\vspace{1cm}
+	\end{@twocolumnfalse}]
+	\pagenumbering{arabic}
+	\tableofcontents
 
-\begin{abstract}
-\textbf{Abstract.} Certainly! Here's a suggestion for how to being your PhD progress report. 
-\end{abstract}
-
+	
 \section{Introduction}
-simple as
+The final aim of my PhD is to be able to accurately model the effects of radiation damage in diamond over large time scales, taking in to account quantum mechanical effects.
 
-\begin{figure}[htbp]
-      \centering
-      \includegraphics[width=0.25\linewidth]{frog.jpg}
-      \caption{\label{fig:frog}wow he's literally me remember equations are part of sentences; don't forget}
-      \end{figure}
-
-\section{Some examples to get started}
-Hmmmm testing
+\section{Vacancy Migration}
 
 
-\subsection{How to create Sections and Subsections}
 
-%\bibliographystyle{alpha}
-%\bibliography{sample}
+\section{Key Text Review}
+\subsection{Hu \al}
+\label{Hu}
+"The Diffusion of Vacancies Near a Diamond ($001$) Surface" by Hu \al. has played an important role in my research, influencing a large part of section . Hu \al used molecular dynamics to investigate vacancy diffusion in diamond surfaces at various temperatures, calculating the diffusion coefficient and diffusion barrier. Knowing the properties of vacancy defects, and at what temperatures they are mobile such that they might escape to the surface is important when dealing with synthetic diamodns. The paper is limited in that it only deals with vacancies found in the second layer of the ($001$) surface. Other surfaces, such as the cleavage (111) surface, also play important roles in experiment, not to mention vacancies that are found further into the bulk, such as in the third or fourth layer. The limited scope of this paper has influenced my further research found in section .
+
+They construct their simulation as a unit cell repeated equally 5 times in all 3 cartesian direction, with periodic boundary conditions along the $x$ and $y$ axes, and the surfaces in the $z$ direction showing a ($001$) face. There is no mention of the boundaries of the cell in the $z$ direction, however as it is dealing with a surface diffusion, it is reasonable to assume that there is a sufficent vacuum gap, such that there are no external forces acting on the surface. The perfect diamond crystal is first allowed to relax for $5$\,ps at $300$\,K, before having an atom in the second layer removed, and then relaxed for another 5\,ps. The final configuration of this system was then used as the starting point of all subsequent simulations, allowing for consistency between them all. The system is then ran for up to 35\,ps at temperatures ranging from $300$\,K to $2000$\,K. 
+
+As it is impossible to precisely track a vacancy in a crytal, as it does not truly exist, Hu \al opt instead to measure the displacement of the vacancy's nearest neighbours in the surface, as vacancies move by exchanging positions with one of their neighbours. It is only necessary to measure the positions in the surface, as Halicioglu \al\cite{Halicioglu} previously determined that it is energetically unfavourable for a vacancy to diffuse deeper into the bulk. 
+
+Hu \al found that full vacancy migration is only achieved at and above $1400$\,K, with simulations ran in the $1000 - 1300$\,K range showing only a partial relaxation of the surface neighbours into an intermediate position which they remain in until the end of the simulation. For $1400 - 1800$\,K, the surface neighbour relaxes to the intermediate position for some time, before finally moving all the way to the vacancy site, implying that the vacancy has fully migrated to the surface. Hu \al claim that this is the first time that the two-step migration phenomena has been observed, with teh intermediate vacancy position being much closer to the neighbour's original site than the vacancy site. For $2000$\,K the surface neighbour migrates to the vacancy site fully in one motion. These results differ to those seen in experiment, as mentioned in the paper, Davies \al\cite{Davies} have showed that in Type IIa diamond, the vacancy concentration greatly decreases after annealing at a temperature range of $973 - 1023$\,K. This would imply that the vacancy is fully mobile, as was seen in the simulations above $1400$\,K. This discrepancy is explained by Hu \al to be caused by how the temperatures are read: Davies \al are measuring the temeprature of the substrate on which the diamond is grown, however the temperature of the surface is likely to be much hotter. Another cause of the higher required migration temperature observed by Hu \al could be due to the use of the Tersoff potential, which is likely to overbind in cases like these, stopping the vacancy from migrating at the correct temperature (CITATION NEEDED).
+
+\printbibliography
 
 \end{document}

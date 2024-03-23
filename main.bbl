@@ -1,3 +1,121 @@
-\begin{thebibliography}{}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\end{thebibliography}
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Halicioglu}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7c99eb738a606e9cff559be953dcb259}{%
+           family={Halicioglu},
+           familyi={H\bibinitperiod},
+           given={Timur},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{7c99eb738a606e9cff559be953dcb259}
+      \strng{fullhash}{7c99eb738a606e9cff559be953dcb259}
+      \strng{bibnamehash}{7c99eb738a606e9cff559be953dcb259}
+      \strng{authorbibnamehash}{7c99eb738a606e9cff559be953dcb259}
+      \strng{authornamehash}{7c99eb738a606e9cff559be953dcb259}
+      \strng{authorfullhash}{7c99eb738a606e9cff559be953dcb259}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Structure-and energy-related properties of defects formed on relaxed diamond surfaces were investigated. Simulation calculations were carried out for vacancies created on (111) and on (2×1) dimerized (100) index planes of diamond. Two different model functions (based on two-and three-body interactions) developed recently for carbon were employed in the calculations. Both functions produced comparable results. Top layer vacancies are more likely to form on the (100) surface than on the (111) surface. Calculations indicate that the diffusion of a single vacancy from the top surface layer to the second layer is not energetically favored.}
+      \field{issn}{0040-6090}
+      \field{journaltitle}{Thin Solid Films}
+      \field{number}{1}
+      \field{title}{Calculations for defects formed on diamond surfaces}
+      \field{volume}{228}
+      \field{year}{1993}
+      \field{pages}{293\bibrangedash 296}
+      \range{pages}{4}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0040-6090(93)90619-Z
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/004060909390619Z
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/004060909390619Z
+      \endverb
+    \endentry
+    \entry{Davies}{article}{}
+      \name{author}{5}{}{%
+        {{hash=548a6e95836dbe2d93ed37b260455e85}{%
+           family={Davies},
+           familyi={D\bibinitperiod},
+           given={Gordon},
+           giveni={G\bibinitperiod}}}%
+        {{hash=60181bc0d23c69a9b968796ff111f280}{%
+           family={Lawson},
+           familyi={L\bibinitperiod},
+           given={Simon\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=0b1138c5e0e01dc2daa27657272f333e}{%
+           family={Collins},
+           familyi={C\bibinitperiod},
+           given={Alan\bibnamedelima T.},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=40b7da9a0cad6842f0adb1996f0f1211}{%
+           family={Mainwood},
+           familyi={M\bibinitperiod},
+           given={Alison},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c485fbbedbe2d4a0d615ae208408ed70}{%
+           family={Sharp},
+           familyi={S\bibinitperiod},
+           given={Sarah\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{86d9d5fbbe5d1ed3501668567b550c22}
+      \strng{fullhash}{be9849396371f1e46116b66ad3060135}
+      \strng{bibnamehash}{be9849396371f1e46116b66ad3060135}
+      \strng{authorbibnamehash}{be9849396371f1e46116b66ad3060135}
+      \strng{authornamehash}{86d9d5fbbe5d1ed3501668567b550c22}
+      \strng{authorfullhash}{be9849396371f1e46116b66ad3060135}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{20}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{11}
+      \field{title}{Vacancy-related centers in diamond}
+      \field{volume}{46}
+      \field{year}{1992}
+      \field{pages}{13157\bibrangedash 13170}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.46.13157
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.46.13157
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.46.13157
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
