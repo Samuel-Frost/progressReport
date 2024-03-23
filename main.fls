@@ -1463,8 +1463,8 @@ INPUT d:/Home/Documents/School/progressReport/main.aux
 INPUT d:/Home/Documents/School/progressReport/main.run.xml
 OUTPUT d:/Home/Documents/School/progressReport/main.run.xml
 INPUT d:/Software/TeXLive/2020/texmf-dist/fonts/enc/dvips/ebgaramond-maths/a_w5zv5t.enc
-INPUT d:/Software/TeXLive/2020/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_gfppum.enc
 INPUT d:/Software/TeXLive/2020/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_ljow5q.enc
+INPUT d:/Software/TeXLive/2020/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_gfppum.enc
 INPUT d:/Software/TeXLive/2020/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_tcdnmr.enc
 INPUT d:/Software/TeXLive/2020/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_byuyni.enc
 INPUT d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Bold.pfb
