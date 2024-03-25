@@ -19,6 +19,118 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{Hartland}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=7cf5d0654fd47fcecfaf56b546a948e3}{%
+           family={Hartland},
+           familyi={H\bibinitperiod},
+           given={C.\bibnamedelimi B.},
+           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of Warwick}%
+      }
+      \strng{namehash}{7cf5d0654fd47fcecfaf56b546a948e3}
+      \strng{fullhash}{7cf5d0654fd47fcecfaf56b546a948e3}
+      \strng{bibnamehash}{7cf5d0654fd47fcecfaf56b546a948e3}
+      \strng{authorbibnamehash}{7cf5d0654fd47fcecfaf56b546a948e3}
+      \strng{authornamehash}{7cf5d0654fd47fcecfaf56b546a948e3}
+      \strng{authorfullhash}{7cf5d0654fd47fcecfaf56b546a948e3}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{title}{A study of point defects in CVD diamond using electron paramagnetic resonance and optical spectroscopy}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://wrap.warwick.ac.uk/67156/
+      \endverb
+      \verb{url}
+      \verb https://wrap.warwick.ac.uk/67156/
+      \endverb
+    \endentry
+    \entry{NEB}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0b1fcf035654706837a546639847cc34}{%
+           family={Henkelman},
+           familyi={H\bibinitperiod},
+           given={Graeme},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6d51a627740f6eb4c36cbeec38b77d88}{%
+           family={Uberuaga},
+           familyi={U\bibinitperiod},
+           given={Blas\bibnamedelima P.},
+           giveni={B\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=648d43f32c5f6b4f29403470f3f1f744}{%
+           family={Jónsson},
+           familyi={J\bibinitperiod},
+           given={Hannes},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{3e35825e65a1505ea51a2154bea69352}
+      \strng{fullhash}{a1fa54bdc5f3f138474e57157cf2a5a2}
+      \strng{bibnamehash}{a1fa54bdc5f3f138474e57157cf2a5a2}
+      \strng{authorbibnamehash}{a1fa54bdc5f3f138474e57157cf2a5a2}
+      \strng{authornamehash}{3e35825e65a1505ea51a2154bea69352}
+      \strng{authorfullhash}{a1fa54bdc5f3f138474e57157cf2a5a2}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{A modification of the nudged elastic band method for finding minimum energy paths is presented. One of the images is made to climb up along the elastic band to converge rigorously on the highest saddle point. Also, variable spring constants are used to increase the density of images near the top of the energy barrier to get an improved estimate of the reaction coordinate near the saddle point. Applications to CH4 dissociative adsorption on Ir(111) and H2 on Si(100) using plane wave based density functional theory are presented.}}
+      \field{issn}{0021-9606}
+      \field{journaltitle}{The Journal of Chemical Physics}
+      \field{month}{12}
+      \field{number}{22}
+      \field{title}{{A climbing image nudged elastic band method for finding saddle points and minimum energy paths}}
+      \field{volume}{113}
+      \field{year}{2000}
+      \field{pages}{9901\bibrangedash 9904}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1063/1.1329672
+      \endverb
+      \verb{eprint}
+      \verb https://pubs.aip.org/aip/jcp/article-pdf/113/22/9901/19259681/9901\_1\_online.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.1329672
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.1329672
+      \endverb
+    \endentry
+    \entry{Peaker}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=61f17b5180f56435995b75badf16ca40}{%
+           family={Peaker},
+           familyi={P\bibinitperiod},
+           given={Chloe\bibnamedelima Victoria},
+           giveni={C\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of Newcastle}%
+      }
+      \strng{namehash}{61f17b5180f56435995b75badf16ca40}
+      \strng{fullhash}{61f17b5180f56435995b75badf16ca40}
+      \strng{bibnamehash}{61f17b5180f56435995b75badf16ca40}
+      \strng{authorbibnamehash}{61f17b5180f56435995b75badf16ca40}
+      \strng{authornamehash}{61f17b5180f56435995b75badf16ca40}
+      \strng{authorfullhash}{61f17b5180f56435995b75badf16ca40}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{First principles study of point defects in diamond}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb http://theses.ncl.ac.uk/jspui/handle/10443/4224/
+      \endverb
+      \verb{url}
+      \verb http://theses.ncl.ac.uk/jspui/handle/10443/4224/
+      \endverb
+    \endentry
     \entry{Halicioglu}{article}{}
       \name{author}{1}{}{%
         {{hash=7c99eb738a606e9cff559be953dcb259}{%
@@ -33,8 +145,8 @@
       \strng{authorbibnamehash}{7c99eb738a606e9cff559be953dcb259}
       \strng{authornamehash}{7c99eb738a606e9cff559be953dcb259}
       \strng{authorfullhash}{7c99eb738a606e9cff559be953dcb259}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Structure-and energy-related properties of defects formed on relaxed diamond surfaces were investigated. Simulation calculations were carried out for vacancies created on (111) and on (2×1) dimerized (100) index planes of diamond. Two different model functions (based on two-and three-body interactions) developed recently for carbon were employed in the calculations. Both functions produced comparable results. Top layer vacancies are more likely to form on the (100) surface than on the (111) surface. Calculations indicate that the diffusion of a single vacancy from the top surface layer to the second layer is not energetically favored.}
@@ -93,8 +205,8 @@
       \strng{authorbibnamehash}{be9849396371f1e46116b66ad3060135}
       \strng{authornamehash}{86d9d5fbbe5d1ed3501668567b550c22}
       \strng{authorfullhash}{be9849396371f1e46116b66ad3060135}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{20}

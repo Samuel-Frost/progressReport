@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.3)  25 MAR 2024 14:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.3)  25 MAR 2024 23:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -884,6 +884,40 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 ) (d:/Software/TeXLive/2020/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup6
+) (d:/Software/TeXLive/2020/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 ) (d:/Software/TeXLive/2020/texmf-dist/tex/latex/slantsc/slantsc.sty
 Package: slantsc 2012/01/01 v2.11 Provide Slanted an Italic Small Caps
 LaTeX Info: Redefining \upshape on input line 35.
@@ -978,199 +1012,29 @@ Package tocloft Info: The document has section divisions on input line 51.
 
 Package tocloft Warning: \@starttoc has already been redefined; tocloft bailing out. on input line 1156.
 
-) (d:/Software/TeXLive/2020/texmf-dist/tex/latex/ebgaramond/ebgaramond.sty
-Package: ebgaramond 2020/04/12 (Bob Tennent and autoinst) Style file for EB Garamond fonts.
- (d:/Software/TeXLive/2020/texmf-dist/tex/generic/iftex/ifxetex.sty
-Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-) (d:/Software/TeXLive/2020/texmf-dist/tex/generic/iftex/ifluatex.sty
-Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-) (d:/Software/TeXLive/2020/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
-) (d:/Software/TeXLive/2020/texmf-dist/tex/latex/fontaxes/fontaxes.sty
-Package: fontaxes 2020/07/21 v1.0e Font selection axes
-LaTeX Info: Redefining \upshape on input line 29.
-LaTeX Info: Redefining \itshape on input line 31.
-LaTeX Info: Redefining \slshape on input line 33.
-LaTeX Info: Redefining \swshape on input line 35.
-LaTeX Info: Redefining \scshape on input line 37.
-LaTeX Info: Redefining \sscshape on input line 39.
-LaTeX Info: Redefining \ulcshape on input line 41.
-LaTeX Info: Redefining \textsw on input line 47.
-LaTeX Info: Redefining \textssc on input line 48.
-LaTeX Info: Redefining \textulc on input line 49.
 )
-LaTeX Info: Redefining \oldstylenums on input line 179.
-LaTeX Info: Redefining \textsw on input line 187.
-) (d:/Software/TeXLive/2020/texmf-dist/tex/latex/newtx/newtxmath.sty
-Package: newtxmath 2020/09/19 v1.630
- `newtxmath' v1.630, 2020/09/19 Math macros based originally on txfonts (msharpe)
-\tx@cntz=\count372
- (d:/Software/TeXLive/2020/texmf-dist/tex/generic/kastrup/binhex.tex)
-\tx@Isdigit=\count373
-\tx@IsAlNum=\count374
-\tx@tA=\toks59
-\tx@tB=\toks60
-\tx@su=\read4
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 360.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/EBGaramond-OsF/m/n on input line 360.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/EBGaramond-OsF/m/n on input line 360.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/EBGaramond-OsF/m/n --> OT1/EBGaramond-OsF/b/n on input line 361.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 369.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 369.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 369.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 370.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/EBGaramond-OsF/m/it on input line 370.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/EBGaramond-OsF/m/it on input line 370.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 371.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 371.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 371.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 373.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/EBGaramond-OsF/b/n on input line 373.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/EBGaramond-OsF/b/n on input line 373.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/EBGaramond-OsF/m/it --> OT1/EBGaramond-OsF/b/it on input line 374.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 375.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 376.
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 477.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/ntxmi/m/it on input line 477.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> OML/ntxmi/m/it on input line 477.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/ntxmi/m/it --> OML/ntxmi/b/it on input line 478.
-LaTeX Info: Redefining \mathscr on input line 514.
-\symlettersA=\mathgroup8
-LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
-(Font)                  U/ntxmia/m/it --> U/ntxmia/b/it on input line 535.
-LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 537.
-Now handling font encoding LMS ...
-... no UTF-8 mapping file for font encoding LMS
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 556.
-LaTeX Font Info:    Encoding `OMS' has changed to `LMS' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 556.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> LMS/ntxsy/m/n on input line 556.
-LaTeX Font Info:    Encoding `OMS' has changed to `LMS' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 556.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> LMS/ntxsy/m/n on input line 556.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  LMS/ntxsy/m/n --> LMS/ntxsy/b/n on input line 557.
-\symAMSm=\mathgroup9
-LaTeX Font Info:    Overwriting symbol font `AMSm' in version `bold'
-(Font)                  U/ntxsym/m/n --> U/ntxsym/b/n on input line 580.
-\symsymbolsC=\mathgroup10
-LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
-(Font)                  U/ntxsyc/m/n --> U/ntxsyc/b/n on input line 601.
-Now handling font encoding LMX ...
-... no UTF-8 mapping file for font encoding LMX
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 614.
-LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 614.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 614.
-LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 614.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 614.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  LMX/ntxexx/m/n --> LMX/ntxexx/b/n on input line 615.
-\symlargesymbolsTXA=\mathgroup11
-LaTeX Font Info:    Overwriting symbol font `largesymbolsTXA' in version `bold'
-(Font)                  U/ntxexa/m/n --> U/ntxexa/b/n on input line 629.
-\tx@sbptoks=\toks61
-LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 851.
-LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 852.
-LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 853.
-LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 854.
-LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 855.
-LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 856.
-LaTeX Font Info:    Redeclaring math delimiter \langle on input line 857.
-LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 859.
-LaTeX Font Info:    Redeclaring math delimiter \arrowvert on input line 863.
-LaTeX Font Info:    Redeclaring math delimiter \vert on input line 864.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 935.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 936.
-LaTeX Font Info:    Redeclaring math accent \vec on input line 1999.
-\ntx@numstart=\count375
-\ntx@UCstart=\count376
-\ntx@lcstart=\count377
-\ntx@tmpc=\count378
-\ntx@imath=\count379
-\ntx@jmath=\count380
-LaTeX Info: Redefining \Bbbk on input line 2510.
-LaTeX Info: Redefining \not on input line 2659.
-LaTeX Info: Redefining \textsquare on input line 2689.
-LaTeX Info: Redefining \openbox on input line 2691.
-) (d:/Software/TeXLive/2020/texmf-dist/tex/latex/ebgaramond-maths/ebgaramond-maths.sty
-Package: ebgaramond-maths 2019/09/24 v1.2 ebgaramond-maths for use with EBGaramond
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 24.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/ntxmi/m/it --> OML/EBGaramond-Maths/m/it on input line 24.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/ntxmi/b/it --> OML/EBGaramond-Maths/m/it on input line 24.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 25.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/EBGaramond-OsF/m/n --> OT1/EBGaramond-LF/m/n on input line 25.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/EBGaramond-OsF/b/n --> OT1/EBGaramond-LF/m/n on input line 25.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/EBGaramond-Maths/m/it --> OML/EBGaramond-Maths/b/it on input line 27.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/EBGaramond-LF/m/n --> OT1/EBGaramond-LF/bx/n on input line 28.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/EBGaramond-OsF/b/n --> OT1/EBGaramond-LF/bx/n on input line 33.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/EBGaramond-OsF/b/n --> OT1/EBGaramond-LF/bx/n on input line 34.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/EBGaramond-OsF/m/it --> OT1/EBGaramond-LF/m/it on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/EBGaramond-OsF/b/it --> OT1/EBGaramond-LF/bx/it on input line 36.
-LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 38.
-LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `normal'
-(Font)                  U/urwchancal/m/n --> OT1/EBGaramond-LF/m/sw on input line 38.
-LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `bold'
-(Font)                  U/urwchancal/m/n --> OT1/EBGaramond-LF/m/sw on input line 38.
-)
-\symntxletters=\mathgroup12
-LaTeX Font Info:    Overwriting symbol font `ntxletters' in version `bold'
-(Font)                  OML/ntxmi/m/it --> OML/ntxmi/b/it on input line 61.
-LaTeX Font Info:    Redeclaring math accent \vec on input line 75.
-\c@theorem=\count381
-\c@corollary=\count382
-\c@lemma=\count383
-\c@lemmaalone=\count384
-\c@proposition=\count385
-\c@problem=\count386
-\c@conjecture=\count387
-\c@claim=\count388
-\c@fact=\count389
-\c@assumption=\count390
-\c@construction=\count391
-\c@observation=\count392
-\c@definition=\count393
-\c@axiom=\count394
-\c@example=\count395
-\c@remark=\count396
-\c@defremark=\count397
-\c@secremark=\count398
-\c@questionsi=\count399
-\c@questionsii=\count400
-\c@questionsiii=\count401
-\enitdp@questions=\count402
+\c@theorem=\count372
+\c@corollary=\count373
+\c@lemma=\count374
+\c@lemmaalone=\count375
+\c@proposition=\count376
+\c@problem=\count377
+\c@conjecture=\count378
+\c@claim=\count379
+\c@fact=\count380
+\c@assumption=\count381
+\c@construction=\count382
+\c@observation=\count383
+\c@definition=\count384
+\c@axiom=\count385
+\c@example=\count386
+\c@remark=\count387
+\c@defremark=\count388
+\c@secremark=\count389
+\c@questionsi=\count390
+\c@questionsii=\count391
+\c@questionsiii=\count392
+\enitdp@questions=\count393
  (d:/Software/TeXLive/2020/texmf-dist/tex/latex/fourier/fourier-orns.sty
 Package: fourier-orns 2020/03/03 2.2 fourier-ornaments package
 ) (d:/Software/TeXLive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
@@ -1181,55 +1045,55 @@ File: pgflibrarypatterns.code.tex 2020/10/01 v3.1.6a (3.1.6a)
 Package: biblatex 2020/08/23 v3.15a programmable bibliographies (PK/MW)
  (d:/Software/TeXLive/2020/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count403
+\lrq@indent=\count394
  (d:/Software/TeXLive/2020/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (d:/Software/TeXLive/2020/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip20
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count404
-\c@listtotal=\count405
-\c@listcount=\count406
-\c@liststart=\count407
-\c@liststop=\count408
-\c@citecount=\count409
-\c@citetotal=\count410
-\c@multicitecount=\count411
-\c@multicitetotal=\count412
-\c@instcount=\count413
-\c@maxnames=\count414
-\c@minnames=\count415
-\c@maxitems=\count416
-\c@minitems=\count417
-\c@citecounter=\count418
-\c@maxcitecounter=\count419
-\c@savedcitecounter=\count420
-\c@uniquelist=\count421
-\c@uniquename=\count422
-\c@refsection=\count423
-\c@refsegment=\count424
-\c@maxextratitle=\count425
-\c@maxextratitleyear=\count426
-\c@maxextraname=\count427
-\c@maxextradate=\count428
-\c@maxextraalpha=\count429
-\c@abbrvpenalty=\count430
-\c@highnamepenalty=\count431
-\c@lownamepenalty=\count432
-\c@maxparens=\count433
-\c@parenlevel=\count434
-\blx@tempcnta=\count435
-\blx@tempcntb=\count436
-\blx@tempcntc=\count437
-\blx@maxsection=\count438
-\blx@maxsegment@0=\count439
-\blx@notetype=\count440
-\blx@parenlevel@text=\count441
-\blx@parenlevel@foot=\count442
-\blx@sectionciteorder@0=\count443
-\blx@entrysetcounter=\count444
-\blx@biblioinstance=\count445
+\c@tabx@nest=\count395
+\c@listtotal=\count396
+\c@listcount=\count397
+\c@liststart=\count398
+\c@liststop=\count399
+\c@citecount=\count400
+\c@citetotal=\count401
+\c@multicitecount=\count402
+\c@multicitetotal=\count403
+\c@instcount=\count404
+\c@maxnames=\count405
+\c@minnames=\count406
+\c@maxitems=\count407
+\c@minitems=\count408
+\c@citecounter=\count409
+\c@maxcitecounter=\count410
+\c@savedcitecounter=\count411
+\c@uniquelist=\count412
+\c@uniquename=\count413
+\c@refsection=\count414
+\c@refsegment=\count415
+\c@maxextratitle=\count416
+\c@maxextratitleyear=\count417
+\c@maxextraname=\count418
+\c@maxextradate=\count419
+\c@maxextraalpha=\count420
+\c@abbrvpenalty=\count421
+\c@highnamepenalty=\count422
+\c@lownamepenalty=\count423
+\c@maxparens=\count424
+\c@parenlevel=\count425
+\blx@tempcnta=\count426
+\blx@tempcntb=\count427
+\blx@tempcntc=\count428
+\blx@maxsection=\count429
+\blx@maxsegment@0=\count430
+\blx@notetype=\count431
+\blx@parenlevel@text=\count432
+\blx@parenlevel@foot=\count433
+\blx@sectionciteorder@0=\count434
+\blx@entrysetcounter=\count435
+\blx@biblioinstance=\count436
 \labelnumberwidth=\skip113
 \labelalphawidth=\skip114
 \biblabelsep=\skip115
@@ -1238,12 +1102,12 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibinitsep=\skip118
 \bibparsep=\skip119
 \bibhang=\skip120
-\blx@bcfin=\read5
+\blx@bcfin=\read4
 \blx@bcfout=\write4
 \blx@langwohyphens=\language87
-\c@mincomprange=\count446
-\c@maxcomprange=\count447
-\c@mincompwidth=\count448
+\c@mincomprange=\count437
+\c@maxcomprange=\count438
+\c@mincompwidth=\count439
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (d:/Software/TeXLive/2020/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -1253,74 +1117,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'chem-rsc.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count449
-\c@savedafterword=\count450
-\c@annotator=\count451
-\c@savedannotator=\count452
-\c@author=\count453
-\c@savedauthor=\count454
-\c@bookauthor=\count455
-\c@savedbookauthor=\count456
-\c@commentator=\count457
-\c@savedcommentator=\count458
-\c@editor=\count459
-\c@savededitor=\count460
-\c@editora=\count461
-\c@savededitora=\count462
-\c@editorb=\count463
-\c@savededitorb=\count464
-\c@editorc=\count465
-\c@savededitorc=\count466
-\c@foreword=\count467
-\c@savedforeword=\count468
-\c@holder=\count469
-\c@savedholder=\count470
-\c@introduction=\count471
-\c@savedintroduction=\count472
-\c@namea=\count473
-\c@savednamea=\count474
-\c@nameb=\count475
-\c@savednameb=\count476
-\c@namec=\count477
-\c@savednamec=\count478
-\c@translator=\count479
-\c@savedtranslator=\count480
-\c@shortauthor=\count481
-\c@savedshortauthor=\count482
-\c@shorteditor=\count483
-\c@savedshorteditor=\count484
-\c@labelname=\count485
-\c@savedlabelname=\count486
-\c@institution=\count487
-\c@savedinstitution=\count488
-\c@lista=\count489
-\c@savedlista=\count490
-\c@listb=\count491
-\c@savedlistb=\count492
-\c@listc=\count493
-\c@savedlistc=\count494
-\c@listd=\count495
-\c@savedlistd=\count496
-\c@liste=\count497
-\c@savedliste=\count498
-\c@listf=\count499
-\c@savedlistf=\count500
-\c@location=\count501
-\c@savedlocation=\count502
-\c@organization=\count503
-\c@savedorganization=\count504
-\c@origlocation=\count505
-\c@savedoriglocation=\count506
-\c@origpublisher=\count507
-\c@savedorigpublisher=\count508
-\c@publisher=\count509
-\c@savedpublisher=\count510
-\c@language=\count511
-\c@savedlanguage=\count512
-\c@origlanguage=\count513
-\c@savedoriglanguage=\count514
-\c@pageref=\count515
-\c@savedpageref=\count516
+\c@afterword=\count440
+\c@savedafterword=\count441
+\c@annotator=\count442
+\c@savedannotator=\count443
+\c@author=\count444
+\c@savedauthor=\count445
+\c@bookauthor=\count446
+\c@savedbookauthor=\count447
+\c@commentator=\count448
+\c@savedcommentator=\count449
+\c@editor=\count450
+\c@savededitor=\count451
+\c@editora=\count452
+\c@savededitora=\count453
+\c@editorb=\count454
+\c@savededitorb=\count455
+\c@editorc=\count456
+\c@savededitorc=\count457
+\c@foreword=\count458
+\c@savedforeword=\count459
+\c@holder=\count460
+\c@savedholder=\count461
+\c@introduction=\count462
+\c@savedintroduction=\count463
+\c@namea=\count464
+\c@savednamea=\count465
+\c@nameb=\count466
+\c@savednameb=\count467
+\c@namec=\count468
+\c@savednamec=\count469
+\c@translator=\count470
+\c@savedtranslator=\count471
+\c@shortauthor=\count472
+\c@savedshortauthor=\count473
+\c@shorteditor=\count474
+\c@savedshorteditor=\count475
+\c@labelname=\count476
+\c@savedlabelname=\count477
+\c@institution=\count478
+\c@savedinstitution=\count479
+\c@lista=\count480
+\c@savedlista=\count481
+\c@listb=\count482
+\c@savedlistb=\count483
+\c@listc=\count484
+\c@savedlistc=\count485
+\c@listd=\count486
+\c@savedlistd=\count487
+\c@liste=\count488
+\c@savedliste=\count489
+\c@listf=\count490
+\c@savedlistf=\count491
+\c@location=\count492
+\c@savedlocation=\count493
+\c@organization=\count494
+\c@savedorganization=\count495
+\c@origlocation=\count496
+\c@savedoriglocation=\count497
+\c@origpublisher=\count498
+\c@savedorigpublisher=\count499
+\c@publisher=\count500
+\c@savedpublisher=\count501
+\c@language=\count502
+\c@savedlanguage=\count503
+\c@origlanguage=\count504
+\c@savedoriglanguage=\count505
+\c@pageref=\count506
+\c@savedpageref=\count507
 \shorthandwidth=\skip121
 \shortjournalwidth=\skip122
 \shortserieswidth=\skip123
@@ -1353,19 +1217,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (d:/Software/TeXLive/2020/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
-\c@textcitecount=\count517
-\c@textcitetotal=\count518
-\c@textcitemaxnames=\count519
-\c@biburlbigbreakpenalty=\count520
-\c@biburlbreakpenalty=\count521
-\c@biburlnumpenalty=\count522
-\c@biburlucpenalty=\count523
-\c@biburllcpenalty=\count524
+\c@textcitecount=\count508
+\c@textcitetotal=\count509
+\c@textcitemaxnames=\count510
+\c@biburlbigbreakpenalty=\count511
+\c@biburlbreakpenalty=\count512
+\c@biburlnumpenalty=\count513
+\c@biburlucpenalty=\count514
+\c@biburllcpenalty=\count515
 \biburlbigskip=\muskip21
 \biburlnumskip=\muskip22
 \biburlucskip=\muskip23
 \biburllcskip=\muskip24
-\c@smartand=\count525
+\c@smartand=\count516
 )
 Package biblatex Info: Trying to load bibliography style 'chem-rsc'...
 Package biblatex Info: ... file 'chem-rsc.bbx' found.
@@ -1383,8 +1247,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (d:/Software/TeXLive/2020/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2020/08/23 v3.15a biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count526
-\c@bbx:relatedtotal=\count527
+\c@bbx:relatedcount=\count517
+\c@bbx:relatedtotal=\count518
 ))))
 Package biblatex Info: Trying to load citation style 'chem-rsc'...
 Package biblatex Info: ... file 'chem-rsc.cbx' found.
@@ -1394,10 +1258,10 @@ Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
  (d:/Software/TeXLive/2020/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
 File: numeric-comp.cbx 2020/08/23 v3.15a biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count528
-\c@cbx@tempcntb=\count529
-\c@cbx@tempcntc=\count530
-\c@cbx@tempcntd=\count531
+\c@cbx@tempcnta=\count519
+\c@cbx@tempcntb=\count520
+\c@cbx@tempcntc=\count521
+\c@cbx@tempcntd=\count522
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -1423,30 +1287,17 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'UKenglish'.
-LaTeX Font Info:    Trying to load font information for T1+EBGaramond-OsF on input line 23.
- (d:/Software/TeXLive/2020/texmf-dist/tex/latex/ebgaramond/T1EBGaramond-OsF.fd
-File: T1EBGaramond-OsF.fd 2019/10/22 (autoinst) Font definitions for T1/EBGaramond-OsF.
-)
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <10> not available
-(Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on input line 23.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 23.
- (d:/Home/Documents/School/progressReport/main.aux)
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 23.
+ (d:/Software/TeXLive/2020/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) (d:/Home/Documents/School/progressReport/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/EBGaramond-Maths/m/it on input line 23.
-LaTeX Font Info:    Trying to load font information for OML+EBGaramond-Maths on input line 23.
- (d:/Software/TeXLive/2020/texmf-dist/tex/latex/ebgaramond-maths/OMLEBGaramond-Maths.fd
-File: OMLEBGaramond-Maths.fd 2019/09/24 font definitions for OML/EBGaramond-Maths.
-)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/EBGaramond-LF/m/n on input line 23.
-LaTeX Font Info:    Trying to load font information for OT1+EBGaramond-LF on input line 23.
- (d:/Software/TeXLive/2020/texmf-dist/tex/latex/ebgaramond/OT1EBGaramond-LF.fd
-File: OT1EBGaramond-LF.fd 2019/10/22 (autoinst) Font definitions for OT1/EBGaramond-LF.
-)
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
@@ -1454,23 +1305,7 @@ LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 23.
-LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 23.
- (d:/Software/TeXLive/2020/texmf-dist/tex/latex/newtx/untxexa.fd
-File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
-)
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 23.
-LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 23.
- (d:/Software/TeXLive/2020/texmf-dist/tex/latex/newtx/lmsntxsy.fd
-File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
-)
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 23.
-LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 23.
- (d:/Software/TeXLive/2020/texmf-dist/tex/latex/newtx/lmxntxexx.fd
-File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
-)
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 
 *geometry* driver: auto-detecting
@@ -1510,17 +1345,17 @@ LaTeX Font Info:    ... okay on input line 23.
 
 (d:/Software/TeXLive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count532
+\scratchcounter=\count523
 \scratchdimen=\dimen346
 \scratchbox=\box126
-\nofMPsegments=\count533
-\nofMParguments=\count534
-\everyMPshowfont=\toks62
-\MPscratchCnt=\count535
+\nofMPsegments=\count524
+\nofMParguments=\count525
+\everyMPshowfont=\toks59
+\MPscratchCnt=\count526
 \MPscratchDim=\dimen347
-\MPnumerator=\count536
-\makeMPintoPDFobject=\count537
-\everyMPtoPDFconversion=\toks63
+\MPnumerator=\count527
+\makeMPintoPDFobject=\count528
+\everyMPtoPDFconversion=\toks60
 ) (d:/Software/TeXLive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1534,8 +1369,6 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 ) (d:/Software/TeXLive/2020/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
-\c@mv@tabular=\count538
-\c@mv@boldtabular=\count539
 Package biblatex Info: Trying to load language 'UKenglish'...
 Package biblatex Info: ... file 'UKenglish.lbx' found.
  (d:/Software/TeXLive/2020/texmf-dist/tex/latex/biblatex/lbx/UKenglish.lbx
@@ -1564,18 +1397,28 @@ Package biblatex Info: ... file 'main.bbl' found.
  (d:/Home/Documents/School/progressReport/main.bbl)
 Package biblatex Info: Reference section=0 on input line 23.
 Package biblatex Info: Reference segment=0 on input line 23.
-LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/m/n' in size <10> not available
-(Font)              Font shape `OT1/EBGaramond-LF/regular/n' tried instead on input line 23.
-LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 23.
-LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/m/n' in size <7.3> not available
-(Font)              Font shape `OT1/EBGaramond-LF/regular/n' tried instead on input line 23.
-LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/regular/n' will be
-(Font)              scaled to size 7.3pt on input line 23.
-LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/m/n' in size <5.5> not available
-(Font)              Font shape `OT1/EBGaramond-LF/regular/n' tried instead on input line 23.
-LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/regular/n' will be
-(Font)              scaled to size 5.5pt on input line 23.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 23.
+ (d:/Software/TeXLive/2020/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 23.
+ (d:/Software/TeXLive/2020/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 23.
+ (d:/Software/TeXLive/2020/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 23.
+ (d:/Software/TeXLive/2020/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 23.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 23.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 23.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
  (d:/Software/TeXLive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1592,104 +1435,41 @@ LaTeX Font Info:    Trying to load font information for U+esint on input line 23
  (d:/Software/TeXLive/2020/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 )
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 23.
- (d:/Software/TeXLive/2020/texmf-dist/tex/latex/newtx/untxmia.fd
-File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
+LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 23.
+ (d:/Software/TeXLive/2020/texmf-dist/tex/latex/lm/ot1lmss.fd
+File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 23.
- (d:/Software/TeXLive/2020/texmf-dist/tex/latex/newtx/untxsym.fd
-File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
-)
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 23.
- (d:/Software/TeXLive/2020/texmf-dist/tex/latex/newtx/untxsyc.fd
-File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
-)
-LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 23.
- (d:/Software/TeXLive/2020/texmf-dist/tex/latex/newtx/omlntxmi.fd
-File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
-)
-LaTeX Font Info:    Trying to load font information for T1+cmss on input line 23.
- (d:/Software/TeXLive/2020/texmf-dist/tex/latex/base/t1cmss.fd
-File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 23.
- (d:/Software/TeXLive/2020/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <14.4> not available
-(Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on input line 39.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 39.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/sc' in size <14.4> not available
-(Font)              Font shape `T1/EBGaramond-OsF/regular/sc' tried instead on input line 39.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/sc' will be
-(Font)              scaled to size 14.4pt on input line 39.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/it' in size <10> not available
-(Font)              Font shape `T1/EBGaramond-OsF/regular/it' tried instead on input line 39.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 39.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <9> not available
-(Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on input line 39.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
-(Font)              scaled to size 9.0pt on input line 39.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/b/n' in size <9> not available
-(Font)              Font shape `T1/EBGaramond-OsF/bold/n' tried instead on input line 39.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/bold/n' will be
-(Font)              scaled to size 9.0pt on input line 39.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/sc' in size <11> not available
-(Font)              Font shape `T1/EBGaramond-OsF/regular/sc' tried instead on input line 41.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/sc' will be
-(Font)              scaled to size 11.0pt on input line 41.
- (d:/Home/Documents/School/progressReport/main.toc
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/sc' in size <10> not available
-(Font)              Font shape `T1/EBGaramond-OsF/regular/sc' tried instead on input line 3.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/sc' will be
-(Font)              scaled to size 10.0pt on input line 3.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/b/n' in size <10> not available
-(Font)              Font shape `T1/EBGaramond-OsF/bold/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/bold/n' will be
-(Font)              scaled to size 10.0pt on input line 3.
-
-Underfull \hbox (badness 1418) in paragraph at lines 5--5
- [][] []\T1/EBGaramond-OsF/regular/sc/10 Vacancy Mi-gra-tion in a Pure Dia- 
- []
-
-)
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 23.
+ (d:/Software/TeXLive/2020/texmf-dist/tex/latex/lm/ot1lmtt.fd
+File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) (d:/Home/Documents/School/progressReport/main.toc)
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <12> not available
-(Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on input line 44.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 44.
-LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/m/n' in size <10.95> not available
-(Font)              Font shape `OT1/EBGaramond-LF/regular/n' tried instead on input line 47.
-LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/regular/n' will be
-(Font)              scaled to size 10.95pt on input line 47.
-LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/m/n' in size <8> not available
-(Font)              Font shape `OT1/EBGaramond-LF/regular/n' tried instead on input line 47.
-LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 47.
-LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/m/n' in size <6.1> not available
-(Font)              Font shape `OT1/EBGaramond-LF/regular/n' tried instead on input line 47.
-LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/regular/n' will be
-(Font)              scaled to size 6.1pt on input line 47.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/b/it' in size <10> not available
-(Font)              Font shape `T1/EBGaramond-OsF/bold/it' tried instead on input line 59.
-LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/bold/it' will be
-(Font)              scaled to size 10.0pt on input line 59.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 47.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <11> on input line 47.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7.69997> on input line 47.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5.5> on input line 47.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [1{d:/Software/TeXLive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 1389) in paragraph at lines 70--70
-[]\T1/EBGaramond-OsF/regular/n/10 G. Dav-ies, S. C. Lawson, A. T. Collins, A.
+Underfull \hbox (badness 1184) in paragraph at lines 80--81
+[]\T1/lmr/m/n/10 A more ac-cur-ate ap-prox-im-a-tion of the
  []
 
-[2] (d:/Home/Documents/School/progressReport/main.aux)
+[2]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3] [4
+
+] (d:/Home/Documents/School/progressReport/main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1703,18 +1483,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36655 strings out of 479917
- 729108 string characters out of 5882211
- 1564403 words of memory out of 5000000
- 52454 multiletter control sequences out of 15000+600000
- 632994 words of font info for 143 fonts, out of 8000000 for 9000
+ 34747 strings out of 479917
+ 698848 string characters out of 5882211
+ 1554957 words of memory out of 5000000
+ 50593 multiletter control sequences out of 15000+600000
+ 620616 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,11n,113p,1726b,2326s stack positions out of 5000i,500n,10000p,200000b,80000s
-{d:/Software/TeXLive/2020/texmf-dist/fonts/enc/dvips/ebgaramond-maths/a_w5zv5t.enc}{d:/Software/TeXLive/2020/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_ljow5q.enc}{d:/Software/TeXLive/2020/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_gfppum.enc}{d:/Software/TeXLive/2020/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_tcdnmr.enc}{d:/Software/TeXLive/2020/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_byuyni.enc}<d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Bold.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-BoldItalic.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Italic.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on d:/Home/Documents/School/progressReport/main.pdf (2 pages, 403033 bytes).
+ 87i,14n,113p,1737b,2326s stack positions out of 5000i,500n,10000p,200000b,80000s
+{d:/Software/TeXLive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{d:/Software/TeXLive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{d:/Software/TeXLive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{d:/Software/TeXLive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{d:/Software/TeXLive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}<d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/esint-type1/esint10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmbx9.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmex10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmmi7.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmr7.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmr9.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmri10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmsy7.pfb>
+Output written on d:/Home/Documents/School/progressReport/main.pdf (4 pages, 257977 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 91 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
