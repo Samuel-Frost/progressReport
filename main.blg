@@ -1,17 +1,17 @@
 [0] Config.pm:312> INFO - This is Biber 2.15
 [0] Config.pm:315> INFO - Logfile is 'main.blg'
-[96] biber-MSWIN32:330> INFO - === 
-[114] Biber.pm:415> INFO - Reading 'main.bcf'
-[219] Biber.pm:952> INFO - Found 2 citekeys in bib section 0
-[235] Biber.pm:4334> INFO - Processing section 0
-[249] Biber.pm:4523> INFO - Looking for bibtex format file 'references.bib' for section 0
-[255] bibtex.pm:1682> INFO - LaTeX decoding ...
-[264] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
-[288] Utils.pm:395> WARN - month field 'Nov' in entry 'Davies' is not an integer - this will probably not sort properly.
-[303] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[303] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
-[303] Biber.pm:4162> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-UK'
-[303] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-UK'
-[310] bbl.pm:651> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[312] bbl.pm:754> INFO - Output to main.bbl
-[312] Biber.pm:128> INFO - WARNINGS: 1
+[186] biber-MSWIN32:330> INFO - === 
+[237] Biber.pm:415> INFO - Reading 'main.bcf'
+[346] Biber.pm:952> INFO - Found 2 citekeys in bib section 0
+[362] Biber.pm:4334> INFO - Processing section 0
+[389] Biber.pm:4523> INFO - Looking for bibtex format file 'references.bib' for section 0
+[409] bibtex.pm:1682> INFO - LaTeX decoding ...
+[423] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
+[470] Utils.pm:395> WARN - month field 'Nov' in entry 'Davies' is not an integer - this will probably not sort properly.
+[483] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
+[484] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[484] Biber.pm:4162> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-UK'
+[484] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-UK'
+[515] bbl.pm:651> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[517] bbl.pm:754> INFO - Output to main.bbl
+[517] Biber.pm:128> INFO - WARNINGS: 1

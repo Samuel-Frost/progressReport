@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.3)  23 MAR 2024 21:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.3)  25 MAR 2024 14:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1649,6 +1649,11 @@ LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/b/n' in size <10> not availabl
 (Font)              Font shape `T1/EBGaramond-OsF/bold/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/bold/n' will be
 (Font)              scaled to size 10.0pt on input line 3.
+
+Underfull \hbox (badness 1418) in paragraph at lines 5--5
+ [][] []\T1/EBGaramond-OsF/regular/sc/10 Vacancy Mi-gra-tion in a Pure Dia- 
+ []
+
 )
 \tf@toc=\write5
 \openout5 = `main.toc'.
@@ -1657,10 +1662,22 @@ LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/m/n' in size <12> not availabl
 (Font)              Font shape `T1/EBGaramond-OsF/regular/n' tried instead on input line 44.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/regular/n' will be
 (Font)              scaled to size 12.0pt on input line 44.
+LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/m/n' in size <10.95> not available
+(Font)              Font shape `OT1/EBGaramond-LF/regular/n' tried instead on input line 47.
+LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/regular/n' will be
+(Font)              scaled to size 10.95pt on input line 47.
+LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/m/n' in size <8> not available
+(Font)              Font shape `OT1/EBGaramond-LF/regular/n' tried instead on input line 47.
+LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/regular/n' will be
+(Font)              scaled to size 8.0pt on input line 47.
+LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/m/n' in size <6.1> not available
+(Font)              Font shape `OT1/EBGaramond-LF/regular/n' tried instead on input line 47.
+LaTeX Font Info:    Font shape `OT1/EBGaramond-LF/regular/n' will be
+(Font)              scaled to size 6.1pt on input line 47.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/b/it' in size <10> not available
-(Font)              Font shape `T1/EBGaramond-OsF/bold/it' tried instead on input line 57.
+(Font)              Font shape `T1/EBGaramond-OsF/bold/it' tried instead on input line 59.
 LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/bold/it' will be
-(Font)              scaled to size 10.0pt on input line 57.
+(Font)              scaled to size 10.0pt on input line 59.
  [1{d:/Software/TeXLive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
@@ -1668,25 +1685,33 @@ LaTeX Font Info:    Font shape `T1/EBGaramond-OsF/bold/it' will be
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 1389) in paragraph at lines 68--68
+Underfull \hbox (badness 1389) in paragraph at lines 70--70
 []\T1/EBGaramond-OsF/regular/n/10 G. Dav-ies, S. C. Lawson, A. T. Collins, A.
  []
 
 [2] (d:/Home/Documents/School/progressReport/main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36600 strings out of 479917
- 728174 string characters out of 5882211
- 1563369 words of memory out of 5000000
- 52403 multiletter control sequences out of 15000+600000
- 614773 words of font info for 98 fonts, out of 8000000 for 9000
+ 36655 strings out of 479917
+ 729108 string characters out of 5882211
+ 1564403 words of memory out of 5000000
+ 52454 multiletter control sequences out of 15000+600000
+ 632994 words of font info for 143 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,11n,113p,1726b,2326s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/Software/TeXLive/2020/texmf-dist/fonts/enc/dvips/ebgaramond-maths/a_w5zv5t.enc}{d:/Software/TeXLive/2020/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_ljow5q.enc}{d:/Software/TeXLive/2020/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_gfppum.enc}{d:/Software/TeXLive/2020/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_tcdnmr.enc}{d:/Software/TeXLive/2020/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_byuyni.enc}<d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Bold.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-BoldItalic.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Italic.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on d:/Home/Documents/School/progressReport/main.pdf (2 pages, 402879 bytes).
+Output written on d:/Home/Documents/School/progressReport/main.pdf (2 pages, 403033 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream
