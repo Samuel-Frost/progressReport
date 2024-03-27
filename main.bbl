@@ -50,6 +50,107 @@
       \verb https://wrap.warwick.ac.uk/67156/
       \endverb
     \endentry
+    \entry{Shaw_QT_VH}{article}{}
+      \name{author}{7}{}{%
+        {{hash=6d4ac9d4a2f639cdd2cc25c527c19d56}{%
+           family={Shaw},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=419fe4734ff5ed712226a61bf5e32b80}{%
+           family={Briddon},
+           familyi={B\bibinitperiod},
+           given={P.\bibnamedelimi R.},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=f765419d3f20245f403cc9193fd93012}{%
+           family={Goss},
+           familyi={G\bibinitperiod},
+           given={J.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=bfd47bb5e728ccac43a26eea68a59c63}{%
+           family={Rayson},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=d8eaec07eba2deb609e55dd6b2534194}{%
+           family={Kerridge},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9d8859ac369b8d957acb715945839765}{%
+           family={Harker},
+           familyi={H\bibinitperiod},
+           given={A.\bibnamedelimi H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=acde5e3a8fa6f534192a20f63d57fb7a}{%
+           family={Stoneham},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{70f0323acccedae384222e1860c543a7}
+      \strng{fullhash}{c3f2ce2426a6a7733b9e7d917e895fbf}
+      \strng{bibnamehash}{c3f2ce2426a6a7733b9e7d917e895fbf}
+      \strng{authorbibnamehash}{c3f2ce2426a6a7733b9e7d917e895fbf}
+      \strng{authornamehash}{70f0323acccedae384222e1860c543a7}
+      \strng{authorfullhash}{c3f2ce2426a6a7733b9e7d917e895fbf}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{10}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{9}
+      \field{title}{Importance of Quantum Tunneling in Vacancy-Hydrogen Complexes in Diamond}
+      \field{volume}{95}
+      \field{year}{2005}
+      \field{pages}{105502}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.95.105502
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.95.105502
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.95.105502
+      \endverb
+    \endentry
+    \entry{Edwards_N2VH_rate}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=d28b7343e82398d0028a588688493c93}{%
+           family={Edmonds},
+           familyi={E\bibinitperiod},
+           given={Andrew\bibnamedelima Mark},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of Warwick}%
+      }
+      \strng{namehash}{d28b7343e82398d0028a588688493c93}
+      \strng{fullhash}{d28b7343e82398d0028a588688493c93}
+      \strng{bibnamehash}{d28b7343e82398d0028a588688493c93}
+      \strng{authorbibnamehash}{d28b7343e82398d0028a588688493c93}
+      \strng{authornamehash}{d28b7343e82398d0028a588688493c93}
+      \strng{authorfullhash}{d28b7343e82398d0028a588688493c93}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The results from EPR studies of CVD diamond which was intentionally silicon doped with isotopes in natural abundance or isotopically enriched are reported. The observation of hyperfine satellites arising due to the presence of 29Si has provided definitive evidence for the involvement of silicon in two EPR centres in diamond which were previously suspected to involve silicon: KUL1 and KUL3. KUL1 is unambiguously identified as the neutral silicon split vacancy defect (V-Si-V)0, whilst KUL3 is shown to be (V-Si-V)0 decorated with a hydrogen atom. Data have also revealed that (V-Si-V)0 is preferentially oriented in samples grown on \{110\} substrates. The negative nitrogen-vacancy centre (NV?) has been investigated. Published parameters for the nitrogen hyperfine interaction produce an unsatisfactory fit to the experimental spectra and hence these parameters are redetermined. Optically-excited EPR has been used to estimate the degree of spin polarisation of the NV-ground state and the increase in signal intensity with illumination has permitted the interaction between the unpaired electron and neighbouring 13C atoms to be studied. Two sets of 13C hyperfine satellites have been identified, which account for {\texttt{~}}100\% of the unpaired electron probability density. Despite the predictions that the neutral charge state of NV should have an S = ? ground state, this charge state has not previously been detected by EPR. Optically excited EPR measurements reveal a trigonal nitrogen containing defect in diamond with an excited state populated via optical excitation. Analysis of the spin-Hamiltonian parameters and the wavelength dependence of the optical excitation leads to assignment of this state to the 4A2 excited state of NV0.}
+      \field{month}{7}
+      \field{title}{Magnetic resonance studies of point defects in single crystal diamond}
+      \field{year}{2008}
+      \verb{urlraw}
+      \verb https://wrap.warwick.ac.uk/2968/
+      \endverb
+      \verb{url}
+      \verb https://wrap.warwick.ac.uk/2968/
+      \endverb
+    \endentry
     \entry{NEB}{article}{}
       \name{author}{3}{}{%
         {{hash=0b1fcf035654706837a546639847cc34}{%
@@ -74,8 +175,8 @@
       \strng{authorbibnamehash}{a1fa54bdc5f3f138474e57157cf2a5a2}
       \strng{authornamehash}{3e35825e65a1505ea51a2154bea69352}
       \strng{authorfullhash}{a1fa54bdc5f3f138474e57157cf2a5a2}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{{A modification of the nudged elastic band method for finding minimum energy paths is presented. One of the images is made to climb up along the elastic band to converge rigorously on the highest saddle point. Also, variable spring constants are used to increase the density of images near the top of the energy barrier to get an improved estimate of the reaction coordinate near the saddle point. Applications to CH4 dissociative adsorption on Ir(111) and H2 on Si(100) using plane wave based density functional theory are presented.}}
@@ -101,6 +202,107 @@
       \verb https://doi.org/10.1063/1.1329672
       \endverb
     \endentry
+    \entry{NVCage}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6bb93a4ced7b158019c8487b79e68298}{%
+           family={Coulson},
+           familyi={C\bibinitperiod},
+           given={C.A.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=bb0bdddd2bf9e0198b7794a9adf5ceaa}{%
+           family={Larkins},
+           familyi={L\bibinitperiod},
+           given={F.P.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{c244f7ba038fcd1d62005d8e5984f15a}
+      \strng{fullhash}{c244f7ba038fcd1d62005d8e5984f15a}
+      \strng{bibnamehash}{c244f7ba038fcd1d62005d8e5984f15a}
+      \strng{authorbibnamehash}{c244f7ba038fcd1d62005d8e5984f15a}
+      \strng{authornamehash}{c244f7ba038fcd1d62005d8e5984f15a}
+      \strng{authorfullhash}{c244f7ba038fcd1d62005d8e5984f15a}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Some of the assumptions underlying the molecular approach to the determination of the electronic properties of the vacancy in diamond have been examined. The ordering of the lowest electronic levels of the neutral and single negatively charged states of the vacancy is sensitive to the choice of atomic functions to represent the 2s and 2p orbitals on the atoms nearest the defect as well as to the symmetric relaxation of these atoms. However, for limited delocalisation of electronic charge from the vacancy there is no change in the ordering of the lowest levels. The 3T1 electronic state is predicted as the ground state of the neutral vacancy if the atoms nearest the defect relax towards its centre as implied by the molecular model; however, for a symmetric relaxation of the nearest neigh-bours away from the centre of the vacancy the 1E level is more likely to be the lowest level. Present experimental knowledge of the vacancy in diamond does not resolve this uncertainty.}
+      \field{issn}{0022-3697}
+      \field{journaltitle}{Journal of Physics and Chemistry of Solids}
+      \field{number}{9}
+      \field{title}{Isolated single vacancy in diamond—I. Electronic structure}
+      \field{volume}{32}
+      \field{year}{1971}
+      \field{pages}{2245\bibrangedash 2257}
+      \range{pages}{13}
+      \verb{doi}
+      \verb https://doi.org/10.1016/S0022-3697(71)80403-1
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022369771804031
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022369771804031
+      \endverb
+    \endentry
+    \entry{N2VH_CH_Bond}{article}{}
+      \name{author}{5}{}{%
+        {{hash=ccda6ee11201d0971da466eee2e2294c}{%
+           family={Glover},
+           familyi={G\bibinitperiod},
+           given={Claire},
+           giveni={C\bibinitperiod}}}%
+        {{hash=c9497fa750f4eecf9be4830ab3aaeebe}{%
+           family={Newton},
+           familyi={N\bibinitperiod},
+           given={M.\bibnamedelimi E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=3cde6acc6a5ee756ae9917df504ab139}{%
+           family={Martineau},
+           familyi={M\bibinitperiod},
+           given={P.\bibnamedelimi M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=d27eb99db013cca845161d320f302788}{%
+           family={Quinn},
+           familyi={Q\bibinitperiod},
+           given={Samantha},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a7a2a908b10027309b539d8c8b6046a7}{%
+           family={Twitchen},
+           familyi={T\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{6bd40b82c5beb97b18d2728bd4d3df93}
+      \strng{fullhash}{ccb3ca5069d1220fb2ae9a95699dd3c9}
+      \strng{bibnamehash}{ccb3ca5069d1220fb2ae9a95699dd3c9}
+      \strng{authorbibnamehash}{ccb3ca5069d1220fb2ae9a95699dd3c9}
+      \strng{authornamehash}{6bd40b82c5beb97b18d2728bd4d3df93}
+      \strng{authorfullhash}{ccb3ca5069d1220fb2ae9a95699dd3c9}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{13}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{3}
+      \field{title}{Hydrogen Incorporation in Diamond: The Vacancy-Hydrogen Complex}
+      \field{volume}{92}
+      \field{year}{2004}
+      \field{pages}{135502}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.92.135502
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.92.135502
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.92.135502
+      \endverb
+    \endentry
     \entry{Peaker}{unpublished}{}
       \name{author}{1}{}{%
         {{hash=61f17b5180f56435995b75badf16ca40}{%
@@ -118,8 +320,8 @@
       \strng{authorbibnamehash}{61f17b5180f56435995b75badf16ca40}
       \strng{authornamehash}{61f17b5180f56435995b75badf16ca40}
       \strng{authorfullhash}{61f17b5180f56435995b75badf16ca40}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{First principles study of point defects in diamond}
@@ -158,8 +360,8 @@
       \strng{authorbibnamehash}{f0191fc0e6a00f27baf5fdec8958eebe}
       \strng{authornamehash}{65c741068bc65cc12ec911ed665d4c29}
       \strng{authorfullhash}{f0191fc0e6a00f27baf5fdec8958eebe}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{15}
@@ -180,6 +382,66 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevB.73.155114
       \endverb
     \endentry
+    \entry{VacancyTemp}{article}{}
+      \name{author}{5}{}{%
+        {{hash=548a6e95836dbe2d93ed37b260455e85}{%
+           family={Davies},
+           familyi={D\bibinitperiod},
+           given={Gordon},
+           giveni={G\bibinitperiod}}}%
+        {{hash=60181bc0d23c69a9b968796ff111f280}{%
+           family={Lawson},
+           familyi={L\bibinitperiod},
+           given={Simon\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=0b1138c5e0e01dc2daa27657272f333e}{%
+           family={Collins},
+           familyi={C\bibinitperiod},
+           given={Alan\bibnamedelima T.},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=40b7da9a0cad6842f0adb1996f0f1211}{%
+           family={Mainwood},
+           familyi={M\bibinitperiod},
+           given={Alison},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c485fbbedbe2d4a0d615ae208408ed70}{%
+           family={Sharp},
+           familyi={S\bibinitperiod},
+           given={Sarah\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{86d9d5fbbe5d1ed3501668567b550c22}
+      \strng{fullhash}{be9849396371f1e46116b66ad3060135}
+      \strng{bibnamehash}{be9849396371f1e46116b66ad3060135}
+      \strng{authorbibnamehash}{be9849396371f1e46116b66ad3060135}
+      \strng{authornamehash}{86d9d5fbbe5d1ed3501668567b550c22}
+      \strng{authorfullhash}{be9849396371f1e46116b66ad3060135}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{20}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{11}
+      \field{title}{Vacancy-related centers in diamond}
+      \field{volume}{46}
+      \field{year}{1992}
+      \field{pages}{13157\bibrangedash 13170}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.46.13157
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.46.13157
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.46.13157
+      \endverb
+    \endentry
     \entry{Halicioglu}{article}{}
       \name{author}{1}{}{%
         {{hash=7c99eb738a606e9cff559be953dcb259}{%
@@ -194,8 +456,8 @@
       \strng{authorbibnamehash}{7c99eb738a606e9cff559be953dcb259}
       \strng{authornamehash}{7c99eb738a606e9cff559be953dcb259}
       \strng{authorfullhash}{7c99eb738a606e9cff559be953dcb259}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Structure-and energy-related properties of defects formed on relaxed diamond surfaces were investigated. Simulation calculations were carried out for vacancies created on (111) and on (2×1) dimerized (100) index planes of diamond. Two different model functions (based on two-and three-body interactions) developed recently for carbon were employed in the calculations. Both functions produced comparable results. Top layer vacancies are more likely to form on the (100) surface than on the (111) surface. Calculations indicate that the diffusion of a single vacancy from the top surface layer to the second layer is not energetically favored.}
@@ -254,6 +516,7 @@
       \strng{authorbibnamehash}{be9849396371f1e46116b66ad3060135}
       \strng{authornamehash}{86d9d5fbbe5d1ed3501668567b550c22}
       \strng{authorfullhash}{be9849396371f1e46116b66ad3060135}
+      \field{extraname}{2}
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
@@ -274,6 +537,174 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevB.46.13157
+      \endverb
+    \endentry
+    \entry{NitrogeninDiamond}{article}{}
+      \name{author}{6}{}{%
+        {{hash=3dff557f829ea672e4c5fa883a634b02}{%
+           family={Ashfold},
+           familyi={A\bibinitperiod},
+           given={Michael\bibnamedelimb N.\bibnamedelimi R.},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=5cf124a206b984a9f704be5919a1c62d}{%
+           family={Goss},
+           familyi={G\bibinitperiod},
+           given={Jonathan\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=07a8f6df97a0cbd631c1285bdeaa0c59}{%
+           family={Green},
+           familyi={G\bibinitperiod},
+           given={Ben\bibnamedelima L.},
+           giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=9d067f2d81321337382ac29aa3edff5d}{%
+           family={May},
+           familyi={M\bibinitperiod},
+           given={Paul\bibnamedelima W.},
+           giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=2798873ca1a1e4cf4e95ccea2535c2b0}{%
+           family={Newton},
+           familyi={N\bibinitperiod},
+           given={Mark\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=f19d1f4f195d1f7077dbee9343b29733}{%
+           family={Peaker},
+           familyi={P\bibinitperiod},
+           given={Chloe\bibnamedelima V.},
+           giveni={C\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{13955deab09088b286bf90045b25fb21}
+      \strng{fullhash}{2fe8b0e244b5462be3967e66aa93a1c4}
+      \strng{bibnamehash}{2fe8b0e244b5462be3967e66aa93a1c4}
+      \strng{authorbibnamehash}{2fe8b0e244b5462be3967e66aa93a1c4}
+      \strng{authornamehash}{13955deab09088b286bf90045b25fb21}
+      \strng{authorfullhash}{2fe8b0e244b5462be3967e66aa93a1c4}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemical Reviews}
+      \field{note}{PMID: 32048841}
+      \field{number}{12}
+      \field{title}{Nitrogen in Diamond}
+      \field{volume}{120}
+      \field{year}{2020}
+      \field{pages}{5745\bibrangedash 5794}
+      \range{pages}{50}
+      \verb{doi}
+      \verb 10.1021/acs.chemrev.9b00518
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1021/acs.chemrev.9b00518
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/acs.chemrev.9b00518
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/acs.chemrev.9b00518
+      \endverb
+    \endentry
+    \entry{Atumi_2013}{article}{}
+      \name{author}{5}{}{%
+        {{hash=44135f892b22f00c20debecde27b8eb4}{%
+           family={Atumi},
+           familyi={A\bibinitperiod},
+           given={M\bibnamedelima K},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=f765419d3f20245f403cc9193fd93012}{%
+           family={Goss},
+           familyi={G\bibinitperiod},
+           given={J\bibnamedelima P},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=419fe4734ff5ed712226a61bf5e32b80}{%
+           family={Briddon},
+           familyi={B\bibinitperiod},
+           given={P\bibnamedelima R},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=f859159ca1185d151ea2a44d754653b2}{%
+           family={Shrif},
+           familyi={S\bibinitperiod},
+           given={F\bibnamedelima E},
+           giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=bfd47bb5e728ccac43a26eea68a59c63}{%
+           family={Rayson},
+           familyi={R\bibinitperiod},
+           given={M\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{5c905e5c5fd144c70652321b040a0cc6}
+      \strng{fullhash}{f9bc18deadb6ca003d2245e9398a43cb}
+      \strng{bibnamehash}{f9bc18deadb6ca003d2245e9398a43cb}
+      \strng{authorbibnamehash}{f9bc18deadb6ca003d2245e9398a43cb}
+      \strng{authornamehash}{5c905e5c5fd144c70652321b040a0cc6}
+      \strng{authorfullhash}{f9bc18deadb6ca003d2245e9398a43cb}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Diamond has many extreme physical properties and it can be used in a wide range of applications. In particular it is a highly effective particle detection material, where radiation damage is an important consideration. The WAR9 and WAR10 are electron paramagnetic resonance centres seen in irradiated, nitrogen-containing diamond. These S = 1/2 defects have C2v and C1h symmetry, respectively, and the experimental spectra have been interpreted as arising from nitrogen split-interstitial centres. Based upon the experimental and theoretical understanding of interstitial nitrogen defect structures, the AIMPRO density functional code has been used to assess the assignments for the structures of WAR9 and WAR10. Although the calculated hyperfine interaction tensors are consistent with the measured values for WAR9, the thermal stability renders the assignment problematic. The model for the WAR10 centre yields principal directions of the hyperfine tensor at variance with observation. Alternative models for both centres are discussed in this paper, but no convincing structures have been found.}
+      \field{journaltitle}{Journal of Physics: Condensed Matter}
+      \field{month}{1}
+      \field{number}{6}
+      \field{title}{Hyperfine interactions at nitrogen interstitial defects in diamond}
+      \field{volume}{25}
+      \field{year}{2013}
+      \field{pages}{065802}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0953-8984/25/6/065802
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/0953-8984/25/6/065802
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/0953-8984/25/6/065802
+      \endverb
+    \endentry
+    \entry{Goss_NVH}{article}{}
+      \name{author}{4}{}{%
+        {{hash=7ba6d73c154feec173dbd4a960a3c38a}{%
+           family={Goss},
+           familyi={G\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=744bd547aa91055293bea01d5f90a82a}{%
+           family={Briddon},
+           familyi={B\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{hash=5f0f5b620c99fdde5a29a1d446c6aea1}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=543fdbfae3da4d1a42923b3905f872bd}{%
+           family={Sque},
+           familyi={S\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{a7911e6f4164eaedc437bea5cd82ff11}
+      \strng{fullhash}{8733d89ff4cc0bbd653ca08e41a11afc}
+      \strng{bibnamehash}{8733d89ff4cc0bbd653ca08e41a11afc}
+      \strng{authorbibnamehash}{8733d89ff4cc0bbd653ca08e41a11afc}
+      \strng{authornamehash}{a7911e6f4164eaedc437bea5cd82ff11}
+      \strng{authorfullhash}{8733d89ff4cc0bbd653ca08e41a11afc}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Physics: Condensed Matter}
+      \field{month}{09}
+      \field{title}{The vacancy-nitrogen-hydrogen complex in diamond: A potential deep centre in chemical vapour deposited material}
+      \field{volume}{15}
+      \field{year}{2003}
+      \field{pages}{S2903}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/0953-8984/15/39/014
       \endverb
     \endentry
   \enddatalist

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.3)  27 MAR 2024 10:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.3)  27 MAR 2024 22:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1465,40 +1465,60 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 6.8773pt on input line 47.
 
-Underfull \hbox (badness 1237) in paragraph at lines 58--59
-[]\T1/ppl/m/n/10 The fi-nal, op-tim-ised, NEB path of the
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1{d:/Software/TeXLive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-Underfull \hbox (badness 1460) in paragraph at lines 62--63
-[] []|\T1/ppl/m/n/10 Ÿ2.2. \T1/ppl/b/n/10 Ana-lysis.[] \T1/ppl/m/n/10 With a bar-rier height and
+Underfull \hbox (badness 1237) in paragraph at lines 62--63
+[]\T1/ppl/m/n/10 The fi-nal, op-tim-ised, NEB path of the
  []
 
 
-Underfull \hbox (badness 1515) in paragraph at lines 88--89
+Underfull \hbox (badness 1460) in paragraph at lines 66--67
+[] []|\T1/ppl/m/n/10 Ÿ2.2. \T1/ppl/b/n/10 Ana-lysis.[] \T1/ppl/m/n/10 With a bar-rier height and
+ []
+
+[2]
+Underfull \hbox (badness 1515) in paragraph at lines 92--93
 []\T1/ppl/m/n/10 A more ac-cur-ate ap-prox-im-a-tion of the
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 97--98
+Underfull \hbox (badness 1728) in paragraph at lines 101--102
 \T1/ppl/m/n/10 cu-late the tun-nel-ling rate, the at-tempt fre-
  []
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 97--98
+Underfull \hbox (badness 1895) in paragraph at lines 101--102
 \T1/ppl/m/n/10 This cal-cu-al-tion uses the op-tim-ised sys-tem
  []
 
-[2]
+[3]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3] [4] [5
+ [4]
+Underfull \hbox (badness 1558) in paragraph at lines 138--140
+[] []|\T1/ppl/m/n/10 Ÿ4.3. \T1/ppl/b/n/10 Ni-tro-gen in Dia-mond.[] \T1/ppl/m/n/10 ``Ni-tro-gen in
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 138--140
+\T1/ppl/m/n/10 duc-tion and how to mit-ig-ate or en-cour-age
+ []
+
+
+Underfull \hbox (badness 2205) in paragraph at lines 153--153
+\T1/ppl/m/n/10 para-mag-netic res-on-ance and op-tical
+ []
+
+[5]
+Underfull \hbox (badness 1163) in paragraph at lines 153--153
+[]\T1/ppl/m/n/10 M. N. R. Ash-fold, J. P. Goss, B. L.
+ []
+
+[6
 
 ] (d:/Home/Documents/School/progressReport/main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1506,18 +1526,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34862 strings out of 479917
- 699476 string characters out of 5882211
- 1558033 words of memory out of 5000000
- 50696 multiletter control sequences out of 15000+600000
+ 34879 strings out of 479917
+ 700192 string characters out of 5882211
+ 1556463 words of memory out of 5000000
+ 50713 multiletter control sequences out of 15000+600000
  601437 words of font info for 150 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,14n,113p,1737b,2326s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 87i,14n,113p,1901b,2326s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/Software/TeXLive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/esint-type1/esint10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on d:/Home/Documents/School/progressReport/main.pdf (5 pages, 126294 bytes).
+Output written on d:/Home/Documents/School/progressReport/main.pdf (6 pages, 135390 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 71 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
