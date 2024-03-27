@@ -4,6 +4,9 @@
 \contentsline {section}{\numberline {2}Reorientation of Hydrogen in N$_2$VH}{1}{}%
 \contentsline {subsection}{\numberline {2.1}Calculation}{1}{}%
 \contentsline {subsection}{\numberline {2.2}Analysis}{2}{}%
-\contentsline {section}{\numberline {3}Vacancy Migration in a Pure Diamond Lattice}{2}{}%
-\contentsline {section}{\numberline {4}Key Text Review}{3}{}%
-\contentsline {subsection}{\numberline {4.1}Hu \emph {et al. }}{3}{}%
+\contentsline {subsection}{\numberline {2.3}Phonon Calculations}{2}{}%
+\contentsline {subsection}{\numberline {2.4}Further Calculations}{3}{}%
+\contentsline {section}{\numberline {3}Vacancy Migration in a Pure Diamond Lattice}{3}{}%
+\contentsline {section}{\numberline {4}Key Text Review}{4}{}%
+\contentsline {subsection}{\numberline {4.1}Hu \textit {et al}}{4}{}%
+\contentsline {subsection}{\numberline {4.2}Peaker}{4}{}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.3)  25 MAR 2024 23:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.3)  27 MAR 2024 10:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1012,6 +1012,9 @@ Package tocloft Info: The document has section divisions on input line 51.
 
 Package tocloft Warning: \@starttoc has already been redefined; tocloft bailing out. on input line 1156.
 
+) (d:/Software/TeXLive/2020/texmf-dist/tex/latex/psnfss/mathpazo.sty
+Package: mathpazo 2020/03/25 PSNFSS-v9.3 Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup8
 )
 \c@theorem=\count372
 \c@corollary=\count373
@@ -1287,9 +1290,9 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'UKenglish'.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 23.
- (d:/Software/TeXLive/2020/texmf-dist/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+LaTeX Font Info:    Trying to load font information for T1+ppl on input line 23.
+ (d:/Software/TeXLive/2020/texmf-dist/tex/latex/psnfss/t1ppl.fd
+File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 ) (d:/Home/Documents/School/progressReport/main.aux)
 \openout1 = `main.aux'.
 
@@ -1397,36 +1400,34 @@ Package biblatex Info: ... file 'main.bbl' found.
  (d:/Home/Documents/School/progressReport/main.bbl)
 Package biblatex Info: Reference section=0 on input line 23.
 Package biblatex Info: Reference segment=0 on input line 23.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 23.
- (d:/Software/TeXLive/2020/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 23.
+ (d:/Software/TeXLive/2020/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 23.
- (d:/Software/TeXLive/2020/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+LaTeX Font Info:    Trying to load font information for OML+zplm on input line 23.
+ (d:/Software/TeXLive/2020/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 23.
- (d:/Software/TeXLive/2020/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 23.
+ (d:/Software/TeXLive/2020/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 23.
- (d:/Software/TeXLive/2020/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 23.
+ (d:/Software/TeXLive/2020/texmf-dist/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 23.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 23.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 23.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
- (d:/Software/TeXLive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
- (d:/Software/TeXLive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 23.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 23.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 23.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 23.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 23.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 23.
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 23.
  (d:/Software/TeXLive/2020/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -1434,6 +1435,10 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 LaTeX Font Info:    Trying to load font information for U+esint on input line 23.
  (d:/Software/TeXLive/2020/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
+)
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 23.
+ (d:/Software/TeXLive/2020/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 23.
  (d:/Software/TeXLive/2020/texmf-dist/tex/latex/lm/ot1lmss.fd
@@ -1447,12 +1452,23 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \openout5 = `main.toc'.
 
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 47.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <11> on input line 47.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.69997> on input line 47.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.5> on input line 47.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 11.46208pt on input line 47.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.7111pt on input line 47.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.8773pt on input line 47.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 11.46208pt on input line 47.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.7111pt on input line 47.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.8773pt on input line 47.
+
+Underfull \hbox (badness 1237) in paragraph at lines 58--59
+[]\T1/ppl/m/n/10 The fi-nal, op-tim-ised, NEB path of the
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1460,41 +1476,48 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-Underfull \hbox (badness 1184) in paragraph at lines 80--81
-[]\T1/lmr/m/n/10 A more ac-cur-ate ap-prox-im-a-tion of the
+Underfull \hbox (badness 1460) in paragraph at lines 62--63
+[] []|\T1/ppl/m/n/10 Ÿ2.2. \T1/ppl/b/n/10 Ana-lysis.[] \T1/ppl/m/n/10 With a bar-rier height and
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 88--89
+[]\T1/ppl/m/n/10 A more ac-cur-ate ap-prox-im-a-tion of the
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 97--98
+\T1/ppl/m/n/10 cu-late the tun-nel-ling rate, the at-tempt fre-
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 97--98
+\T1/ppl/m/n/10 This cal-cu-al-tion uses the op-tim-ised sys-tem
  []
 
 [2]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3] [4
+ [3] [4] [5
 
 ] (d:/Home/Documents/School/progressReport/main.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34747 strings out of 479917
- 698848 string characters out of 5882211
- 1554957 words of memory out of 5000000
- 50593 multiletter control sequences out of 15000+600000
- 620616 words of font info for 98 fonts, out of 8000000 for 9000
+ 34862 strings out of 479917
+ 699476 string characters out of 5882211
+ 1558033 words of memory out of 5000000
+ 50696 multiletter control sequences out of 15000+600000
+ 601437 words of font info for 150 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,14n,113p,1737b,2326s stack positions out of 5000i,500n,10000p,200000b,80000s
-{d:/Software/TeXLive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{d:/Software/TeXLive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{d:/Software/TeXLive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{d:/Software/TeXLive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{d:/Software/TeXLive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}<d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/esint-type1/esint10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmbx9.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmex10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmmi7.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmr7.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmr9.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmri10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmsy7.pfb>
-Output written on d:/Home/Documents/School/progressReport/main.pdf (4 pages, 257977 bytes).
+{d:/Software/TeXLive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/esint-type1/esint10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on d:/Home/Documents/School/progressReport/main.pdf (5 pages, 126294 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+ 68 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

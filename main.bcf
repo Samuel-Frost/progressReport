@@ -2364,9 +2364,11 @@
     <bcf:citekey order="5">Peaker</bcf:citekey>
     <bcf:citekey order="6">Peaker</bcf:citekey>
     <bcf:citekey order="7">Peaker</bcf:citekey>
-    <bcf:citekey order="8">Halicioglu</bcf:citekey>
-    <bcf:citekey order="9">Davies</bcf:citekey>
-    <bcf:citekey order="10">Davies</bcf:citekey>
+    <bcf:citekey order="8">DynamicalMatrix</bcf:citekey>
+    <bcf:citekey order="9">Halicioglu</bcf:citekey>
+    <bcf:citekey order="10">Halicioglu</bcf:citekey>
+    <bcf:citekey order="11">Davies</bcf:citekey>
+    <bcf:citekey order="12">Davies</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

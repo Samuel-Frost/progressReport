@@ -46,6 +46,7 @@ The final aim of my PhD is to be able to accurately model the effects of radiati
 
 \section{Reorientation of Hydrogen in N$_2$VH}
 \subsection{Calculation}
+\label{n2vh_calc}
 The \ntvh defect consists of a vacancy (V) surrounded by two substitutional Nitrogens (N$_2$), with a Hydrogen bonded to one of the two remaining carbon atoms (H). C$_{2v}$ symmetry is reported from EPR runs in both the X ($8-12$\,GHz) and Q-band ($30-50$\,GHz) range \cite{Hartland}. This would suggest that the Hydrogen atom is reorientating between the Carbon atoms fast enough that its position is appearing as an averaged position of the two equivalent sites, giving rise to a higher order of symmetry. It would therefore be of interest to calculate the energy required for this reorientation to occur, so an estimate of the frequency of the reorientation can be made. 
 
 A nudged elastic band (NEB) calculation was performed in order to find the energy barrier of the tunnelling path \cite{NEB}.
@@ -62,12 +63,14 @@ With a barrier height and width determined it is now possible to calculate the p
 
 For the finite square potential, it is common to take the FWHM as the width, and the saddle point as the barrier height. The classical rate of reoritentation can be calculated as 
 \begin{align}
+    \label{classical}
     \Gamma &= A\exp({\frac{-E_a}{k_BT}})
 \end{align}
-where A is the attempt frequency, $E_a$ is the activation energy, taken to be the barrier height, $k_B$ is Boltzmann's constant, and $T$ is the temperature. The average attempt frequency was calculated in section to be $34.52$\,THz, . This would give a classical reorientation rate of $\Gamma = 34.171$\,KHz at room temperature. This is quite fast, but nowhere the rates seen in EPR, so the Hydrogen must be quantum tunnelling.
+where $A$ is the attempt frequency, $E_a$ is the activation energy, taken to be the barrier height, $k_B$ is Boltzmann's constant, and $T$ is the temperature. The frequency in the direction of the barrier was found to be $40.87$\,THz. This would give a classical reorientation rate of $\Gamma = 0.0405$\,GHz at room temperature, at $10$\,K this is approximately zero. At room temperature this is still quite fast, but still several orders of magnitude lower than the rates of EPR, so the Hydrogen must be quantum tunnelling.
 
 Taking the finite square potential approximation, the probability the Hydrogen atom tunnelling can be calculated as 
 \begin{align}
+    \label{square}
     P &= \exp(\frac{-4a\pi}{h}\sqrt{2m(V-E)})
 \end{align}
 
@@ -75,14 +78,30 @@ where $a$ is the width of the barrier, taken to be the FWHM, $m$ is the mass of 
 \begin{align}
     E_0 = \frac{1}{2}h\nu
 \end{align}
-where $\nu$ is the frequency of the oscillations. The frequency of the hydrogen atom was , such that the ground state energy was thus . As EPR is typically performed at temperatures below $10$\,K, it is sensible to assume that the Hydrogen is in its ground state. 
+where $\nu$ is the frequency of the oscillations. The frequency of the hydrogen atom was $40.87$\,THz (section \ref{phonon}), such that the ground state energy was thus $0.0845$\,eV. As EPR is typically performed at temperatures below $10$\,K, it is sensible to assume that the Hydrogen is in its ground state. This energy value can then be used in in equation \ref{square} to give a probability of tunnelling to be $P = 1.4\cross10^{-5}$. The tunnelling rate can then be calculated similarly to \ref{classical} as shown below, where $A$ is the attempt frequency. 
+\begin{align}
+    \Gamma &= A\cdot P
+\end{align}
+Giving a final tunnelling rate of $0.59$\,GHz for the square potential barrier. This is about an order of magnitude higher than the classical approximation, but still not close to EPR rates.
+
 
 A more accurate approximation of the nature of the potential barrier is the WKB approximation. This takes the form of 
 \begin{align}
     P &= \exp(\frac{-4\pi}{h}\int_{a}^{b}\sqrt{2m(V(x)-E)}{\d}x)
 \end{align}
-where $a$ and $b$ are the \emph{turning points} of the barrier, such that $V(x) = E$. This approximation retains the shape of the barrier.
+where $a$ and $b$ are the \emph{turning points} of the barrier, such that $V(x) = E$. This approximation retains the shape of the barrier. This results in a rate of $\Gamma = 0.126$\,GHz, this is actually lower than the square potential barrier approximation.
 
+
+\subsection{Phonon Calculations}
+\label{phonon}
+In order to calculate the tunnelling rate, the attempt frequency must first be calculated. This can be done through a finite displacement phonon calculation, allowing the calculation of the frequency at which the Hydrogen atom vibrates in the direction of the minimum energy path. This calcualtion uses the optimised system found in section \ref{n2vh_calc}. To find the frequencies and magnitudes at which the atoms vibrate, a finite-displacement phonon calculation was performed in CASTEP \cite{DynamicalMatrix}. In this, each atom is separately moved a small displacement from its origin (in this case $0.02$\,{\AA}), and the forces acting upon the atom calculated. This results in a $3N\times3N$ \emph{dynamical matrix} that contains the force created due to the displacement of atoms from the origin, more mathematically this is the first derivative of force with respect to the atomic displacements. This dynamical matrix can then be diagonalised, to retrieve its yummy eigenvectors and eigenvalues. The eigenvalues are the square of the wavenumbers, and the eigenvectors detail the strength of a mode and its direction (?). To calculate the frequency the Hydrogen vibrates in the direction of the MEP, the dot product between the eigenvectors, $\hat{e}$, and the \emph{normalised} direction of the MEP, $\hat{r}_H$, is multiplied by the corresponding wavenumber of each eigenvector, as shown below. 
+\begin{equation}
+    \nu_{\text{MEP}} = \sum_{i}^{3N} \nu_i (\hat{e_i} \cdot \hat{r}_H) \approx 40.872\,\text{THz}
+\end{equation}
+This is certainly the correct order of magnitude for vibrational frequencies. 
+
+\subsection{Further Calculations}
+The approximations for the tunnelling rate gave results that would disagree with experiment, as they are lower than the frequency of EPR, however there are many possible reasons for large underestimates. One such reason is the calculation of the attemp frequency, whilst taking the vibration in the order of the MEP is reasonable, it does not fully capture all the possible paths over the barrier. There is the possibility of there being an area around the MEP that is \emph{valley} in the PES, such that it is possible for the Hydrogen atom to tunnell across a variety of different paths. This would greatly increase the tunnelling probability. To capture this behaviour, a path integral molecular dynamics simulation will have to be run. (EXPLAIN PIMD HERE). Before this can be done however, a suitable potential will have to first be identified. A suitable candidate is the MACE-MP potential (CITE), further investigations will have to undertaken, and extra training of the potential may be required before it is suitable to run a full PIMD calculation.
 
 %Put this bit in later 
 %This path is the reaction coordinate, so it accounts for the movement of every atom, however the majority of the movement stems from the Hydrogen, with the carbon atoms slightly relaxing under bond breaking and forming. This makes it possible to map the energy from the reaction coordinate, which has a length of $1.1$\,\AA to the Hydrogen atom's path, which has a length of $1$\,\AA. The small difference between these two values makes it a reasonable approximation to make.
@@ -99,15 +118,18 @@ The same system was set up as Hu \al described in section \ref{Hu}: a $1$\,fs ti
 
 
 \section{Key Text Review}
-\subsection{Hu \al}
+\subsection{Hu \textit{et al}}
 \label{Hu}
-"The Diffusion of Vacancies Near a Diamond ($001$) Surface" by Hu \al has played an important role in my research, influencing a large part of section . Hu \al used molecular dynamics to investigate vacancy diffusion in diamond surfaces at various temperatures, calculating the diffusion coefficient and diffusion barrier. Knowing the properties of vacancy defects, and at what temperatures they are mobile such that they might escape to the surface is important when dealing with synthetic diamodns. The paper is limited in that it only deals with vacancies found in the second layer of the ($001$) surface. Other surfaces, such as the cleavage ($111$) surface, also play important roles in experiment, not to mention vacancies that are found further into the bulk, such as in the third or fourth layer. The limited scope of this paper has influenced my further research found in section .
+``The Diffusion of Vacancies Near a Diamond ($001$) Surface'' by Hu \al~has played an important role in my research, influencing a large part of section . Hu \al used molecular dynamics to investigate vacancy diffusion in diamond surfaces at various temperatures, calculating the diffusion coefficient and diffusion barrier. Knowing the properties of vacancy defects, and at what temperatures they are mobile such that they might escape to the surface is important when dealing with synthetic diamodns. The paper is limited in that it only deals with vacancies found in the second layer of the ($001$) surface. Other surfaces, such as the cleavage ($111$) surface, also play important roles in experiment, not to mention vacancies that are found further into the bulk, such as in the third or fourth layer. The limited scope of this paper has influenced my further research found in section .
 
 They construct their simulation as a unit cell repeated equally $5$ times in all $3$ cardinal directions, with periodic boundary conditions along the $x$ and $y$ axes, and the surfaces in the $z$ direction showing a ($001$) face. There is no mention of the boundaries of the cell in the $z$ direction, however as it is dealing with a surface diffusion, it is reasonable to assume that there is a sufficent vacuum gap, such that there are no external forces acting on the surface. The perfect diamond crystal is first allowed to relax for $5$\,ps at $300$\,K, before having an atom in the second layer removed, and then relaxed for another $5$\,ps. The final configuration of this system was then used as the starting point of all subsequent simulations, allowing for consistency between them all. The system is then ran for up to $35$\,ps at temperatures ranging from $300$--$2\,000$\,K. 
 
-As it is impossible to precisely track a vacancy in a crytal, as it does not truly exist, Hu \al opt instead to measure the displacement of the vacancy's nearest neighbours in the surface, as vacancies move by exchanging positions with one of their neighbours. It is only necessary to measure the positions in the surface, as Halicioglu \al\cite{Halicioglu} previously determined that it is energetically unfavourable for a vacancy to diffuse deeper into the bulk. 
+As it is impossible to precisely track a vacancy in a crytal, as it does not truly exist, Hu \al opt instead to measure the displacement of the vacancy's nearest neighbours in the surface, as vacancies move by exchanging positions with one of their neighbours. It is only necessary to measure the positions in the surface, as \textcite{Halicioglu} previously determined that it is energetically unfavourable for a vacancy to diffuse deeper into the bulk. 
 
-Hu \al found that full vacancy migration is only achieved at and above $1\,400$\,K, with simulations ran in the $1000$--$1\,300$\,K range showing only a partial relaxation of the surface neighbours into an intermediate position which they remain in until the end of the simulation. For $1\,400$--$1\,800$\,K, the surface neighbour relaxes to the intermediate position for some time, before finally moving all the way to the vacancy site, implying that the vacancy has fully migrated to the surface. Hu \al claim that this is the first time that the two-step migration phenomena has been observed, with teh intermediate vacancy position being much closer to the neighbour's original site than the vacancy site. For $2\,000$\,K the surface neighbour migrates to the vacancy site fully in one motion. These results differ to those seen in experiment, as mentioned in the paper, \textcite{Davies} have showed that in Type IIa diamond, the vacancy concentration greatly decreases after annealing at a temperature range of $973$--$1\,023$\,K. This would imply that the vacancy is fully mobile, as was seen in the simulations above $1\,400$\,K. This discrepancy is explained by Hu \al to be caused by how the temperatures are read: Davies \al are measuring the temeprature of the substrate on which the diamond is grown, however the temperature of the surface is likely to be much hotter. Another cause of the higher required migration temperature observed by Hu \al could be due to the use of the Tersoff potential, which is likely to overbind in cases like these, stopping the vacancy from migrating at the correct temperature (CITATION NEEDED).
+Hu \al found that full vacancy migration is only achieved at and above $1\,400$\,K, with simulations ran in the $1000$--$1\,300$\,K range showing only a partial relaxation of the surface neighbours into an intermediate position which they remain in until the end of the simulation. For $1\,400$--$1\,800$\,K, the surface neighbour relaxes to the intermediate position for some time, before finally moving all the way to the vacancy site, implying that the vacancy has fully migrated to the surface. Hu \al~claim that this is the first time that the two-step migration phenomena has been observed, with teh intermediate vacancy position being much closer to the neighbour's original site than the vacancy site. For $2\,000$\,K the surface neighbour migrates to the vacancy site fully in one motion. These results differ to those seen in experiment, as mentioned in the paper, \textcite{Davies} have showed that in Type IIa diamond, the vacancy concentration greatly decreases after annealing at a temperature range of $973$--$1\,023$\,K. This would imply that the vacancy is fully mobile, as was seen in the simulations above $1\,400$\,K. This discrepancy is explained by Hu \al~to be caused by how the temperatures are read: Davies \al~are measuring the temeprature of the substrate on which the diamond is grown, however the temperature of the surface is likely to be much hotter. Another cause of the higher required migration temperature observed by Hu \al could be due to the use of the Tersoff potential, which is likely to overbind in cases like these, stopping the vacancy from migrating at the correct temperature (CITATION NEEDED).
+
+\subsection{Peaker}
+
 
 \printbibliography
 
