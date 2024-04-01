@@ -333,6 +333,35 @@
       \verb http://theses.ncl.ac.uk/jspui/handle/10443/4224/
       \endverb
     \endentry
+    \entry{OVITO}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b864adafa3406178312ae6a4c8848a34}{%
+           family={Stukowski},
+           familyi={S\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b864adafa3406178312ae6a4c8848a34}
+      \strng{fullhash}{b864adafa3406178312ae6a4c8848a34}
+      \strng{bibnamehash}{b864adafa3406178312ae6a4c8848a34}
+      \strng{authorbibnamehash}{b864adafa3406178312ae6a4c8848a34}
+      \strng{authornamehash}{b864adafa3406178312ae6a4c8848a34}
+      \strng{authorfullhash}{b864adafa3406178312ae6a4c8848a34}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{{0965-0393}}
+      \field{journaltitle}{{MODELLING AND SIMULATION IN MATERIALS SCIENCE AND ENGINEERING}}
+      \field{month}{{JAN}}
+      \field{number}{{1}}
+      \field{title}{{Visualization and analysis of atomistic simulation data with OVITO-the Open Visualization Tool}}
+      \field{volume}{{18}}
+      \field{year}{{2010}}
+      \verb{doi}
+      \verb {10.1088/0965-0393/18/1/015012}
+      \endverb
+    \endentry
     \entry{DynamicalMatrix}{article}{}
       \name{author}{3}{}{%
         {{hash=55a73cac8975c31b09ce8edd04f85f41}{%
@@ -539,6 +568,137 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevB.46.13157
       \endverb
     \endentry
+    \entry{AIMPRO}{article}{}
+      \name{author}{2}{}{%
+        {{hash=419fe4734ff5ed712226a61bf5e32b80}{%
+           family={Briddon},
+           familyi={B\bibinitperiod},
+           given={P.R.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=5f0f5b620c99fdde5a29a1d446c6aea1}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{f22a1aee5deaf800e6f2b2167dfb78bc}
+      \strng{fullhash}{f22a1aee5deaf800e6f2b2167dfb78bc}
+      \strng{bibnamehash}{f22a1aee5deaf800e6f2b2167dfb78bc}
+      \strng{authorbibnamehash}{f22a1aee5deaf800e6f2b2167dfb78bc}
+      \strng{authornamehash}{f22a1aee5deaf800e6f2b2167dfb78bc}
+      \strng{authorfullhash}{f22a1aee5deaf800e6f2b2167dfb78bc}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract In this paper we will consider some of the methods involved in carrying out density functional calculations within the framework of localised basis sets, specifically those of Gaussian type orbitals. Particular emphasis is placed on the methods used in the AIMPRO (Ab Initio Modelling PROgram) code, but mention is made of a number of developments and strategies used in other programs.}
+      \field{journaltitle}{physica status solidi (b)}
+      \field{number}{1}
+      \field{title}{LDA Calculations Using a Basis of Gaussian Orbitals}
+      \field{volume}{217}
+      \field{year}{2000}
+      \field{pages}{131\bibrangedash 171}
+      \range{pages}{41}
+      \verb{doi}
+      \verb https://doi.org/10.1002/(SICI)1521-3951(200001)217:1<131::AID-PSSB131>3.0.CO;2-M
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/%28SICI%291521-3951%28200001%29217%3A1%3C131%3A%3AAID-PSSB131%3E3.0.CO%3B2-M
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/%28SICI%291521-3951%28200001%29217%3A1%3C131%3A%3AAID-PSSB131%3E3.0.CO%3B2-M
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/%28SICI%291521-3951%28200001%29217%3A1%3C131%3A%3AAID-PSSB131%3E3.0.CO%3B2-M
+      \endverb
+    \endentry
+    \entry{PBE}{article}{}
+      \name{author}{3}{}{%
+        {{hash=49bd2640f858f16dfcddcc404b026f30}{%
+           family={Perdew},
+           familyi={P\bibinitperiod},
+           given={John\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=33a535778ce96cdd2d59799deeea173d}{%
+           family={Burke},
+           familyi={B\bibinitperiod},
+           given={Kieron},
+           giveni={K\bibinitperiod}}}%
+        {{hash=ccb694b80578a814211265eb307fdcde}{%
+           family={Ernzerhof},
+           familyi={E\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{8c918234d2e8f80ab3a3ee1d5c8b3db5}
+      \strng{fullhash}{29da3039da81061b60722fb2fe692310}
+      \strng{bibnamehash}{29da3039da81061b60722fb2fe692310}
+      \strng{authorbibnamehash}{29da3039da81061b60722fb2fe692310}
+      \strng{authornamehash}{8c918234d2e8f80ab3a3ee1d5c8b3db5}
+      \strng{authorfullhash}{29da3039da81061b60722fb2fe692310}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{18}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{10}
+      \field{title}{Generalized Gradient Approximation Made Simple}
+      \field{volume}{77}
+      \field{year}{1996}
+      \field{pages}{3865\bibrangedash 3868}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.77.3865
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.77.3865
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.77.3865
+      \endverb
+    \endentry
+    \entry{Bloch}{article}{}
+      \name{author}{1}{}{%
+        {{hash=af478cd942c7ec58dc0b0928d033479a}{%
+           family={Bloch},
+           familyi={B\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{af478cd942c7ec58dc0b0928d033479a}
+      \strng{fullhash}{af478cd942c7ec58dc0b0928d033479a}
+      \strng{bibnamehash}{af478cd942c7ec58dc0b0928d033479a}
+      \strng{authorbibnamehash}{af478cd942c7ec58dc0b0928d033479a}
+      \strng{authornamehash}{af478cd942c7ec58dc0b0928d033479a}
+      \strng{authorfullhash}{af478cd942c7ec58dc0b0928d033479a}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Die Bewegung eines Elektrons im Gitter wird untersucht, indem wir uns dieses durch ein zunächst streng dreifach periodisches Kraftfeld schematisieren. Unter Hinzunahme der F ermischen Statistik auf die Elektronen gestattet unser Modell Aussagen über den von ihnen herrührenden Anteil der spezifischen Wärme des Kristalls. Ferner wird gezeigt, da{ß} die Berücksichtigung der thermischen Gitterschwingungen Grö{ß}enordnung und Temperaturabhängigkeit der elektrischen Leitfähigkeit von Metallen in qualitativer Übereinstimmung mit der Erfahrung ergibt.}
+      \field{issn}{0044-3328}
+      \field{journaltitle}{Zeitschrift für Physik}
+      \field{month}{7}
+      \field{number}{7}
+      \field{title}{Über die Quantenmechanik der Elektronen in Kristallgittern}
+      \field{volume}{52}
+      \field{year}{1929}
+      \field{pages}{555\bibrangedash 600}
+      \range{pages}{46}
+      \verb{doi}
+      \verb 10.1007/BF01339455
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/BF01339455
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/BF01339455
+      \endverb
+    \endentry
     \entry{NitrogeninDiamond}{article}{}
       \name{author}{6}{}{%
         {{hash=3dff557f829ea672e4c5fa883a634b02}{%
@@ -578,8 +738,8 @@
       \strng{authorbibnamehash}{2fe8b0e244b5462be3967e66aa93a1c4}
       \strng{authornamehash}{13955deab09088b286bf90045b25fb21}
       \strng{authorfullhash}{2fe8b0e244b5462be3967e66aa93a1c4}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Chemical Reviews}
@@ -640,8 +800,8 @@
       \strng{authorbibnamehash}{f9bc18deadb6ca003d2245e9398a43cb}
       \strng{authornamehash}{5c905e5c5fd144c70652321b040a0cc6}
       \strng{authorfullhash}{f9bc18deadb6ca003d2245e9398a43cb}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Diamond has many extreme physical properties and it can be used in a wide range of applications. In particular it is a highly effective particle detection material, where radiation damage is an important consideration. The WAR9 and WAR10 are electron paramagnetic resonance centres seen in irradiated, nitrogen-containing diamond. These S = 1/2 defects have C2v and C1h symmetry, respectively, and the experimental spectra have been interpreted as arising from nitrogen split-interstitial centres. Based upon the experimental and theoretical understanding of interstitial nitrogen defect structures, the AIMPRO density functional code has been used to assess the assignments for the structures of WAR9 and WAR10. Although the calculated hyperfine interaction tensors are consistent with the measured values for WAR9, the thermal stability renders the assignment problematic. The model for the WAR10 centre yields principal directions of the hyperfine tensor at variance with observation. Alternative models for both centres are discussed in this paper, but no convincing structures have been found.}
@@ -706,6 +866,199 @@
       \verb{doi}
       \verb 10.1088/0953-8984/15/39/014
       \endverb
+    \endentry
+    \entry{Deak}{article}{}
+      \name{author}{5}{}{%
+        {{hash=21b8a15a0967334a297f01250c2885df}{%
+           family={Deak},
+           familyi={D\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=8908b3b474a26c864e7443da678c8311}{%
+           family={Aradi},
+           familyi={A\bibinitperiod},
+           given={Balint},
+           giveni={B\bibinitperiod}}}%
+        {{hash=119674b2b2f1b7d15ed887c3fd4c099f}{%
+           family={Kaviani},
+           familyi={K\bibinitperiod},
+           given={Moloud},
+           giveni={M\bibinitperiod}}}%
+        {{hash=899e2db44d695b57e76f5dffaf1f1d3e}{%
+           family={Frauenheim},
+           familyi={F\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=de77ce5fe1ed747f73784b4e44f26add}{%
+           family={Gali},
+           familyi={G\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{cc12e16494ef65cda8216e04d1b370bd}
+      \strng{fullhash}{0ce33a5e3cdb5499dcd4df5dc851d4e3}
+      \strng{bibnamehash}{0ce33a5e3cdb5499dcd4df5dc851d4e3}
+      \strng{authorbibnamehash}{0ce33a5e3cdb5499dcd4df5dc851d4e3}
+      \strng{authornamehash}{cc12e16494ef65cda8216e04d1b370bd}
+      \strng{authorfullhash}{0ce33a5e3cdb5499dcd4df5dc851d4e3}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2469-9950}
+      \field{journaltitle}{PHYSICAL REVIEW B}
+      \field{month}{2}
+      \field{number}{7}
+      \field{title}{Formation of NV centers in diamond: A theoretical study based on calculated transitions and migration of nitrogen and vacancy related defects}
+      \field{volume}{89}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.89.075203
+      \endverb
+    \endentry
+    \entry{HSE06}{article}{}
+      \name{author}{4}{}{%
+        {{hash=0dd92d83eecbced9b768a0c3109e6ee4}{%
+           family={Krukau},
+           familyi={K\bibinitperiod},
+           given={Aliaksandr\bibnamedelima V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=765db8e05b3c1621f1c93379fa404dda}{%
+           family={Vydrov},
+           familyi={V\bibinitperiod},
+           given={Oleg\bibnamedelima A.},
+           giveni={O\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=445cd11464a7964a850da38cf166c1c3}{%
+           family={Izmaylov},
+           familyi={I\bibinitperiod},
+           given={Artur\bibnamedelima F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=6b833ff9ec8eab914a2c220f704345e5}{%
+           family={Scuseria},
+           familyi={S\bibinitperiod},
+           given={Gustavo\bibnamedelima E.},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{5261813c67565009c124aff60300d056}
+      \strng{fullhash}{df0fefa8512cc1f78687fd1d52475d13}
+      \strng{bibnamehash}{df0fefa8512cc1f78687fd1d52475d13}
+      \strng{authorbibnamehash}{df0fefa8512cc1f78687fd1d52475d13}
+      \strng{authornamehash}{5261813c67565009c124aff60300d056}
+      \strng{authorfullhash}{df0fefa8512cc1f78687fd1d52475d13}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{This work reexamines the effect of the exchange screening parameter ω on the performance of the Heyd-Scuseria-Ernzerhof (HSE) screened hybrid functional. We show that variation of the screening parameter influences solid band gaps the most. Other properties such as molecular thermochemistry or lattice constants of solids change little with ω. We recommend a new version of HSE with the screening parameter ω=0.11bohr−1 for further use. Compared to the original implementation, the new parametrization yields better thermochemical results and preserves the good accuracy for band gaps and lattice constants in solids.}}
+      \field{issn}{0021-9606}
+      \field{journaltitle}{The Journal of Chemical Physics}
+      \field{month}{12}
+      \field{number}{22}
+      \field{title}{{Influence of the exchange screening parameter on the performance of screened hybrid functionals}}
+      \field{volume}{125}
+      \field{year}{2006}
+      \field{pages}{224106}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.2404663
+      \endverb
+      \verb{eprint}
+      \verb https://pubs.aip.org/aip/jcp/article-pdf/doi/10.1063/1.2404663/13263224/224106\_1\_online.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.2404663
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.2404663
+      \endverb
+    \endentry
+    \entry{VASP}{article}{}
+      \name{author}{2}{}{%
+        {{hash=40daea6217342757546b996c2086b7b4}{%
+           family={Kresse},
+           familyi={K\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=57a647c73d7595ee4e6070042493941a}{%
+           family={Furthmüller},
+           familyi={F\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{5c66dda5fc7bfaa5597e78f4995dbab3}
+      \strng{fullhash}{5c66dda5fc7bfaa5597e78f4995dbab3}
+      \strng{bibnamehash}{5c66dda5fc7bfaa5597e78f4995dbab3}
+      \strng{authorbibnamehash}{5c66dda5fc7bfaa5597e78f4995dbab3}
+      \strng{authornamehash}{5c66dda5fc7bfaa5597e78f4995dbab3}
+      \strng{authorfullhash}{5c66dda5fc7bfaa5597e78f4995dbab3}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{16}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{10}
+      \field{title}{Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set}
+      \field{volume}{54}
+      \field{year}{1996}
+      \field{pages}{11169\bibrangedash 11186}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.54.11169
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.54.11169
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.54.11169
+      \endverb
+    \endentry
+    \entry{butorac}{article}{}
+      \name{author}{2}{}{%
+        {{hash=046f8ec1884e045a7df345e0f373ec97}{%
+           family={Butorac},
+           familyi={B\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=f1011b83214aa8b62ddfeeaca1587575}{%
+           family={Mainwood},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{2967c04e0c01950b5eca99d4dfd7a420}
+      \strng{fullhash}{2967c04e0c01950b5eca99d4dfd7a420}
+      \strng{bibnamehash}{2967c04e0c01950b5eca99d4dfd7a420}
+      \strng{authorbibnamehash}{2967c04e0c01950b5eca99d4dfd7a420}
+      \strng{authornamehash}{2967c04e0c01950b5eca99d4dfd7a420}
+      \strng{authorfullhash}{2967c04e0c01950b5eca99d4dfd7a420}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A large number of complex defects are seen in natural and synthetic diamonds, but it is not known whether they form during growth or as a result of later processes. An understanding of diffusion profiles of the dopant impurities is crucial for design of electronic devices. We present here theoretical work on migration processes for several complexes including N, H and vacancies in diamond, to find out how they form. First-principles density functional calculations have been performed to study structural properties and the activation energies for migration of these defects. Migration paths were derived by constructing a set of several intermediate structures between two energy minima by linear interpolation. The effect of temperature on calculated barriers is described by including vibrational energy and entropy. It was found that the energy barrier for migration of interstitial hydrogen between two bond-centred positions is 2.8 eV. Also, hydrogen is readily trapped by both vacancies and by the N–V complex. Energies liberated in these reactions are 5.5 eV and 5.8 eV respectively.}
+      \field{issn}{0925-9635}
+      \field{journaltitle}{Diamond and Related Materials}
+      \field{note}{Proceedings of Diamond 2007, the 18th European Conference on Diamond, Diamond-Like Materials, Carbon Nanotubes, Nitrides and Silicon Carbide}
+      \field{number}{7}
+      \field{title}{Theoretical study of migration processes in bulk diamond}
+      \field{volume}{17}
+      \field{year}{2008}
+      \field{pages}{1225\bibrangedash 1228}
+      \range{pages}{4}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.diamond.2008.03.038
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0925963508002616
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0925963508002616
+      \endverb
+      \keyw{Migration path,Activation energy,Saddle point}
     \endentry
   \enddatalist
 \endrefsection
