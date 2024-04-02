@@ -14,7 +14,7 @@
 \usepackage{lipsum}
 \usepackage{xcolor}
 \newcommand{\ntvh}{N$_2$VH}
-\newcommand{\al}{\emph{et al. }}
+\newcommand{\al}{\emph{et al.}}
 \newcommand{\oA}{\si{\angstrom}}
 \renewcommand{\d}{\text{d}}
 \title{Frist Year Progress Report}
@@ -42,13 +42,29 @@
 
 	
 \section{Introduction}
+
 The final aim of my PhD is to be able to accurately model the effects of radiation damage in diamond over large time scales, taking in to account quantum mechanical effects.
+
+
+
+The tools used to simulate and calculate properties of diamond and its defects have been LAMMPS and CASTEP, each being molecular dynamics and density functional theory software respectively. In order to get to grips with these large, and sometimes rather obtuse, pieces of software, multiple projects have been undertaken that are suitable for each of their respective uses. For LAMMPS, a vacancy migration simulation at various temperatures was run, and the energy barrier for diffusion was calculated. For CASTEP many different projects have been undertaken, including those taught in the PX911 module, however the project of focus in this paper will be the reorientation of Hydrogen in the N$_2$VH defect in diamond. A wide variety of different calculations are performed, with their results being combined to calculte the reorietation rate of Hydrogen at EPR temperatures. 
+
+\subsection{Initial DFT tests}
+DFT calculations can be costly and time consuming, so before a large study is conducted it is important to first conduct a convergence test. This test is a short study to confirm the parameters required to achieve a desired level of accuracy. The two most common parameters to optimise are the k-point sampling, and the plane wave cut-off energy. As taught in PX911, one parameter is fixed to a low value, whilst the other increased until the energy of the system converges to within 3 significant figures, this is then done once again for the other parameter. The chosen parameters are the lowest ones which converge. 
+
+When constructing the diamond cell to be used in CASTEP, the lattice parameter has to first be found to ensure that the system is in a minimal energy configuration. Various lattice constants were tested either side of the experimentally found value of $a_0 = 3.567$\,{\AA}, and the minimum energy one chosen for construction of any futher cells. The most stable lattice constant was actually found to be $a_0 = 3.57$, slightly higher than the experimentally derived value, however the energy differences between them are miniscule. A plot of this can be seen in figure \ref{fig:conv}.
+
+\begin{figure}
+	\includegraphics[width=0.55\textwidth]{conv_2.png}
+	\caption{A plot detailing differences in energy of the lowest found lattice constant, the experimentally found value was tested explicitly and can be seen in orange.}
+	\label{fig:conv}
+\end{figure}
 
 \section{Reorientation of Hydrogen in N$_2$VH}
 \label{n2vh}
 \subsection{Calculation}
 \label{n2vh_calc}
-The \ntvh defect consists of a vacancy (V) surrounded by two substitutional Nitrogens (N$_2$), with a Hydrogen bonded to one of the two remaining carbon atoms (H). C$_{2v}$ symmetry is reported from EPR runs in both the X ($8-12$\,GHz) and Q-band ($30-50$\,GHz) range \cite{Hartland}. It is not energetically favourable for the Hydrogen to be sit statically in the middle with C$_{2v}$ symmetry; this would suggest that the Hydrogen atom is reorientating between the Carbon atoms fast enough that its position is appearing as an averaged position of the two equivalent sites, giving rise to a higher order of symmetry \cite{Shaw_QT_VH}. 
+The {\ntvh} defect consists of a vacancy (V) surrounded by two substitutional Nitrogens (N$_2$), with a Hydrogen bonded to one of the two remaining carbon atoms (H). C$_{2v}$ symmetry is reported from EPR runs in both the X ($8-12$\,GHz) and Q-band ($30-50$\,GHz) range \cite{Hartland}. It is not energetically favourable for the Hydrogen to be sit statically in the middle with C$_{2v}$ symmetry; this would suggest that the Hydrogen atom is reorientating between the Carbon atoms fast enough that its position is appearing as an averaged position of the two equivalent sites, giving rise to a higher order of symmetry \cite{Shaw_QT_VH}. 
 It has previously been shown for NVH$^-$ that a tunnelling period of $\tau \approx 10^{-8}$, or a tunnelling requency of $0.1$\,GHz, is required to shown an averaged symmetry in EPR \cite{Edwards_N2VH_rate}. It would therefore be of interest to calculate the energy required for this reorientation to occur, and thus potentially create a relationship between tunnelling frequency and temperature. 
 
 
@@ -59,12 +75,18 @@ A diamond lattice was set up with $64$ atoms, one Carbon atom was removed, and t
 
 An initial 'guess' for the unoptimised path between the two systems is needed, for this, a simple a linear trajectory of the Hydrogen atom between the two Carbon atoms along the ($110$) plane was devised. The trajectory contains an odd number of images, this is to ensure that it captures the saddle point of the path that is, due to the symmetry of the system, likely to be in the middle of the trajectory. 
 
-The final, optimised, NEB path of the Hydrogen between the two equivalent carbon atoms, is seen in figure . It is of interest that the Hydrogen does not take the shortest straight linear path between each Carbon atom, but instead takes a longer curved path away from the two Nitrogen atoms, possibly avoiding excess electron density. The maximum energy found at the saddle point is $0.536$\,eV, with a full reaction path length of $1.1$\,\AA, and a full width half maximum (FWHM) of $0.3781$\,\AA. This differs from values found in literature, where the reported height and reaction path length are said to be $0.9$\,eV and $0.6$\,{\AA} respectively \cite{Peaker}. There are many differences between these two calculations, namely that \textcite{Peaker} uses a Gaussian basis set, whereas CASTEP uses a plane wave basis set, and the simulation cell is made up of $1\,000$ atoms, the increased number of atoms has the advantage of minimising finite size effects. 
+The final, optimised, NEB path of the Hydrogen between the two equivalent carbon atoms, is seen in figure \ref{fig:n2vh}. It is of interest that the Hydrogen does not take the shortest straight linear path between each Carbon atom, but instead takes a longer curved path away from the two Nitrogen atoms, possibly avoiding excess electron density. The maximum energy found at the saddle point is $0.536$\,eV, with a full reaction path length of $1.1$\,{\AA}, and a full width half maximum (FWHM) of $0.3781$\,{\AA}, a plot of how energy changes along the reaction coordinate can be seen in figure \ref{fig:n2vh_energy}. This differs from values found in literature, where the reported height and reaction path length are said to be $0.9$\,eV and $0.6$\,{\AA} respectively \cite{Peaker}. There are many differences between these two calculations, namely that \textcite{Peaker} uses a Gaussian basis set, whereas CASTEP uses a plane wave basis set, and the simulation cell is made up of $1\,000$ atoms, the increased number of atoms has the advantage of minimising finite size effects. 
 
 \begin{figure}
 	\includegraphics[width=0.4\textwidth]{n2vh.png}
 	\caption{The NEB path of Hydrogen in \ntvh, where Nitrogen is blue, Carbon is grey, and Hydrogen is white. The \emph{path} is shown in red, and is clearly curved, whilst the raw displacment is shown as a yellow arrow. Generated using OVITO \cite{OVITO}.}
 	\label{fig:n2vh}
+\end{figure}
+
+\begin{figure}
+	\includegraphics[width=0.56\textwidth]{fig.png}
+	\caption{The energy along the minimum energy reaction coordinate determined by nudged elastic band calculations. The splines show the gradient of the energy. There is a peak of $0.536$\,eV in the middle.}
+	\label{fig:n2vh_energy}
 \end{figure}
 
 \textcite{Peaker} takes the width of the barrier as the \emph{displacement} of the Hydrogen atom, the difference between the initial and final configuration. A higher displacement of $0.89$\,{\AA} was found here, however taking the raw displacement of the Hydrogen atom does not account for the path it takes during reorientation, nor does it fully utilise the minimum energy path that the NEB calculation found. A more appropriate approximation would be to take the fully optimised path of the Hydrogen atom as the width of the barrier, and so to map the potential energy barrier to the Hydrogen path, instead of the reaction coordinate. This is reasonable as the majority of the movement stems from the Hydrogen, with the carbon atoms slightly relaxing under bond breaking and forming. The full path of the Hydrogen atom is $1$\,{\AA}, only $0.1$\,{\AA} more than the full reaction coordinate. The potential barrier height was found to be almost half of that found in the literature, this could be due to a more optimised MEP, or a more accurate basis. The \emph{first} unoptimised MEP has a barrier height of $0.844$\,eV, much closer to that found in the literature. 
@@ -129,20 +151,42 @@ The approximations for the tunnelling rate gave results that would disagree with
 
 
 \section{Vacancy Migration in a Pure Diamond Lattice}
+\label{sec:vacancy}
+There is much concern of how to remove vacancies from diamond, in order to create a perfect crystal. Annealing techniques are used to heat the diamond up to a certain temperature and cool it down, in hopes of making the vacancies turn mobile and rising to the surface, effectively eliminating themselves from the bulk. Previous experimental results have shown that this starts to occur at ~$700$\,K, however it could also be useful to know the energies required for a vacancy to migrate, and also the energy barrier involved for the formation of a vacancy \cite{VacancyTemp}. Molecular dynamics simulations can provide an insight into the mechanisms involved in vacancy migration, and to inform later experiments. Hu \al, as shown in section \ref{Hu}, have used a tersoff potential to model the vacancy migration of an atom from the second layer of a diamond ($001$) surface to the top layer. Their results showed that this process beigns to occur at $1400$\,K, deviating from known experimental results. Hu \al argue that is due to how the temperature of the diamond is measured in experiments, that the temperature of the surface is in fact much higher than that of the substrate which is being measured, and so would align more with their findings. The results of Hu \al are quite old, however the methods used are not out of date, so it is reasonable to try and recreate similar results, and expand upon their work using more state-of-the-art techniques. 
 
-There is much concern of how to remove vacancies from diamond, in order to create a perfect crystal. Annealing techniques are used to heat the diamond up to a certain temperature and cool it down, in hopes of making the vacancies turn mobile and rising to the surface, effectively eliminating themselves from the bulk. Previous experimental results have shown that this starts to occur at ~$600$\,K, however it could also be useful to know the energies required for a vacancy to migrate, and also the energy barrier involved for the formation of a vacancy \cite{VacancyTemp}. Molecular dynamics simulations can provide an insight into how the mechanisms involved in vacancy migration, and to inform later experiments. Hu \al, as shown in section \ref{Hu}, have used a tersoff potential to model the vacancy migration of an atom from the second layer of a diamond ($001$) surface to the top layer. Their results showed that this process beigns to occur at $1400$\,K, deviating from known experimental results. Hu \al argue that is due to how the temperature of the diamond is measured in experiments, that the temperature of the surface is in fact much higher than measured, and so would align more with their findings. The results of Hu \al are quite old, however the methods used are not out of date, so it is reasonable to try and recreate similar results, and expand upon their work using more state-of-the-art techniques. 
+The same system was set up as Hu \al described in section \ref{Hu}: a $1$\,fs timestep was used, as well as a $100$\,fs timestep for the velocity rescaling method, and a $1\,000$\,fs timestep for the pressure rescaling method. There is no mention in the original paper what the timestep for the velocity rescaling method is, nor is a pressure rescaling ensemble used at all. The choice to use the NPT ensemble came from the need to ensure that the crystal can expand slightly under higher temperatures to avoid excess strain on the crystal. Following Hu \al, an initial system was created and relaxed at $300$\,K for $5$\,ps, before a vacancy was created in the second layer and it was allowed to relax again for another $5$\,ps. The final configuration of this system formed the starting configuration of all further simulations. The system was then allowed to run at temperatures in the $300$--$2\,000$\,K range. Taking inspiration from Hu \al, the positions of the atoms neighbouring the vacancy were extracted from the MD run. The atom with the lowest average distance to the vacancy site was taken to be the atom that was moving into the vacancy to switch places with it, which was then used for analysis. 
 
-The same system was set up as Hu \al described in section \ref{Hu}: a $1$\,fs timestep was used, as well as a $100$\,fs timestep for the velocity rescaling method, and a $1\,000$\,fs timestep for the pressure rescaling method. There is no mention in the original paper what the timestep for the velocity rescaling method is, nor is a pressure rescaling ensemble used at all. The choice to use the NPT ensemble came from the need to ensure that the crystal can expand slightly under higher temperatures. Following Hu \al, an initial system was created and relaxed at $300$\,K for $5$\,ps, before a vacancy was created in the second layer and it was allowed to relax again for another $5$\,ps. The final configuration of this system formed the starting configuration of all further simulations. The system was then allowed to run at temperatures in the $300$--$2\,000$\,K range. Taking inspiration from Hu \al, the positions of the atoms neighbouring the vacancy were extracted from the MD run. The atom with the lowest average distance to the vacancy site was taken to be the atom that was diffusing, which was then used for analysis. 
+The diffusion coefficient can be found as 
+\begin{align}
+	D = \frac{\langle u^2 \rangle}{2N_dt}
+\end{align}
+where $\langle u^2 \rangle$ is the mean squared displacement of the atom, $N_d$ is the dimentionality (\emph{e.g.} 3), and $t$ is the time over which the mean squared displacement is taken. The diffusion coefficient can be determined by taking the slope of the mean squared displacement. The diffusion barrier, $E_m$, can then be calculated by using the Arrhenius equation, shown in equation \ref{eqn:arr}, where $D_0$ is a prefactor. 
+\begin{align}
+	\label{eqn:arr}
+	D = D_0 \exp(\frac{E_m}{k_BT})
+\end{align}
+
+A plot of $\ln(D)$ against $\frac{1}{k_BT}$ can be seen in figure \ref{fig:arr}, taking the slope of this plot gives the diffusion barrier $E_m = 0.435$\,eV, whilst taking the exponential of the intercept gives the prefactor $D_0 = 1.92\times10^{-6}$\,cm$^2$s$^{-1}$. This is close to the results of Hu \al, which found $E_m = 0.42$\,eV and $D_0 = 3.69\times10^{-6}$\,cm$^2$s$^{-1}$ \cite{hu}.
+
+\begin{figure}
+	\includegraphics*[width=0.55\textwidth]{hu.png}
+	\caption{Plot of $\ln(D)$ against $\frac{1}{k_BT}$ derived from  Arrhenius equation, the slope corresponds  to the activation barrier, whilst the intercept is simply a prefactor.}
+	\label{fig:arr}
+\end{figure}
+
+\subsection{Further Research}
+This section has focused entirely on surface migrations in the ($001$) surface, however diamond has many more interesting surfaces. Further molecular dynamics simulations of vacancy migration in different surfaces should be undertaken, such as the ($111$) surface, as well as calculations of vacancy migration from different depths from the surface. Migration in the bulk of diamond should also be investigated.
+As mentioned in section \ref{sec:future}, the more accurate MACE-MP-0 potential \cite{MACE} should be used. 
+
+Moving on from molecular dynamics, kinetic Monte Carlo simulations can be carried out, using data from DFT to inform the parameters of these simulations, such as the energy barrier of diffusion \cite{radiation_modelling}. This has the advantage of being able to handle larger time scales than molecular dynamics.
 
 %Basically 1600 is when it really starts to migrate properly, we see two-step (maybe even three step) migration at 1600 and above, it does happen at 1400 but not always, probably a high chance of randomness -> monte carlo, at 2000 strange things happen because it is so hot, tersoff may be "breaking down". For GAP it seems to migrate at EVERY temperature, not good, we also see no migration from the third at any temperature for gap, also not good, could just be (001) surface however . Maybe explore NVT instead of NPT properly? -> makes no difference THEY USE CM^2 / s -> CHECK UNITS AND CONVERT
-
-\section{NV defects}
 
 
 \section{Key Text Review}
 \subsection{Hu \textit{et al}}
 \label{Hu}
-``The Diffusion of Vacancies Near a Diamond ($001$) Surface'' by Hu \al~has played an important role in my research, influencing a large part of section . Hu \al used molecular dynamics to investigate vacancy diffusion in diamond surfaces at various temperatures, calculating the diffusion coefficient and diffusion barrier. Knowing the properties of vacancy defects, and at what temperatures they are mobile such that they might escape to the surface is important when dealing with synthetic diamodns. The paper is limited in that it only deals with vacancies found in the second layer of the ($001$) surface. Other surfaces, such as the cleavage ($111$) surface, also play important roles in experiment, not to mention vacancies that are found further into the bulk, such as in the third or fourth layer. The limited scope of this paper has influenced my further research found in section .
+``The Diffusion of Vacancies Near a Diamond ($001$) Surface'' by Hu \al~has played an important role in my research, influencing a large part of section \ref{sec:vacancy}. Hu \al used molecular dynamics to investigate vacancy diffusion in diamond surfaces at various temperatures, calculating the diffusion coefficient and diffusion barrier. Knowing the properties of vacancy defects, and at what temperatures they are mobile such that they might escape to the surface is important when dealing with synthetic diamodns. The paper is limited in that it only deals with vacancies found in the second layer of the ($001$) surface. Other surfaces, such as the cleavage ($111$) surface, also play important roles in experiment, not to mention vacancies that are found further into the bulk, such as in the third or fourth layer. The limited scope of this paper has influenced my further research found in section .
 
 They construct their simulation as a unit cell repeated equally $5$ times in all $3$ cardinal directions, with periodic boundary conditions along the $x$ and $y$ axes, and the surfaces in the $z$ direction showing a ($001$) face. There is no mention of the boundaries of the cell in the $z$ direction, however as it is dealing with a surface diffusion, it is reasonable to assume that there is a sufficent vacuum gap, such that there are no external forces acting on the surface. The perfect diamond crystal is first allowed to relax for $5$\,ps at $300$\,K, before having an atom in the second layer removed, and then relaxed for another $5$\,ps. The final configuration of this system was then used as the starting point of all subsequent simulations, allowing for consistency between them all. The system is then ran for up to $35$\,ps at temperatures ranging from $300$--$2\,000$\,K. 
 
@@ -150,7 +194,9 @@ As it is impossible to precisely track a vacancy in a crytal, as it does not tru
 
 Hu \al found that full vacancy migration is only achieved at and above $1\,400$\,K, with simulations ran in the $1000$--$1\,300$\,K range showing only a partial relaxation of the surface neighbours into an intermediate position which they remain in until the end of the simulation. For $1\,400$--$1\,800$\,K, the surface neighbour relaxes to the intermediate position for some time, before finally moving all the way to the vacancy site, implying that the vacancy has fully migrated to the surface. Hu \al~claim that this is the first time that the two-step migration phenomena has been observed, with the intermediate vacancy position being much closer to the neighbour's original site than the vacancy site. For $2\,000$\,K the surface neighbour migrates to the vacancy site fully in one motion. These results differ to those seen in experiment, as mentioned in the paper, \textcite{Davies} have showed that in Type IIa diamond, the vacancy concentration greatly decreases after annealing at a temperature range of $973$--$1\,023$\,K. This would imply that the vacancy is fully mobile, as was seen in the simulations above $1\,400$\,K. This discrepancy is explained by Hu \al~to be caused by how the temperatures are read: Davies \al~are measuring the temeprature of the substrate on which the diamond is grown, however the temperature of the surface is likely to be much hotter. Another cause of the higher required migration temperature observed by Hu \al could be due to the use of the Tersoff potential, which is likely to overbind in cases like these, stopping the vacancy from migrating at the correct temperature (CITATION NEEDED).
 
-\subsection{Peak 'er? I hardly know 'er!} I'M LOCKED IN!
+A final diffusion energy barrier was found, the methodology of which can be seen in section \ref{sec:vacancy}, $E_m = 0.42$\,eV, this is much lower than the rest of the literature would suggest, however diffusion near the surface has a much lower energy barrier.
+
+\subsection{Peak 'er? I hardly know 'er!}
 \textcite{Peaker} carries out computational simulations on a wide variety of point defects in diamond. All calculations were done using DFT implemented in AIMPRO \cite{AIMPRO}, using the PBE exchange-correlation functional \cite{PBE}. AIMPRO uses Gaussian basis sets centred on each atom, as opposed to the plane-wave method used for the original research in this paper. A $1\,000$ atom supercell is used before introducing any defects, leaving some systems with one fewer or one more atoms. Periodic boundary conditions are applied such that they satisfy Bloch's theorem \cite{Bloch}. 
 
 Defects containing Nitrogen, vacancies, and Hydrogen were explored, where $n +m = 0, 1, 2, 3, 4$ in N$_n$V$_m$, this is clearly incredibly broad, so the entire paper cannot be covered in depth in this short review. The defects are lumped into groups depending on the sum of $n$ and $m$, for each of these groups structural, electrical and vibrtaional properties are calculated, as well as the electronic structure and hyperfine interaction.
@@ -173,8 +219,6 @@ The more recently identified N$_{2}$VH defect also undergoes a similar reorienta
 
 N$_{3}$VH is the final member of the N$_{n}$VH family, as every bond pointing into the vacancy centre is fully saturated, making it unfavourable for N$_{4}$VH to form. The Hydrogen does not undergo rapid reorientation in this structure, as it strongly binded to the last remaining carbon surrounding the vacancy centre. 
 
-\subsection{Secret fifth hidden paper}
-
 \subsection{Formation of NV centres in diamond}
 \textcite{Deak} carry out an \emph{ab initio} study on Nitrogen, vacancy and nitrogen vacancy defects in diamond. To improve upon previous studies using local density and generalised gradient approximation exchange-correlation functionals, the HSE$06$ functional \cite{HSE06} was used in VASP \cite{VASP}, this is capable of reproducing all defect transition levels and internal transitions to within $\sim0.2$\,eV of experiment. A large 512 atom supercell was used to limit finite size effects, with other parameters being determined after initial runs with the quicker PBE exchange-correlation functional. 
 
@@ -194,7 +238,13 @@ For the NVH complex, the Hydrogen preferes to bond to one of three carbons, rath
 The stability of defects were also studied, showing for example that Hydrogen is easily trapped by a vacancy centre to form VH, as well as the favourable formation of NVH. 
 
 \section{Future Reasearch}
+\label{sec:future}
 As is evident from the literature review, the use of a larger system may be preferential during DFT calculations to limit finite size effects. The calculations done in this paper used a relatively small $64$ atom supercell for speed whilst trying to learn how to use CASTEP effectively, however in this future larger supercells should be used to gain more accurate results as done in the literature.
+The PBE exchange-correlation functional was used throughout, and whilst it has shown to be effective, having been used by many papers in the literature review section, use of more accurate hybrid functionals would improve accuracy significantly, as shown in \cite{Deak}. 
+
+It would be of interest to give other defects the same treatment that was given to {\ntvh} in section \ref{n2vh}, especially for the NVH centre, as it is known to undergo quantum tunnelling in a similar manner \cite{Peaker,Shaw_QT_VH}.  
+
+Further molecular dynamics simulations will need to be run, exploring different defects, especially those containing Nitrogen impurties. Before this can be done however, a suitable potential that can model Nitrogen defects effectively will need to be identified or developed. The machine learned MACE-MP-0 potential is a promising candidate, as it has shown to be effective, being trained on a wide variety of high quality inorganic crystal data \cite{MACE}. Tests will need to be carried out, and further training on certain defects, using custom generated DFT data may need to be done. Molecular dynamics simulations regarding radiation damage will also need to take place, as this is the main goal of my PhD. This can be done by giving one atom on the surface a large amount of kinetic energy to simulate bombardment with a high energy photon or neutron \cite{radiation}. It would be of interest to reproduce results showing the preferential production of NV centres during irradiation \cite{Deak}. %Work is needed to be able to track vacancies generated in crystal effectively.
 
 \printbibliography
 

@@ -471,6 +471,517 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevB.46.13157
       \endverb
     \endentry
+    \entry{hu}{article}{}
+      \name{author}{5}{}{%
+        {{hash=ace8666a36a2dea8ffc4bf058485fa6a}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={X.J.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=a250a9bd7f77c3795f5d638f6e065830}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Y.B.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=7181d331eeed86e3ef9796ac8fac23d0}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={R.B.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=bce85429d9c86c1acfe517d62f09530e}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={H.S.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=ee42ff2979fae823957e2ee6e03a6c64}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={X.C.},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{b1410b9e7424f6f68d34c3816d9a2268}
+      \strng{fullhash}{b40e29eb12f7f224fa7ab21272b68fc3}
+      \strng{bibnamehash}{b40e29eb12f7f224fa7ab21272b68fc3}
+      \strng{authorbibnamehash}{b40e29eb12f7f224fa7ab21272b68fc3}
+      \strng{authornamehash}{b1410b9e7424f6f68d34c3816d9a2268}
+      \strng{authorfullhash}{b40e29eb12f7f224fa7ab21272b68fc3}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The diffusion process of the vacancy near diamond (001) surface at different temperatures was investigated by molecular dynamics simulation. The vacancy in the second layer begins to diffuse towards the surface at about 1000K, and it can migrate to the surface in the temperature range of 1400–2000K. In the 1400–1800K temperature range, two migration stages, which correspond to two maxima in the mean square displacement curves, are observed in the vacancy diffusion process. In addition, the vacancy diffusion path is obtained without any constraints imposed on the atoms, and the calculated diffusion barrier of the vacancy near diamond (001) surface is about 0.42eV.}
+      \field{issn}{0038-1098}
+      \field{journaltitle}{Solid State Communications}
+      \field{number}{1}
+      \field{title}{The diffusion of vacancies near a diamond (001) surface}
+      \field{volume}{122}
+      \field{year}{2002}
+      \field{pages}{45\bibrangedash 48}
+      \range{pages}{4}
+      \verb{doi}
+      \verb https://doi.org/10.1016/S0038-1098(02)00069-8
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0038109802000698
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0038109802000698
+      \endverb
+      \keyw{A. Diamond,C. Vacancies,D. Diffusion,E. Molecular dynamics simulation}
+    \endentry
+    \entry{MACE}{article}{}
+      \name{author}{76}{}{%
+        {{hash=defda122ab8141cac42811800037d897}{%
+           family={Batatia},
+           familyi={B\bibinitperiod},
+           given={Ilyes},
+           giveni={I\bibinitperiod}}}%
+        {{hash=0a5d56330ae9bb354644d8f22c2e29fa}{%
+           family={Benner},
+           familyi={B\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod}}}%
+        {{hash=cdeabfe70f678628506bfe429ecfe869}{%
+           family={Chiang},
+           familyi={C\bibinitperiod},
+           given={Yuan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=6f576131d85dd79a2fa0fbb7ca8e75af}{%
+           family={Elena},
+           familyi={E\bibinitperiod},
+           given={Alin\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=fa52d53e3cc4c26ee4ce12a446d69106}{%
+           family={Kovács},
+           familyi={K\bibinitperiod},
+           given={Dávid\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=63a639ec9584f961ebad1545857d2a62}{%
+           family={Riebesell},
+           familyi={R\bibinitperiod},
+           given={Janosh},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c456e4702b92d7c0ddddc00349fdce00}{%
+           family={Advincula},
+           familyi={A\bibinitperiod},
+           given={Xavier\bibnamedelima R.},
+           giveni={X\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=aa49f25897d7c45ea435138829ce6756}{%
+           family={Asta},
+           familyi={A\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c1189e220c4b1621d55931c57a0c52bc}{%
+           family={Avaylon},
+           familyi={A\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d006f162678bf30682e3aee3bc26e493}{%
+           family={Baldwin},
+           familyi={B\bibinitperiod},
+           given={William\bibnamedelima J.},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=0b187f419c51995eec5c7acf31752dde}{%
+           family={Berger},
+           familyi={B\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=c853d5219697d5dd997a65dfb98de747}{%
+           family={Bernstein},
+           familyi={B\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod}}}%
+        {{hash=6b8bb7147ba346b5b0d46c434efe9fcd}{%
+           family={Bhowmik},
+           familyi={B\bibinitperiod},
+           given={Arghya},
+           giveni={A\bibinitperiod}}}%
+        {{hash=77bc2fadb0ac5ce70584234714670e54}{%
+           family={Blau},
+           familyi={B\bibinitperiod},
+           given={Samuel\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=0d695a33a815edfe082339989362c6bc}{%
+           family={Cărare},
+           familyi={C\bibinitperiod},
+           given={Vlad},
+           giveni={V\bibinitperiod}}}%
+        {{hash=79aee71f267bd9d16bee947aeb6d235c}{%
+           family={Darby},
+           familyi={D\bibinitperiod},
+           given={James\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=1a39c0b2f5565771333f64a9ceae23a2}{%
+           family={De},
+           familyi={D\bibinitperiod},
+           given={Sandip},
+           giveni={S\bibinitperiod}}}%
+        {{hash=dd668e6a7ffbd0479cbe1cf9f322a472}{%
+           family={Pia},
+           familyi={P\bibinitperiod},
+           given={Flaviano\bibnamedelima Della},
+           giveni={F\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=530207c1a19adb4374b5f03e42877fa7}{%
+           family={Deringer},
+           familyi={D\bibinitperiod},
+           given={Volker\bibnamedelima L.},
+           giveni={V\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=51068643d75e82a84cff8f1869e02fa5}{%
+           family={Elijošius},
+           familyi={E\bibinitperiod},
+           given={Rokas},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c89700ef7b68fba51554d2d26ecde0bd}{%
+           family={El-Machachi},
+           familyi={E\bibinithyphendelim M\bibinitperiod},
+           given={Zakariya},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=de3b554d44d5d3be01fd93cfe82dc382}{%
+           family={Falcioni},
+           familyi={F\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=29b278e3b9ca2563cd4692a25d7a6c61}{%
+           family={Fako},
+           familyi={F\bibinitperiod},
+           given={Edvin},
+           giveni={E\bibinitperiod}}}%
+        {{hash=19893984959b197ece73d135bcd3f758}{%
+           family={Ferrari},
+           familyi={F\bibinitperiod},
+           given={Andrea\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=5507f073245e227048a378c84216f945}{%
+           family={Genreith-Schriever},
+           familyi={G\bibinithyphendelim S\bibinitperiod},
+           given={Annalena},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d60fc1dcf6418c27ee3302dd096816f9}{%
+           family={George},
+           familyi={G\bibinitperiod},
+           given={Janine},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5058d8e310f4244226a87c8ef1ae818f}{%
+           family={Goodall},
+           familyi={G\bibinitperiod},
+           given={Rhys\bibnamedelimb E.\bibnamedelimi A.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=c7b78671502b6013dec7c765688d10c5}{%
+           family={Grey},
+           familyi={G\bibinitperiod},
+           given={Clare\bibnamedelima P.},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=6a43a51423a0c6e443c2d7afe76f480f}{%
+           family={Grigorev},
+           familyi={G\bibinitperiod},
+           given={Petr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=cd8056c4cc575585cbca8ab1371bf771}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Shuang},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4b64c8836900e852f8f78a973b2ac218}{%
+           family={Handley},
+           familyi={H\bibinitperiod},
+           given={Will},
+           giveni={W\bibinitperiod}}}%
+        {{hash=cf4ffc4cbed03f492d19f97f783a7240}{%
+           family={Heenen},
+           familyi={H\bibinitperiod},
+           given={Hendrik\bibnamedelima H.},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=edd917a1bacd156426ed1da2b3da68d7}{%
+           family={Hermansson},
+           familyi={H\bibinitperiod},
+           given={Kersti},
+           giveni={K\bibinitperiod}}}%
+        {{hash=cd78b0c8f16893576c979cc8b543f927}{%
+           family={Holm},
+           familyi={H\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ed768afb4cd9470b2bd9bbf5e8e1931e}{%
+           family={Jaafar},
+           familyi={J\bibinitperiod},
+           given={Jad},
+           giveni={J\bibinitperiod}}}%
+        {{hash=cc8bb21c83d8c4db65c78000d823f9b8}{%
+           family={Hofmann},
+           familyi={H\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9228977751d779e172c3ce4d67ea6905}{%
+           family={Jakob},
+           familyi={J\bibinitperiod},
+           given={Konstantin\bibnamedelima S.},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=669136d54bf055684fa7c0ccbc7779f4}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Hyunwook},
+           giveni={H\bibinitperiod}}}%
+        {{hash=d0d72589e1bd11990b312d89c20f2b5a}{%
+           family={Kapil},
+           familyi={K\bibinitperiod},
+           given={Venkat},
+           giveni={V\bibinitperiod}}}%
+        {{hash=653a64594aaaed8aba82eefb1057a889}{%
+           family={Kaplan},
+           familyi={K\bibinitperiod},
+           given={Aaron\bibnamedelima D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=bc420d4f3afc950c282679326b349fa0}{%
+           family={Karimitari},
+           familyi={K\bibinitperiod},
+           given={Nima},
+           giveni={N\bibinitperiod}}}%
+        {{hash=69c0678b46ebab9e1c7be69cb505a0da}{%
+           family={Kermode},
+           familyi={K\bibinitperiod},
+           given={James\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=db25b612e15ae48c03d3b2d56fb076e6}{%
+           family={Kroupa},
+           familyi={K\bibinitperiod},
+           given={Namu},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0a236e1aa4574f51c42faea3032a118f}{%
+           family={Kullgren},
+           familyi={K\bibinitperiod},
+           given={Jolla},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0ab8756921c5aa5a1a9cb8fd611b5c61}{%
+           family={Kuner},
+           familyi={K\bibinitperiod},
+           given={Matthew\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=6bc4a118768854eb02f460ef3e2da1ee}{%
+           family={Kuryla},
+           familyi={K\bibinitperiod},
+           given={Domantas},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4d8acac607f1f03f1a45bdbd1020aac3}{%
+           family={Liepuoniute},
+           familyi={L\bibinitperiod},
+           given={Guoda},
+           giveni={G\bibinitperiod}}}%
+        {{hash=4a6a679baf48070a0b26525f2056c7e1}{%
+           family={Margraf},
+           familyi={M\bibinitperiod},
+           given={Johannes\bibnamedelima T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=34d80978ee742903e4118a1a22473519}{%
+           family={Magdău},
+           familyi={M\bibinitperiod},
+           given={Ioan-Bogdan},
+           giveni={I\bibinithyphendelim B\bibinitperiod}}}%
+        {{hash=8033569555631fc064fc8617c4c3881f}{%
+           family={Michaelides},
+           familyi={M\bibinitperiod},
+           given={Angelos},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2523e6b55fd41692f092a4d50abf0029}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi Harry},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=767e06926483fe6865e0afa43a43df5a}{%
+           family={Naik},
+           familyi={N\bibinitperiod},
+           given={Aakash\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=843a4ea5c779681ce0a82b7a67ae54a3}{%
+           family={Niblett},
+           familyi={N\bibinitperiod},
+           given={Samuel\bibnamedelima P.},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=533f1647ae146ffabb0e74f3f285a4d3}{%
+           family={Norwood},
+           familyi={N\bibinitperiod},
+           given={Sam\bibnamedelima Walton},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=ff79299d7fac5813662d6985ace488d6}{%
+           family={O'Neill},
+           familyi={O\bibinitperiod},
+           given={Niamh},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e290b3289b04e8ecae9ef7678a2f50f8}{%
+           family={Ortner},
+           familyi={O\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d823a736a8705c23b18ef2b370c1426b}{%
+           family={Persson},
+           familyi={P\bibinitperiod},
+           given={Kristin\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=bf36b41827088c8b137fa0da9508f7fe}{%
+           family={Reuter},
+           familyi={R\bibinitperiod},
+           given={Karsten},
+           giveni={K\bibinitperiod}}}%
+        {{hash=69c3537eb2a9ba06f77a10a17fc23774}{%
+           family={Rosen},
+           familyi={R\bibinitperiod},
+           given={Andrew\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=b062cafcbaf3a006669c8154c236b27c}{%
+           family={Schaaf},
+           familyi={S\bibinitperiod},
+           given={Lars\bibnamedelima L.},
+           giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=a7708cf81885c958f83cb79a35eb55f7}{%
+           family={Schran},
+           familyi={S\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+        {{hash=4a30b23a2c62dbaa63821c1ab7aaf0da}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Benjamin\bibnamedelima X.},
+           giveni={B\bibinitperiod\bibinitdelim X\bibinitperiod}}}%
+        {{hash=63936c271a522366ecacb1ffefb9be92}{%
+           family={Sivonxay},
+           familyi={S\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=5de1e862274586eddae7b6d077ab5feb}{%
+           family={Stenczel},
+           familyi={S\bibinitperiod},
+           given={Tamás\bibnamedelima K.},
+           giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=8b9d20328f19fa91873c439e831adfb5}{%
+           family={Svahn},
+           familyi={S\bibinitperiod},
+           given={Viktor},
+           giveni={V\bibinitperiod}}}%
+        {{hash=1b5aa2f0edfba1be9d19baf2d7a17bb9}{%
+           family={Sutton},
+           familyi={S\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0758df77526b8cf4488a8c16104dc264}{%
+           family={Swinburne},
+           familyi={S\bibinitperiod},
+           given={Thomas\bibnamedelima D.},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=e89afd76e739d24b6a9e723873e46a0d}{%
+           family={Tilly},
+           familyi={T\bibinitperiod},
+           given={Jules},
+           giveni={J\bibinitperiod}}}%
+        {{hash=db123abc58446365a76608beacc2e1a2}{%
+           family={Oord},
+           familyi={O\bibinitperiod},
+           given={Cas},
+           giveni={C\bibinitperiod},
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{hash=72abb5297801c6c3ad5c52a3ec782c8e}{%
+           family={Varga-Umbrich},
+           familyi={V\bibinithyphendelim U\bibinitperiod},
+           given={Eszter},
+           giveni={E\bibinitperiod}}}%
+        {{hash=f3896ebd5789b3f277c5b71bc31062ae}{%
+           family={Vegge},
+           familyi={V\bibinitperiod},
+           given={Tejs},
+           giveni={T\bibinitperiod}}}%
+        {{hash=8a9f5bf65b17849f39f947223d55d24b}{%
+           family={Vondrák},
+           familyi={V\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8a6a9a6494e31d631300c2e6b75a499f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yangshuai},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=3a078ced154e7448d7fb857324a56e45}{%
+           family={Witt},
+           familyi={W\bibinitperiod},
+           given={William\bibnamedelima C.},
+           giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=d929373ec2b76c240183291c64db0495}{%
+           family={Zills},
+           familyi={Z\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=aef6628a7e1ad935b99d3d3cf7e63e20}{%
+           family={Csányi},
+           familyi={C\bibinitperiod},
+           given={Gábor},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{294483745766b26d22f75b586a490db2}
+      \strng{fullhash}{589d4ef5ff61c67a94c68dc8db34a0d7}
+      \strng{bibnamehash}{589d4ef5ff61c67a94c68dc8db34a0d7}
+      \strng{authorbibnamehash}{589d4ef5ff61c67a94c68dc8db34a0d7}
+      \strng{authornamehash}{294483745766b26d22f75b586a490db2}
+      \strng{authorfullhash}{589d4ef5ff61c67a94c68dc8db34a0d7}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{physics.chem-ph}
+      \field{eprinttype}{arXiv}
+      \field{title}{A foundation model for atomistic materials chemistry}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2401.00096
+      \endverb
+    \endentry
+    \entry{radiation_modelling}{article}{}
+      \name{author}{3}{}{%
+        {{hash=1c4e4b0118d59cd4e45c32ebdd265d5f}{%
+           family={Deo},
+           familyi={D\bibinitperiod},
+           given={Chaitanya\bibnamedelima S},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=26d4eb0eb64c1c073b32def70d6f6524}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Elton\bibnamedelima Y},
+           giveni={E\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=dfb656ca59f2be45fe6ac5bf0d219445}{%
+           family={Dingeville},
+           familyi={D\bibinitperiod},
+           given={Rémi},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{c0285c419ba505819ead7d811d6abdfc}
+      \strng{fullhash}{75a875664a617fd0dc378f2cd55e2574}
+      \strng{bibnamehash}{75a875664a617fd0dc378f2cd55e2574}
+      \strng{authorbibnamehash}{75a875664a617fd0dc378f2cd55e2574}
+      \strng{authornamehash}{c0285c419ba505819ead7d811d6abdfc}
+      \strng{authorfullhash}{75a875664a617fd0dc378f2cd55e2574}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This review discusses atomistic modeling techniques used to simulate radiation damage in crystalline materials. Radiation damage due to energetic particles results in the formation of defects. The subsequent evolution of these defects over multiple length and time scales requiring numerous simulations techniques to model the gamut of behaviors. This work focuses attention on current and new methodologies at the atomistic scale regarding the mechanisms of defect formation at the primary damage state.}
+      \field{journaltitle}{Modelling and Simulation in Materials Science and Engineering}
+      \field{month}{12}
+      \field{number}{2}
+      \field{title}{Atomistic modeling of radiation damage in crystalline materials}
+      \field{volume}{30}
+      \field{year}{2021}
+      \field{pages}{023001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1361-651X/ac2f83
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/1361-651X/ac2f83
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/1361-651X/ac2f83
+      \endverb
+    \endentry
     \entry{Halicioglu}{article}{}
       \name{author}{1}{}{%
         {{hash=7c99eb738a606e9cff559be953dcb259}{%
@@ -485,8 +996,8 @@
       \strng{authorbibnamehash}{7c99eb738a606e9cff559be953dcb259}
       \strng{authornamehash}{7c99eb738a606e9cff559be953dcb259}
       \strng{authorfullhash}{7c99eb738a606e9cff559be953dcb259}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Structure-and energy-related properties of defects formed on relaxed diamond surfaces were investigated. Simulation calculations were carried out for vacancies created on (111) and on (2×1) dimerized (100) index planes of diamond. Two different model functions (based on two-and three-body interactions) developed recently for carbon were employed in the calculations. Both functions produced comparable results. Top layer vacancies are more likely to form on the (100) surface than on the (111) surface. Calculations indicate that the diffusion of a single vacancy from the top surface layer to the second layer is not energetically favored.}
@@ -546,8 +1057,8 @@
       \strng{authornamehash}{86d9d5fbbe5d1ed3501668567b550c22}
       \strng{authorfullhash}{be9849396371f1e46116b66ad3060135}
       \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{20}
@@ -800,8 +1311,8 @@
       \strng{authorbibnamehash}{f9bc18deadb6ca003d2245e9398a43cb}
       \strng{authornamehash}{5c905e5c5fd144c70652321b040a0cc6}
       \strng{authorfullhash}{f9bc18deadb6ca003d2245e9398a43cb}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Diamond has many extreme physical properties and it can be used in a wide range of applications. In particular it is a highly effective particle detection material, where radiation damage is an important consideration. The WAR9 and WAR10 are electron paramagnetic resonance centres seen in irradiated, nitrogen-containing diamond. These S = 1/2 defects have C2v and C1h symmetry, respectively, and the experimental spectra have been interpreted as arising from nitrogen split-interstitial centres. Based upon the experimental and theoretical understanding of interstitial nitrogen defect structures, the AIMPRO density functional code has been used to assess the assignments for the structures of WAR9 and WAR10. Although the calculated hyperfine interaction tensors are consistent with the measured values for WAR9, the thermal stability renders the assignment problematic. The model for the WAR10 centre yields principal directions of the hyperfine tensor at variance with observation. Alternative models for both centres are discussed in this paper, but no convincing structures have been found.}
@@ -852,8 +1363,8 @@
       \strng{authorbibnamehash}{8733d89ff4cc0bbd653ca08e41a11afc}
       \strng{authornamehash}{a7911e6f4164eaedc437bea5cd82ff11}
       \strng{authorfullhash}{8733d89ff4cc0bbd653ca08e41a11afc}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Physics: Condensed Matter}
@@ -1059,6 +1570,45 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0925963508002616
       \endverb
       \keyw{Migration path,Activation energy,Saddle point}
+    \endentry
+    \entry{radiation}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e7fd218f25470ece8d95f42f4ecf3d1b}{%
+           family={Gray},
+           familyi={G\bibinitperiod},
+           given={R.\bibnamedelimi L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=e56d529e28d9c0e80b47998a2c9c71f7}{%
+           family={Rushton},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi J.\bibnamedelimi D.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=71a68e71ac8e816c41deefb23c9fc817}{%
+           family={Murphy},
+           familyi={M\bibinitperiod},
+           given={S.\bibnamedelimi T.},
+           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee96a8eb960bf7b10d509662efa31aad}
+      \strng{fullhash}{5ec75048918f4b0d8adea64a0f4f377d}
+      \strng{bibnamehash}{5ec75048918f4b0d8adea64a0f4f377d}
+      \strng{authorbibnamehash}{5ec75048918f4b0d8adea64a0f4f377d}
+      \strng{authornamehash}{ee96a8eb960bf7b10d509662efa31aad}
+      \strng{authorfullhash}{5ec75048918f4b0d8adea64a0f4f377d}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0953-2048}
+      \field{journaltitle}{SUPERCONDUCTOR SCIENCE \& TECHNOLOGY}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{Molecular dynamics simulations of radiation damage in YBa<sub>2</sub>Cu<sub>3</sub>O<sub>7</sub>}
+      \field{volume}{35}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.1088/1361-6668/ac47dc
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
