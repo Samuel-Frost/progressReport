@@ -46,7 +46,81 @@
 The final aim of my PhD is to be able to accurately model the effects of radiation damage in diamond over large time scales, taking in to account quantum mechanical effects.
 
 
+There are a wide variety of computational methods for modelling complex atomic systems at various scales: ranging from methods capable of calculating ground-state properties of only a handful of atoms, right up to simulating tens of thousands of atoms in the microsecond time scale. The methods used in this report are Density Functional Theory (DFT), a method of acquiring the ground-state electronic properties of a system generally limit to the hunderds of atoms, and molecular dynamics, a purely classical method of solving the trajectory of systems containing tens of thousands of atoms by using Newtonian mechanics. 
 
+%Density Functional Theory (DFT) is a powerful computational quantum mechanical method used in physics, chemistry, and materials science to investigate the electronic structure of many-body systems, such as atoms, molecules, and solid-state materials. It has become one of the most widely used and successful approaches for calculating the ground-state properties of systems ranging from simple molecules to complex nanostructures.
+\subsection{DFT}
+Density Functional Theory (DFT) is a computational method of acquiring the ground state properties of a system. 
+The core principal behind DFT is to abstract away the complicated many-body wave function of a system, by instead using the electron density, represented as $n(\vec{r})$, or sometimes $\rho(\vec{r})$. This is much less computationally intensive than wavefunction based methods, such as Hatree-Fock. 
+
+The theoretical fundamentals of DFT lie in the Hohenberg-Kohn theorems.
+The first of which states that within the contraints of the Born-Oppenheimer approximation, the external potential of a system, $V_{\text{ext}}(\vec{r})$ is a unique functional of the ground state electron density, $n_0(\vec{r})$, shown in equation \ref{eqn:ext}
+\begin{align}
+	\label{eqn:ext}
+	V_{\text{ext}}(r) = V_{\text{ext}}[n_0(r)] 
+\end{align}
+
+The second theorem dictates that the energy of a many electron system maps to a unique functional of the electron density, shown in equation \ref{eqn:density}. This implies that the ground state energy of a system can be found  by minimising this electron density. The ground state energy is thus represented as ${E_0 = n_0(\vec{r})}$, where $n_0(\vec{r})$ is the ground state density.  
+
+\begin{align}
+	\label{eqn:density}
+	E &= E[n(\vec{r})]
+\end{align}
+
+% The fundamental idea behind DFT is to replace the complicated many-body wave function with the more tractable electron density distribution. The key theorem in DFT, formulated by Hohenberg and Kohn in 1964, states that the ground-state energy of a many-electron system is a unique functional of the electron density:
+
+% $$E_0 = E_0[\rho(r)]$$
+
+% where $\rho(r)$ is the electron density, which depends solely on the three spatial coordinates.
+
+The Kohn-Sham equation is the core component of DFT, providing a way to solve the many body problem and calculate the ground state properties of the system by mapping it to a non-interacting system of electrons, each represented by its own Kohn-Sham orbital, in a fictitious effective potential, $V_\text{eff}(\vec{r})$. It takes the form of equation \ref{eqn:ks}, where $\laplacian$ is the Laplacian, $\psi_i(\vec{r})$ are Kohn-Sham orbitals and $\epsilon_i$ is the Kohn-Sham orbital energy. 
+
+\begin{align}
+	\left[-\frac{1}{2}\laplacian + V_\text{eff}(\vec{r})\right]\psi_i(\vec{r}) &= \epsilon_i \psi_i(\vec{r}) 	
+	\label{eqn:ks}
+\end{align}
+
+$V_\text{eff}(\vec{r})$ takes the expanded form of shown in equation \ref{eqn:V}. Where $V_\text{ext}(\vec{r})$ is the external potential, e.g. the nucleic Coulomb potential; $V_\text{H}(\vec{r})$ is the Hartree potential, which describes the classical Coulomb interaction between electrons and $V_\text{xc}(\vec{r})$ is the exchange-correlation potential, which contains all the many body effects not describe by the other potentials, including quantum mechanical effects.
+\begin{align}
+	V_\text{eff}(\vec{r}) = V_\text{ext}(\vec{r}) + V_\text{H}(\vec{r}) + V_\text{xc}(\vec{r})
+	\label{eqn:V}
+\end{align}
+% The Kohn-Sham equation is the central equation in DFT, which maps the interacting many-body system onto a fictitious non-interacting system with the same electron density:
+
+% $$\left[-\frac{1}{2}\nabla^2 + V_\text{eff}(r)\right]\psi_i(r) = \epsilon_i\psi_i(r)$$
+
+% Here, $\psi_i(r)$ are the Kohn-Sham orbitals, and $V_\text{eff}(r)$ is the effective potential, which includes the external potential, the Hartree potential (describing the Coulomb interaction between electrons), and the exchange-correlation potential (accounting for the many-body effects).
+
+The exchange-correlation is a core component of DFT, and whilst there are no exact forms of the functional, there are many different approximations, of which varying degrees of accuracy are achieved: Local Density Approximations are simplest, and only relies on the electron density; Generalised Gradient Approximations (GGA) extend this by taking into the gradient into account, better capturing the hetreogenous behaviour of electron density, a common GGA functional is PBE\cite{PBE}, which is the main functional used throughout this paper due to its speed; Meta-GGA functionals include terms containing the kinetic energy density, this is where exchange-correlation functionals begin to get expensive; Hybrid functionals include part of the Hartree-Fock exchange energy in its terms, this is highly accurate but very costly \cite{HSE06}.  
+
+When expanding Kohn-Sham orbitals shown in equation \ref{eqn:ks} there are two sets of choices to make when choosing a basis set:  A plane wave basis set has the Kohn-Sham orbitals expanded into a linear combination of plane waves 
+\begin{align*}
+		\psi_i(\vec{r}) &= \sum_{\vec{G}} c_i(\vec{G}) \exp(i\vec{G}\cdot\vec{r})
+\end{align*}
+where $\vec{G}$ is the reciprocal lattice vector and $c_i$ are the plane wave coefficents. The accuracy of this expansion is determined by the plane wave cut off energy parameter.
+\begin{align*}
+	E_\text{cut} \geq \hbar^2\absolutevalue{\vec{G}} \frac{1}{2m_e}
+\end{align*}
+By their nature plane waves are delocalised and periodic, this makes them particularly adept for modelling crystalline systems. One disadvantage of this is that if a vacuum is addad around a system, for instance if a single molecule were to be modelled, then this vacuum is still described by the plane wave, greatly increasing computational cost.
+
+Gaussian-type orbitals instead use atom-centred Guassians to expand the Kohn-Sham orbitals. 
+\begin{align*}
+	\psi_i(\vec{r}) &= \sum_{\mu} c_i(\mu) \varphi_\mu(\vec{r})
+\end{align*}
+Where $\varphi_\mu(\vec{r})$ is a Gaussian of type $\mu$. These are well suited to describe the rapidly changing wavefunctions near nuclei, and as they are non-periodic, do not suffer the same problems as the plane wave basis when describing singular molecules.  
+
+Maybe describe how SCF works but I really don't want to.....
+
+\subsection{Molecular Dynamics}
+Molecular Dynamics (MD) is a computational method used to simulate the trajectory of atoms over time, from the femtosecond to nanosecond range. It is based purely on Newtonian classical mechanics, using numerical methods to solve the equations of motion of the system. In MD, atoms are modelled as point particles with mass, the positions and velocities are tracked, and their trajectory is solved using Newton's second law of motion.
+\begin{align*}
+	F &= m\,a = -\nabla u(r_1, r_2, ..., r_N)
+\end{align*}
+Where $u$ is a potential energy function which describes the interactions between particles. This potential can take on many forms, a simple example being the Lennard-Jones potential. The choice of this potential impacts the accuracy of an MD simulation greatly. Machine learned potentials, such as MACE-MP-0\cite{MACE}, are trained off of highly accurate DFT data, to try and replicate the accuracy of DFT at large (for atomistic effects) time scales and for many atoms. These obviously take a long time to train, however they provide highly accurate results, that analytical potentials cannot.
+
+When describing a system under certain conditions, for instance a set temperature or pressure, the system can be rescaled in order to maintain those conditions. This is useful if wishing to simulate for instance a chemical reaction which takes place in a chamber at a constant high pressure or temperature. Common choices, and those which appear in this review, are the Lagevin thermostat, which rescales the velocities of the atoms in order to keep a constant temperature. There is also the Berendsen barostat, which rescales the volume of the simulation cell, as well as the velocities, to keep a constant pressure and temperature. 
+
+\subsection{Computational Tools}
 The tools used to simulate and calculate properties of diamond and its defects have been LAMMPS and CASTEP, each being molecular dynamics and density functional theory software respectively. In order to get to grips with these large, and sometimes rather obtuse, pieces of software, multiple projects have been undertaken that are suitable for each of their respective uses. For LAMMPS, a vacancy migration simulation at various temperatures was run, and the energy barrier for diffusion was calculated. For CASTEP many different projects have been undertaken, including those taught in the PX911 module, however the project of focus in this paper will be the reorientation of Hydrogen in the N$_2$VH defect in diamond. A wide variety of different calculations are performed, with their results being combined to calculte the reorietation rate of Hydrogen at EPR temperatures. 
 
 \subsection{Initial DFT tests}
@@ -154,7 +228,7 @@ The approximations for the tunnelling rate gave results that would disagree with
 \label{sec:vacancy}
 There is much concern of how to remove vacancies from diamond, in order to create a perfect crystal. Annealing techniques are used to heat the diamond up to a certain temperature and cool it down, in hopes of making the vacancies turn mobile and rising to the surface, effectively eliminating themselves from the bulk. Previous experimental results have shown that this starts to occur at ~$700$\,K, however it could also be useful to know the energies required for a vacancy to migrate, and also the energy barrier involved for the formation of a vacancy \cite{VacancyTemp}. Molecular dynamics simulations can provide an insight into the mechanisms involved in vacancy migration, and to inform later experiments. Hu \al, as shown in section \ref{Hu}, have used a tersoff potential to model the vacancy migration of an atom from the second layer of a diamond ($001$) surface to the top layer. Their results showed that this process beigns to occur at $1400$\,K, deviating from known experimental results. Hu \al argue that is due to how the temperature of the diamond is measured in experiments, that the temperature of the surface is in fact much higher than that of the substrate which is being measured, and so would align more with their findings. The results of Hu \al are quite old, however the methods used are not out of date, so it is reasonable to try and recreate similar results, and expand upon their work using more state-of-the-art techniques. 
 
-The same system was set up as Hu \al described in section \ref{Hu}: a $1$\,fs timestep was used, as well as a $100$\,fs timestep for the velocity rescaling method, and a $1\,000$\,fs timestep for the pressure rescaling method. There is no mention in the original paper what the timestep for the velocity rescaling method is, nor is a pressure rescaling ensemble used at all. The choice to use the NPT ensemble came from the need to ensure that the crystal can expand slightly under higher temperatures to avoid excess strain on the crystal. Following Hu \al, an initial system was created and relaxed at $300$\,K for $5$\,ps, before a vacancy was created in the second layer and it was allowed to relax again for another $5$\,ps. The final configuration of this system formed the starting configuration of all further simulations. The system was then allowed to run at temperatures in the $300$--$2\,000$\,K range. Taking inspiration from Hu \al, the positions of the atoms neighbouring the vacancy were extracted from the MD run. The atom with the lowest average distance to the vacancy site was taken to be the atom that was moving into the vacancy to switch places with it, which was then used for analysis. 
+The same system was set up as Hu \al described in section \ref{Hu}: a $1$\,fs timestep was used, as well as a $100$\,fs timestep for the velocity rescaling method, and a $1\,000$\,fs timestep for the pressure rescaling method. There is no mention in the original paper what the timestep for the velocity rescaling method is, nor is a pressure rescaling method used at all. The Berendsen barostat was used to ensure that the crystal can expand slightly under higher temperatures to avoid excess strain on the crystal. Following Hu \al, an initial system was created and relaxed at $300$\,K for $5$\,ps, before a vacancy was created in the second layer and it was allowed to relax again for another $5$\,ps. The final configuration of this system formed the starting configuration of all further simulations. The system was then allowed to run at temperatures in the $300$--$2\,000$\,K range. Taking inspiration from Hu \al, the positions of the atoms neighbouring the vacancy were extracted from the MD run. The atom with the lowest average distance to the vacancy site was taken to be the atom that was moving into the vacancy to switch places with it, which was then used for analysis. 
 
 The diffusion coefficient can be found as 
 \begin{align}
