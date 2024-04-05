@@ -9,7 +9,8 @@
 \usepackage{amsmath}
 \usepackage[style=chem-rsc,citestyle=chem-rsc]{biblatex}
 \addbibresource{references.bib}
-
+\usepackage{tikz}
+\usepackage{pgfplots}
 \usepackage[font=small]{caption}
 \usepackage{lipsum}
 \usepackage{xcolor}
@@ -44,6 +45,8 @@
 \section{Introduction}
 
 The final aim of my PhD is to be able to accurately model the effects of radiation damage in diamond over large time scales, taking in to account quantum mechanical effects.
+
+
 
 
 There are a wide variety of computational methods for modelling complex atomic systems at various scales: ranging from methods capable of calculating ground-state properties of only a handful of atoms, right up to simulating tens of thousands of atoms in the microsecond time scale. The methods used in this report are Density Functional Theory (DFT), a method of acquiring the ground-state electronic properties of a system generally limit to the hunderds of atoms, and molecular dynamics, a purely classical method of solving the trajectory of systems containing tens of thousands of atoms by using Newtonian mechanics. 
@@ -99,37 +102,46 @@ When expanding Kohn-Sham orbitals shown in equation \ref{eqn:ks} there are two s
 \end{align*}
 where $\vec{G}$ is the reciprocal lattice vector and $c_i$ are the plane wave coefficents. The accuracy of this expansion is determined by the plane wave cut off energy parameter.
 \begin{align*}
-	E_\text{cut} \geq \hbar^2\absolutevalue{\vec{G}} \frac{1}{2m_e}
+	% E_\text{cut} \geq \hbar^2|{\vec{G}_\text{max}}| \frac{1}{2m_e}
+	E_\text{cut} \geq \frac{1}{2}|{\vec{G}_\text{max}}|^2
 \end{align*}
-By their nature plane waves are delocalised and periodic, this makes them particularly adept for modelling crystalline systems. One disadvantage of this is that if a vacuum is addad around a system, for instance if a single molecule were to be modelled, then this vacuum is still described by the plane wave, greatly increasing computational cost.
+By their nature plane waves are delocalised and periodic, this makes them particularly adept for modelling crystalline systems. One disadvantage of this is that if a vacuum is addad around a system, for instance if a single molecule were to be modelled, then this vacuum is still described by the plane wave, greatly increasing computational cost. This is the type of basis function that CASTEP uses \cite{CASTEP}.
 
 Gaussian-type orbitals instead use atom-centred Guassians to expand the Kohn-Sham orbitals. 
 \begin{align*}
 	\psi_i(\vec{r}) &= \sum_{\mu} c_i(\mu) \varphi_\mu(\vec{r})
 \end{align*}
-Where $\varphi_\mu(\vec{r})$ is a Gaussian of type $\mu$. These are well suited to describe the rapidly changing wavefunctions near nuclei, and as they are non-periodic, do not suffer the same problems as the plane wave basis when describing singular molecules.  
+Where $\varphi_\mu(\vec{r})$ is a Gaussian of type $\mu$. These are well suited to describe the rapidly changing wavefunctions near nuclei, and as they are non-periodic, do not suffer the same problems as the plane wave basis when describing singular molecules. There are a wide variety of Gaussian basis sets to choose from.
+
+When using a periodic system, every electron has the same perodicity as the lattice itself, keeping our calculations to the unit cell, which in reciprocal space is the first Brillouin zone. In order to calculate physical properties, such as the energy, the system must be integrated over every point in $k$-space, thankfully most systems are very slowly changing, so we only need to sample a few points instead. To sample $k$-space, a Monkhurst-Pack grid is created of equally spaced points, $(ijk)$, which are all integers. The larger the system is, the fewer points are needed, as reciprocal space is inverse to real space.
+
 
 Maybe describe how SCF works but I really don't want to.....
 
 \subsection{Molecular Dynamics}
 Molecular Dynamics (MD) is a computational method used to simulate the trajectory of atoms over time, from the femtosecond to nanosecond range. It is based purely on Newtonian classical mechanics, using numerical methods to solve the equations of motion of the system. In MD, atoms are modelled as point particles with mass, the positions and velocities are tracked, and their trajectory is solved using Newton's second law of motion.
 \begin{align*}
-	F &= m\,a = -\nabla u(r_1, r_2, ..., r_N)
+	F &= ma = -\nabla u(r_1, r_2, ..., r_N)
 \end{align*}
-Where $u$ is a potential energy function which describes the interactions between particles. This potential can take on many forms, a simple example being the Lennard-Jones potential. The choice of this potential impacts the accuracy of an MD simulation greatly. Machine learned potentials, such as MACE-MP-0\cite{MACE}, are trained off of highly accurate DFT data, to try and replicate the accuracy of DFT at large (for atomistic effects) time scales and for many atoms. These obviously take a long time to train, however they provide highly accurate results, that analytical potentials cannot.
+Where $u$ is a potential energy function which describes the interactions between particles. This potential can take on many forms, a simple example being the Lennard-Jones potential. The choice of this potential impacts the accuracy of an MD simulation greatly. Machine learned potentials, such as MACE-MP-0\cite{MACE}, are trained off of highly accurate DFT data, to try and replicate the accuracy of DFT at large (for atomistic effects) time scales and for many atoms. These obviously take a long time to train, however they provide highly accurate results, that analytical potentials cannot. 
 
-When describing a system under certain conditions, for instance a set temperature or pressure, the system can be rescaled in order to maintain those conditions. This is useful if wishing to simulate for instance a chemical reaction which takes place in a chamber at a constant high pressure or temperature. Common choices, and those which appear in this review, are the Lagevin thermostat, which rescales the velocities of the atoms in order to keep a constant temperature. There is also the Berendsen barostat, which rescales the volume of the simulation cell, as well as the velocities, to keep a constant pressure and temperature. 
+% When describing a system under certain conditions, for instance a set temperature or pressure, the system can be rescaled in order to maintain those conditions. This is useful if wishing to simulate for instance a chemical reaction which takes place in a chamber at a constant high pressure or temperature. Common choices, and those which appear in this review, are the Lagevin thermostat, which rescales the velocities of the atoms in order to keep a constant temperature. There is also the Berendsen barostat, which rescales the volume of the simulation cell, as well as the velocities, to keep a constant pressure and temperature. 
+
+When describing a system under certain conditions, for instance a set temperature or pressure, the system can be rescaled in order to maintain those conditions, allowing for simulations in specific statistical ensembles. An ensemble in statistical mechanics refers to a collection of possible microscopic states (positions and momenta of particles) that represent macroscopic properties, such as temperature or pressure. This is useful when wishing to simulate processes like chemical reactions that take place under controlled environmental conditions, such as a constant high pressure or temperature. Common choices, and those which appear in this review, are the Langevin thermostat, which rescales the velocities of the atoms to simulate the canonical (NVT) ensemble, maintaining a constant number of particles (N), volume (V), and temperature (T). There is also the Berendsen barostat, which rescales the volume of the simulation cell and the velocities to simulate the isothermal-isobaric (NPT) ensemble, keeping a constant number of particles (N), pressure (P), and temperature (T), whilst allowing the volume (V) to fluctuate.
 
 \subsection{Computational Tools}
-The tools used to simulate and calculate properties of diamond and its defects have been LAMMPS and CASTEP, each being molecular dynamics and density functional theory software respectively. In order to get to grips with these large, and sometimes rather obtuse, pieces of software, multiple projects have been undertaken that are suitable for each of their respective uses. For LAMMPS, a vacancy migration simulation at various temperatures was run, and the energy barrier for diffusion was calculated. For CASTEP many different projects have been undertaken, including those taught in the PX911 module, however the project of focus in this paper will be the reorientation of Hydrogen in the N$_2$VH defect in diamond. A wide variety of different calculations are performed, with their results being combined to calculte the reorietation rate of Hydrogen at EPR temperatures. 
+The tools used to simulate and calculate properties of diamond and its defects have been LAMMPS \cite{LAMMPS} and CASTEP \cite{CASTEP}, each being molecular dynamics and density functional theory software respectively. In order to get to grips with these large, and sometimes rather obtuse, pieces of software, multiple projects have been undertaken that are suitable for each of their respective uses. For LAMMPS, a vacancy migration simulation at various temperatures was run, and the energy barrier for diffusion was calculated. For CASTEP many different projects have been undertaken, including those taught in the PX911 module, however the project of focus in this paper will be the reorientation of Hydrogen in the N$_2$VH defect in diamond. A wide variety of different calculations are performed, with their results being combined to calculte the reorietation rate of Hydrogen at EPR temperatures. 
 
 \subsection{Initial DFT tests}
 DFT calculations can be costly and time consuming, so before a large study is conducted it is important to first conduct a convergence test. This test is a short study to confirm the parameters required to achieve a desired level of accuracy. The two most common parameters to optimise are the k-point sampling, and the plane wave cut-off energy. As taught in PX911, one parameter is fixed to a low value, whilst the other increased until the energy of the system converges to within 3 significant figures, this is then done once again for the other parameter. The chosen parameters are the lowest ones which converge. 
 
-When constructing the diamond cell to be used in CASTEP, the lattice parameter has to first be found to ensure that the system is in a minimal energy configuration. Various lattice constants were tested either side of the experimentally found value of $a_0 = 3.567$\,{\AA}, and the minimum energy one chosen for construction of any futher cells. The most stable lattice constant was actually found to be $a_0 = 3.57$, slightly higher than the experimentally derived value, however the energy differences between them are miniscule. A plot of this can be seen in figure \ref{fig:conv}.
+When constructing the diamond cell to be used in CASTEP, the lattice parameter has to first be found to ensure that the system is in a minimal energy configuration. Various lattice constants were tested either side of the experimentally found value of $a_0 = 3.567$\,{\AA}, and the minimum energy one chosen for construction of any futher cells. The most stable lattice constant was actually found to be $a_0 = 3.57125$, slightly higher than the experimentally derived value, however the energy differences between them are miniscule. A plot of this can be seen in figure \ref{fig:conv}.
 
 \begin{figure}
-	\includegraphics[width=0.55\textwidth]{conv_2.png}
+	% \includegraphics[width=0.55\textwidth]{conv_2.png}
+		\resizebox{\columnwidth}{!}{%
+		\input{conv.tex}
+		}
 	\caption{A plot detailing differences in energy of the lowest found lattice constant, the experimentally found value was tested explicitly and can be seen in orange.}
 	\label{fig:conv}
 \end{figure}
@@ -152,16 +164,26 @@ An initial 'guess' for the unoptimised path between the two systems is needed, f
 The final, optimised, NEB path of the Hydrogen between the two equivalent carbon atoms, is seen in figure \ref{fig:n2vh}. It is of interest that the Hydrogen does not take the shortest straight linear path between each Carbon atom, but instead takes a longer curved path away from the two Nitrogen atoms, possibly avoiding excess electron density. The maximum energy found at the saddle point is $0.536$\,eV, with a full reaction path length of $1.1$\,{\AA}, and a full width half maximum (FWHM) of $0.3781$\,{\AA}, a plot of how energy changes along the reaction coordinate can be seen in figure \ref{fig:n2vh_energy}. This differs from values found in literature, where the reported height and reaction path length are said to be $0.9$\,eV and $0.6$\,{\AA} respectively \cite{Peaker}. There are many differences between these two calculations, namely that \textcite{Peaker} uses a Gaussian basis set, whereas CASTEP uses a plane wave basis set, and the simulation cell is made up of $1\,000$ atoms, the increased number of atoms has the advantage of minimising finite size effects. 
 
 \begin{figure}
-	\includegraphics[width=0.4\textwidth]{n2vh.png}
-	\caption{The NEB path of Hydrogen in \ntvh, where Nitrogen is blue, Carbon is grey, and Hydrogen is white. The \emph{path} is shown in red, and is clearly curved, whilst the raw displacment is shown as a yellow arrow. Generated using OVITO \cite{OVITO}.}
+	\includegraphics[width=0.4\textwidth]{n2vh_2.png}
+	\caption{The NEB path of Hydrogen in \ntvh, where Nitrogen is blue, Carbon is grey, and Hydrogen is white. The \emph{path} is shown in red, and is clearly curved, whilst the raw displacment is shown as a pink arrow. Generated using OVITO \cite{OVITO}.}
 	\label{fig:n2vh}
 \end{figure}
 
+% \begin{figure}
+% 	\includegraphics[width=0.56\textwidth]{fig.png}
+% 	\caption{The energy along the minimum energy reaction coordinate determined by nudged elastic band calculations. The splines show the gradient of the energy. There is a peak of $0.536$\,eV in the middle.}
+% 	\label{fig:n2vh_energy}
+% \end{figure}
+
 \begin{figure}
-	\includegraphics[width=0.56\textwidth]{fig.png}
-	\caption{The energy along the minimum energy reaction coordinate determined by nudged elastic band calculations. The splines show the gradient of the energy. There is a peak of $0.536$\,eV in the middle.}
-	\label{fig:n2vh_energy}
+		\resizebox{\columnwidth}{!}{%
+		\input{neb.tex}
+		}
+		\caption{The energy along the minimum energy reaction coordinate determined by nudged elastic band calculations. The splines show the gradient of the energy. There is a peak of $0.536$\,eV in the middle.}
+		\label{fig:n2vh_energy}
 \end{figure}
+
+
 
 \textcite{Peaker} takes the width of the barrier as the \emph{displacement} of the Hydrogen atom, the difference between the initial and final configuration. A higher displacement of $0.89$\,{\AA} was found here, however taking the raw displacement of the Hydrogen atom does not account for the path it takes during reorientation, nor does it fully utilise the minimum energy path that the NEB calculation found. A more appropriate approximation would be to take the fully optimised path of the Hydrogen atom as the width of the barrier, and so to map the potential energy barrier to the Hydrogen path, instead of the reaction coordinate. This is reasonable as the majority of the movement stems from the Hydrogen, with the carbon atoms slightly relaxing under bond breaking and forming. The full path of the Hydrogen atom is $1$\,{\AA}, only $0.1$\,{\AA} more than the full reaction coordinate. The potential barrier height was found to be almost half of that found in the literature, this could be due to a more optimised MEP, or a more accurate basis. The \emph{first} unoptimised MEP has a barrier height of $0.844$\,eV, much closer to that found in the literature. 
 \subsection{Analysis}
@@ -195,7 +217,7 @@ A more accurate approximation of the nature of the potential barrier is the WKB 
 \begin{align}
     P &= \exp(\frac{-4\pi}{h}\int_{a}^{b}\sqrt{2m(V(x)-E)}{\d}x)
 \end{align}
-where $a$ and $b$ are the \emph{turning points} of the barrier, such that $V(x) = E$. This approximation retains the shape of the barrier. This results in a rate of $\Gamma = 0.126$\,GHz, once again, this is within the range to give an averaged symmetry. 
+where $a$ and $b$ are the \emph{turning points} of the barrier, such that $V(x) = E$ \cite{butorac}. This approximation retains the shape of the barrier. This results in a rate of $\Gamma = 0.126$\,GHz, once again, this is within the range to give an averaged symmetry. 
 
 
 \subsection{Phonon Calculations}
@@ -217,7 +239,8 @@ This dynamical matrix can then be diagonalised, to retrieve its eigenvectors and
 This is of the correct order of magnitude for a H-C bond vibration, and is also close to theorised mode between $1375$ and $1378$ cm$^{-1}$ \cite{Peaker,Hartland}.
 
 \subsection{Further Calculations}
-The approximations for the tunnelling rate gave results that would disagree with experiment, as they are lower than the frequency of EPR, however there are many possible reasons for large underestimates. One such reason is the calculation of the attemp frequency, whilst taking the vibration in the order of the MEP is reasonable, it does not fully capture all the possible paths over the barrier. There is the possibility of there being an area around the MEP that is \emph{valley} in the PES, such that it is possible for the Hydrogen atom to tunnell across a variety of different paths. This would greatly increase the tunnelling probability. To capture this behaviour, a path integral molecular dynamics simulation will have to be run. (EXPLAIN PIMD HERE). Before this can be done however, a suitable potential will have to first be identified. A suitable candidate is the MACE-MP potential (CITE), further investigations will have to undertaken, and extra training of the potential may be required before it is suitable to run a full PIMD calculation.
+The approximations for the tunnelling rate gave results that would disagree with experiment, as they are lower than the frequency of EPR, however there are many possible reasons for large underestimates. One such reason is the calculation of the attemp frequency, whilst taking the vibration in the order of the MEP is reasonable, it does not fully capture all the possible paths over the barrier. There is the possibility of there being an area around the MEP that is \emph{valley} in the PES, such that it is possible for the Hydrogen atom to tunnell across a variety of different paths. This would greatly increase the tunnelling probability. To capture this behaviour, a path integral molecular dynamics (PIMD) simulation will have to be run. PIMD uses the Feynman path-integral formulation of quantum mechanics,  which represents the quantum mechanical propogator as a sum over all possible paths that the particle can take, in order to approximate the quantum behaviour of the non-electronic (\emph{i.e. nucleic}) part of the system. This would allow a much more accurate calculation, fully taking into account all quantum mechanical effects. 
+Before this can be done however, a suitable potential will have to first be identified. A suitable candidate is the MACE-MP potential, mentioned in section \ref{sec:future}, further investigations will have to undertaken, and extra training of the potential may be required before it is suitable to run a full PIMD calculation.
 
 %Put this bit in later 
 %This path is the reaction coordinate, so it accounts for the movement of every atom, however the majority of the movement stems from the Hydrogen, with the carbon atoms slightly relaxing under bond breaking and forming. This makes it possible to map the energy from the reaction coordinate, which has a length of $1.1$\,\AA to the Hydrogen atom's path, which has a length of $1$\,\AA. The small difference between these two values makes it a reasonable approximation to make.
@@ -240,15 +263,27 @@ where $\langle u^2 \rangle$ is the mean squared displacement of the atom, $N_d$ 
 	D = D_0 \exp(\frac{E_m}{k_BT})
 \end{align}
 
-A plot of $\ln(D)$ against $\frac{1}{k_BT}$ can be seen in figure \ref{fig:arr}, taking the slope of this plot gives the diffusion barrier $E_m = 0.435$\,eV, whilst taking the exponential of the intercept gives the prefactor $D_0 = 1.92\times10^{-6}$\,cm$^2$s$^{-1}$. This is close to the results of Hu \al, which found $E_m = 0.42$\,eV and $D_0 = 3.69\times10^{-6}$\,cm$^2$s$^{-1}$ \cite{hu}.
+A plot of $\ln(D)$ against $\frac{1}{k_BT}$ can be seen in figure \ref{fig:arr}, taking the slope of this plot gives the diffusion barrier $E_m = 0.25$\,eV, whilst taking the exponential of the intercept gives the prefactor $D_0 = 1.92\times10^{-6}$\,cm$^2$s$^{-1}$. This is not too close to the results of Hu \al, which found $E_m = 0.42$\,eV and $D_0 = 3.69\times10^{-6}$\,cm$^2$s$^{-1}$ \cite{hu}. One reason for this is the seemingly \emph{ad hoc} decisions made when dealing with dealing with calcualting the diffusion coeffcients, a more rigorous approach should be used in the future, to hopefully keep any results obtained in the future consistent \cite{DiffusionRigorous}.
+
+% \begin{figure}
+% 	\includegraphics*[width=0.55\textwidth]{hu.png}
+% 	\caption{Plot of $\ln(D)$ against $\frac{1}{k_BT}$ derived from  Arrhenius equation, the slope corresponds  to the activation barrier, whilst the intercept is simply a prefactor.}
+% 	\label{fig:arr}
+% \end{figure}
 
 \begin{figure}
-	\includegraphics*[width=0.55\textwidth]{hu.png}
-	\caption{Plot of $\ln(D)$ against $\frac{1}{k_BT}$ derived from  Arrhenius equation, the slope corresponds  to the activation barrier, whilst the intercept is simply a prefactor.}
-	\label{fig:arr}
+	% \includegraphics[width=0.55\textwidth]{conv_2.png}
+		\resizebox{\columnwidth}{!}{%
+		\input{hu.tex}
+		}
+		\caption{Plot of $\ln(D)$ against $\frac{1}{k_BT}$ derived from  Arrhenius equation, the slope corresponds  to the activation barrier, whilst the intercept is simply a prefactor.}
+		\label{fig:arr}
 \end{figure}
 
+
 \subsection{Further Research}
+The choice of how to calculate the diffu
+
 This section has focused entirely on surface migrations in the ($001$) surface, however diamond has many more interesting surfaces. Further molecular dynamics simulations of vacancy migration in different surfaces should be undertaken, such as the ($111$) surface, as well as calculations of vacancy migration from different depths from the surface. Migration in the bulk of diamond should also be investigated.
 As mentioned in section \ref{sec:future}, the more accurate MACE-MP-0 potential \cite{MACE} should be used. 
 

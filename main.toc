@@ -8,14 +8,14 @@
 \contentsline {section}{\numberline {2}Reorientation of Hydrogen in N$_2$VH}{3}{}%
 \contentsline {subsection}{\numberline {2.1}Calculation}{3}{}%
 \contentsline {subsection}{\numberline {2.2}Analysis}{5}{}%
-\contentsline {subsection}{\numberline {2.3}Phonon Calculations}{5}{}%
+\contentsline {subsection}{\numberline {2.3}Phonon Calculations}{6}{}%
 \contentsline {subsection}{\numberline {2.4}Further Calculations}{6}{}%
-\contentsline {section}{\numberline {3}Vacancy Migration in a Pure Diamond Lattice}{6}{}%
-\contentsline {subsection}{\numberline {3.1}Further Research}{7}{}%
-\contentsline {section}{\numberline {4}Key Text Review}{7}{}%
-\contentsline {subsection}{\numberline {4.1}Hu \textit {et al}}{7}{}%
-\contentsline {subsection}{\numberline {4.2}Peak 'er? I hardly know 'er!}{8}{}%
+\contentsline {section}{\numberline {3}Vacancy Migration in a Pure Diamond Lattice}{7}{}%
+\contentsline {subsection}{\numberline {3.1}Further Research}{8}{}%
+\contentsline {section}{\numberline {4}Key Text Review}{8}{}%
+\contentsline {subsection}{\numberline {4.1}Hu \textit {et al}}{8}{}%
+\contentsline {subsection}{\numberline {4.2}Peak 'er? I hardly know 'er!}{9}{}%
 \contentsline {subsection}{\numberline {4.3}Nitrogen in Diamond}{9}{}%
-\contentsline {subsection}{\numberline {4.4}Formation of NV centres in diamond}{9}{}%
+\contentsline {subsection}{\numberline {4.4}Formation of NV centres in diamond}{10}{}%
 \contentsline {subsection}{\numberline {4.5}Migration in bulk diamond}{10}{}%
-\contentsline {section}{\numberline {5}Future Reasearch}{10}{}%
+\contentsline {section}{\numberline {5}Future Reasearch}{11}{}%

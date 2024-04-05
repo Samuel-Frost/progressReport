@@ -1,0 +1,45 @@
+% This file was created with tikzplotlib v0.10.1.
+\begin{tikzpicture}
+
+    \definecolor{darkorange25512714}{RGB}{255,127,14}
+    \definecolor{darkslategray38}{RGB}{38,38,38}
+    \definecolor{lightgray204}{RGB}{204,204,204}
+    \definecolor{steelblue31119180}{RGB}{31,119,180}
+    
+    \begin{axis}[
+        axis line style={lightgray204},
+        tick align=outside,
+        tick pos=left,
+        x grid style={lightgray204},
+        xlabel=\textcolor{darkslategray38}{$(k_BT)^{-1}$\,/\,eV},
+        xmajorgrids,
+        xmin=6.04375, xmax=14.9079166666667,
+        xtick style={color=darkslategray38},
+        y grid style={lightgray204},
+        ylabel=\textcolor{darkslategray38}{ln$(D$\,/\,cm$^{2}$s$^{-1})$},
+        ymajorgrids,
+        ymin=-17.5376466719308, ymax=-15.9459591729106,
+        ytick style={color=darkslategray38}
+        ]
+        \addplot [semithick, steelblue31119180]
+        table {%
+        14.505 -17.4652972401572
+        11.604 -16.9443813313869
+        9.67 -16.5971040588734
+        8.28857142857143 -16.3490488642209
+        7.2525 -16.1630074682316
+        6.44666666666667 -16.0183086046843
+        };
+        \addplot [semithick, darkorange25512714, mark=*, mark size=2.5, mark options={solid}, only marks]
+        table {%
+        14.505 -17.460244170299
+        11.604 -16.8859780999683
+        9.67 -16.8081805578708
+        8.28857142857143 -16.1609556572895
+        7.2525 -16.1729401820324
+        6.44666666666667 -16.0488489000943
+        };
+        \end{axis}
+    
+    \end{tikzpicture}
+    

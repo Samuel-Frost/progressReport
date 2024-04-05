@@ -124,6 +124,62 @@
       \verb https://doi.org/10.1063/1.2404663
       \endverb
     \endentry
+    \entry{CASTEP}{article}{}
+      \name{author}{7}{}{%
+        {{hash=ef9e7678a33d177b7c0e9195a5dd7bd3}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={Stewart\bibnamedelima J},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=002b9d84c3039a0549071cf7a6445b85}{%
+           family={Segall},
+           familyi={S\bibinitperiod},
+           given={Matthew\bibnamedelima D},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=6ebf00d61083a102f1ddfda6d95c9c98}{%
+           family={Pickard},
+           familyi={P\bibinitperiod},
+           given={Chris\bibnamedelima J},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=779a1042e12933b76b096b211e0724db}{%
+           family={Hasnip},
+           familyi={H\bibinitperiod},
+           given={Philip\bibnamedelima J},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=c22c02c617eaf353cbb7873423b7de10}{%
+           family={Probert},
+           familyi={P\bibinitperiod},
+           given={Matt\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=55a73cac8975c31b09ce8edd04f85f41}{%
+           family={Refson},
+           familyi={R\bibinitperiod},
+           given={Keith},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4e72034f1e448e616e565e1615041da1}{%
+           family={Payne},
+           familyi={P\bibinitperiod},
+           given={Mike\bibnamedelima C},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{6ea75a05c423be917c67ca729b588919}
+      \strng{fullhash}{1a44883d529739bbbdd2d8dc92968014}
+      \strng{bibnamehash}{1a44883d529739bbbdd2d8dc92968014}
+      \strng{authorbibnamehash}{1a44883d529739bbbdd2d8dc92968014}
+      \strng{authornamehash}{6ea75a05c423be917c67ca729b588919}
+      \strng{authorfullhash}{1a44883d529739bbbdd2d8dc92968014}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Zeitschrift für Kristallographie}
+      \field{number}{5-6}
+      \field{title}{First principles methods using CASTEP}
+      \field{volume}{220}
+      \field{year}{2005}
+      \field{pages}{567\bibrangedash 570}
+      \range{pages}{4}
+    \endentry
     \entry{MACE}{article}{}
       \name{author}{76}{}{%
         {{hash=defda122ab8141cac42811800037d897}{%
@@ -515,8 +571,8 @@
       \strng{authorbibnamehash}{589d4ef5ff61c67a94c68dc8db34a0d7}
       \strng{authornamehash}{294483745766b26d22f75b586a490db2}
       \strng{authorfullhash}{589d4ef5ff61c67a94c68dc8db34a0d7}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{physics.chem-ph}
@@ -525,6 +581,106 @@
       \field{year}{2024}
       \verb{eprint}
       \verb 2401.00096
+      \endverb
+    \endentry
+    \entry{LAMMPS}{article}{}
+      \name{author}{15}{}{%
+        {{hash=314ce0ba4722b3250568dd5470b8f873}{%
+           family={Thompson},
+           familyi={T\bibinitperiod},
+           given={A.\bibnamedelimi P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=7858f131f576f0ad426e3af89f15903e}{%
+           family={Aktulga},
+           familyi={A\bibinitperiod},
+           given={H.\bibnamedelimi M.},
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=40c4fdf4aa83fda3d702e2780f0d32c1}{%
+           family={Berger},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f23d08dc613146a7b4f492281e00aa6a}{%
+           family={Bolintineanu},
+           familyi={B\bibinitperiod},
+           given={D.\bibnamedelimi S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=85533adfb19dc2ef5e0ab53dcc19e2c6}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={W.\bibnamedelimi M.},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=8e585df30ca1cc482127f143adad3264}{%
+           family={Crozier},
+           familyi={C\bibinitperiod},
+           given={P.\bibnamedelimi S.},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=051c9a1ff70428b53f38f8bb4a870c10}{%
+           family={'t\bibnamedelima Veld},
+           familyi={'\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={P.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           prefix={in},
+           prefixi={i\bibinitperiod}}}%
+        {{hash=f88cd20450a694856713f4f2869c61ef}{%
+           family={Kohlmeyer},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=eb11ece3ecc1cca36a8dd5476824ba2a}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={S.\bibnamedelimi G.},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=01369599d0129013cbbe3f38e4c97d54}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={T.\bibnamedelimi D.},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=41f53ff4cedc1f20acf09050c3fc8f9a}{%
+           family={Shan},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f99d50a6670ee09661cfbb382955ddc2}{%
+           family={Stevens},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=8f1ffce1fa2c84e6494c01c7a4aa1e6d}{%
+           family={Tranchida},
+           familyi={T\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8b987532d7c86d561780087664318540}{%
+           family={Trott},
+           familyi={T\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b87395355ab20ccae902d1d26f4a16d6}{%
+           family={Plimpton},
+           familyi={P\bibinitperiod},
+           given={S.\bibnamedelimi J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{0d83af67aff31198b99e771add88433b}
+      \strng{fullhash}{1f14e46cd0a71b5dfc7627f1a1628a9a}
+      \strng{bibnamehash}{1f14e46cd0a71b5dfc7627f1a1628a9a}
+      \strng{authorbibnamehash}{1f14e46cd0a71b5dfc7627f1a1628a9a}
+      \strng{authornamehash}{0d83af67aff31198b99e771add88433b}
+      \strng{authorfullhash}{1f14e46cd0a71b5dfc7627f1a1628a9a}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Comp. Phys. Comm.}
+      \field{title}{{LAMMPS} - a flexible simulation tool for particle-based materials modeling at the atomic, meso, and continuum scales}
+      \field{volume}{271}
+      \field{year}{2022}
+      \field{pages}{108171}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.cpc.2021.108171
       \endverb
     \endentry
     \entry{Hartland}{unpublished}{}
@@ -544,8 +700,8 @@
       \strng{authorbibnamehash}{7cf5d0654fd47fcecfaf56b546a948e3}
       \strng{authornamehash}{7cf5d0654fd47fcecfaf56b546a948e3}
       \strng{authorfullhash}{7cf5d0654fd47fcecfaf56b546a948e3}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{8}
@@ -605,8 +761,8 @@
       \strng{authorbibnamehash}{c3f2ce2426a6a7733b9e7d917e895fbf}
       \strng{authornamehash}{70f0323acccedae384222e1860c543a7}
       \strng{authorfullhash}{c3f2ce2426a6a7733b9e7d917e895fbf}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{10}
@@ -644,8 +800,8 @@
       \strng{authorbibnamehash}{d28b7343e82398d0028a588688493c93}
       \strng{authornamehash}{d28b7343e82398d0028a588688493c93}
       \strng{authorfullhash}{d28b7343e82398d0028a588688493c93}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The results from EPR studies of CVD diamond which was intentionally silicon doped with isotopes in natural abundance or isotopically enriched are reported. The observation of hyperfine satellites arising due to the presence of 29Si has provided definitive evidence for the involvement of silicon in two EPR centres in diamond which were previously suspected to involve silicon: KUL1 and KUL3. KUL1 is unambiguously identified as the neutral silicon split vacancy defect (V-Si-V)0, whilst KUL3 is shown to be (V-Si-V)0 decorated with a hydrogen atom. Data have also revealed that (V-Si-V)0 is preferentially oriented in samples grown on \{110\} substrates. The negative nitrogen-vacancy centre (NV?) has been investigated. Published parameters for the nitrogen hyperfine interaction produce an unsatisfactory fit to the experimental spectra and hence these parameters are redetermined. Optically-excited EPR has been used to estimate the degree of spin polarisation of the NV-ground state and the increase in signal intensity with illumination has permitted the interaction between the unpaired electron and neighbouring 13C atoms to be studied. Two sets of 13C hyperfine satellites have been identified, which account for {\texttt{~}}100\% of the unpaired electron probability density. Despite the predictions that the neutral charge state of NV should have an S = ? ground state, this charge state has not previously been detected by EPR. Optically excited EPR measurements reveal a trigonal nitrogen containing defect in diamond with an excited state populated via optical excitation. Analysis of the spin-Hamiltonian parameters and the wavelength dependence of the optical excitation leads to assignment of this state to the 4A2 excited state of NV0.}
@@ -683,8 +839,8 @@
       \strng{authorbibnamehash}{a1fa54bdc5f3f138474e57157cf2a5a2}
       \strng{authornamehash}{3e35825e65a1505ea51a2154bea69352}
       \strng{authorfullhash}{a1fa54bdc5f3f138474e57157cf2a5a2}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{{A modification of the nudged elastic band method for finding minimum energy paths is presented. One of the images is made to climb up along the elastic band to converge rigorously on the highest saddle point. Also, variable spring constants are used to increase the density of images near the top of the energy barrier to get an improved estimate of the reaction coordinate near the saddle point. Applications to CH4 dissociative adsorption on Ir(111) and H2 on Si(100) using plane wave based density functional theory are presented.}}
@@ -729,8 +885,8 @@
       \strng{authorbibnamehash}{c244f7ba038fcd1d62005d8e5984f15a}
       \strng{authornamehash}{c244f7ba038fcd1d62005d8e5984f15a}
       \strng{authorfullhash}{c244f7ba038fcd1d62005d8e5984f15a}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Some of the assumptions underlying the molecular approach to the determination of the electronic properties of the vacancy in diamond have been examined. The ordering of the lowest electronic levels of the neutral and single negatively charged states of the vacancy is sensitive to the choice of atomic functions to represent the 2s and 2p orbitals on the atoms nearest the defect as well as to the symmetric relaxation of these atoms. However, for limited delocalisation of electronic charge from the vacancy there is no change in the ordering of the lowest levels. The 3T1 electronic state is predicted as the ground state of the neutral vacancy if the atoms nearest the defect relax towards its centre as implied by the molecular model; however, for a symmetric relaxation of the nearest neigh-bours away from the centre of the vacancy the 1E level is more likely to be the lowest level. Present experimental knowledge of the vacancy in diamond does not resolve this uncertainty.}
@@ -789,8 +945,8 @@
       \strng{authorbibnamehash}{ccb3ca5069d1220fb2ae9a95699dd3c9}
       \strng{authornamehash}{6bd40b82c5beb97b18d2728bd4d3df93}
       \strng{authorfullhash}{ccb3ca5069d1220fb2ae9a95699dd3c9}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{13}
@@ -859,16 +1015,60 @@
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{{0965-0393}}
-      \field{journaltitle}{{MODELLING AND SIMULATION IN MATERIALS SCIENCE AND ENGINEERING}}
-      \field{month}{{JAN}}
-      \field{number}{{1}}
-      \field{title}{{Visualization and analysis of atomistic simulation data with OVITO-the Open Visualization Tool}}
-      \field{volume}{{18}}
-      \field{year}{{2010}}
+      \field{issn}{0965-0393}
+      \field{journaltitle}{Modelling and Simulation in Materials Science and Engineering}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Visualization and analysis of atomistic simulation data with OVITO-the Open Visualization Tool}
+      \field{volume}{18}
+      \field{year}{2010}
       \verb{doi}
-      \verb {10.1088/0965-0393/18/1/015012}
+      \verb 10.1088/0965-0393/18/1/015012
       \endverb
+    \endentry
+    \entry{butorac}{article}{}
+      \name{author}{2}{}{%
+        {{hash=046f8ec1884e045a7df345e0f373ec97}{%
+           family={Butorac},
+           familyi={B\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=f1011b83214aa8b62ddfeeaca1587575}{%
+           family={Mainwood},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{2967c04e0c01950b5eca99d4dfd7a420}
+      \strng{fullhash}{2967c04e0c01950b5eca99d4dfd7a420}
+      \strng{bibnamehash}{2967c04e0c01950b5eca99d4dfd7a420}
+      \strng{authorbibnamehash}{2967c04e0c01950b5eca99d4dfd7a420}
+      \strng{authornamehash}{2967c04e0c01950b5eca99d4dfd7a420}
+      \strng{authorfullhash}{2967c04e0c01950b5eca99d4dfd7a420}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A large number of complex defects are seen in natural and synthetic diamonds, but it is not known whether they form during growth or as a result of later processes. An understanding of diffusion profiles of the dopant impurities is crucial for design of electronic devices. We present here theoretical work on migration processes for several complexes including N, H and vacancies in diamond, to find out how they form. First-principles density functional calculations have been performed to study structural properties and the activation energies for migration of these defects. Migration paths were derived by constructing a set of several intermediate structures between two energy minima by linear interpolation. The effect of temperature on calculated barriers is described by including vibrational energy and entropy. It was found that the energy barrier for migration of interstitial hydrogen between two bond-centred positions is 2.8 eV. Also, hydrogen is readily trapped by both vacancies and by the N–V complex. Energies liberated in these reactions are 5.5 eV and 5.8 eV respectively.}
+      \field{issn}{0925-9635}
+      \field{journaltitle}{Diamond and Related Materials}
+      \field{note}{Proceedings of Diamond 2007, the 18th European Conference on Diamond, Diamond-Like Materials, Carbon Nanotubes, Nitrides and Silicon Carbide}
+      \field{number}{7}
+      \field{title}{Theoretical study of migration processes in bulk diamond}
+      \field{volume}{17}
+      \field{year}{2008}
+      \field{pages}{1225\bibrangedash 1228}
+      \range{pages}{4}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.diamond.2008.03.038
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0925963508002616
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0925963508002616
+      \endverb
+      \keyw{Migration path,Activation energy,Saddle point}
     \endentry
     \entry{DynamicalMatrix}{article}{}
       \name{author}{3}{}{%
@@ -897,8 +1097,8 @@
       \strng{authorbibnamehash}{f0191fc0e6a00f27baf5fdec8958eebe}
       \strng{authornamehash}{65c741068bc65cc12ec911ed665d4c29}
       \strng{authorfullhash}{f0191fc0e6a00f27baf5fdec8958eebe}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{15}
@@ -957,8 +1157,8 @@
       \strng{authornamehash}{86d9d5fbbe5d1ed3501668567b550c22}
       \strng{authorfullhash}{be9849396371f1e46116b66ad3060135}
       \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{20}
@@ -1036,6 +1236,59 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0038109802000698
       \endverb
       \keyw{A. Diamond,C. Vacancies,D. Diffusion,E. Molecular dynamics simulation}
+    \endentry
+    \entry{DiffusionRigorous}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6c372703f4f38f2b9431f3d0f365b43d}{%
+           family={Bullerjahn},
+           familyi={B\bibinitperiod},
+           given={Jakob\bibnamedelima Tómas},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=a3efaea4350594927383ce0413417dc9}{%
+           family={Bülow},
+           familyi={B\bibinitperiod},
+           given={Sören},
+           giveni={S\bibinitperiod},
+           prefix={von},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=b98cfab240549fe372a8c6dcb7586a55}{%
+           family={Hummer},
+           familyi={H\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b610945de15232bf38da49be4c6db79}
+      \strng{fullhash}{de8266f8f7e171bb65c77933a1ca0a2e}
+      \strng{bibnamehash}{de8266f8f7e171bb65c77933a1ca0a2e}
+      \strng{authorbibnamehash}{de8266f8f7e171bb65c77933a1ca0a2e}
+      \strng{authornamehash}{2b610945de15232bf38da49be4c6db79}
+      \strng{authorfullhash}{de8266f8f7e171bb65c77933a1ca0a2e}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{Translational diffusion coefficients are routinely estimated from molecular dynamics simulations. Linear fits to mean squared displacement (MSD) curves have become the de facto standard, from simple liquids to complex biomacromolecules. Nonlinearities in MSD curves at short times are handled with a wide variety of ad hoc practices, such as partial and piece-wise fitting of the data. Here, we present a rigorous framework to obtain reliable estimates of the self-diffusion coefficient and its statistical uncertainty. We also assess in a quantitative manner if the observed dynamics is, indeed, diffusive. By accounting for correlations between MSD values at different times, we reduce the statistical uncertainty of the estimator and, thereby, increase its efficiency. With a Kolmogorov–Smirnov test, we check for possible anomalous diffusion. We provide an easy-to-use Python data analysis script for the estimation of self-diffusion coefficients. As an illustration, we apply the formalism to molecular dynamics simulation data of pure TIP4P-D water and a single ubiquitin protein. In another paper [S. von Bülow, J. T. Bullerjahn, and G. Hummer, J. Chem. Phys. 153, 021101 (2020)], we demonstrate its ability to recognize deviations from regular diffusion caused by systematic errors in a common trajectory “unwrapping” scheme that is implemented in popular simulation and visualization software.}}
+      \field{issn}{0021-9606}
+      \field{journaltitle}{The Journal of Chemical Physics}
+      \field{month}{07}
+      \field{number}{2}
+      \field{title}{{Optimal estimates of self-diffusion coefficients from molecular dynamics simulations}}
+      \field{volume}{153}
+      \field{year}{2020}
+      \field{pages}{024116}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/5.0008312
+      \endverb
+      \verb{eprint}
+      \verb https://pubs.aip.org/aip/jcp/article-pdf/doi/10.1063/5.0008312/16722027/024116\_1\_online.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/5.0008312
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/5.0008312
+      \endverb
     \endentry
     \entry{radiation_modelling}{article}{}
       \name{author}{3}{}{%
@@ -1162,8 +1415,8 @@
       \strng{authornamehash}{86d9d5fbbe5d1ed3501668567b550c22}
       \strng{authorfullhash}{be9849396371f1e46116b66ad3060135}
       \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{20}
@@ -1203,8 +1456,8 @@
       \strng{authorbibnamehash}{f22a1aee5deaf800e6f2b2167dfb78bc}
       \strng{authornamehash}{f22a1aee5deaf800e6f2b2167dfb78bc}
       \strng{authorfullhash}{f22a1aee5deaf800e6f2b2167dfb78bc}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Abstract In this paper we will consider some of the methods involved in carrying out density functional calculations within the framework of localised basis sets, specifically those of Gaussian type orbitals. Particular emphasis is placed on the methods used in the AIMPRO (Ab Initio Modelling PROgram) code, but mention is made of a number of developments and strategies used in other programs.}
@@ -1468,8 +1721,8 @@
       \strng{authorbibnamehash}{0ce33a5e3cdb5499dcd4df5dc851d4e3}
       \strng{authornamehash}{cc12e16494ef65cda8216e04d1b370bd}
       \strng{authorfullhash}{0ce33a5e3cdb5499dcd4df5dc851d4e3}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2469-9950}
@@ -1527,50 +1780,6 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevB.54.11169
       \endverb
     \endentry
-    \entry{butorac}{article}{}
-      \name{author}{2}{}{%
-        {{hash=046f8ec1884e045a7df345e0f373ec97}{%
-           family={Butorac},
-           familyi={B\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=f1011b83214aa8b62ddfeeaca1587575}{%
-           family={Mainwood},
-           familyi={M\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{2967c04e0c01950b5eca99d4dfd7a420}
-      \strng{fullhash}{2967c04e0c01950b5eca99d4dfd7a420}
-      \strng{bibnamehash}{2967c04e0c01950b5eca99d4dfd7a420}
-      \strng{authorbibnamehash}{2967c04e0c01950b5eca99d4dfd7a420}
-      \strng{authornamehash}{2967c04e0c01950b5eca99d4dfd7a420}
-      \strng{authorfullhash}{2967c04e0c01950b5eca99d4dfd7a420}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{A large number of complex defects are seen in natural and synthetic diamonds, but it is not known whether they form during growth or as a result of later processes. An understanding of diffusion profiles of the dopant impurities is crucial for design of electronic devices. We present here theoretical work on migration processes for several complexes including N, H and vacancies in diamond, to find out how they form. First-principles density functional calculations have been performed to study structural properties and the activation energies for migration of these defects. Migration paths were derived by constructing a set of several intermediate structures between two energy minima by linear interpolation. The effect of temperature on calculated barriers is described by including vibrational energy and entropy. It was found that the energy barrier for migration of interstitial hydrogen between two bond-centred positions is 2.8 eV. Also, hydrogen is readily trapped by both vacancies and by the N–V complex. Energies liberated in these reactions are 5.5 eV and 5.8 eV respectively.}
-      \field{issn}{0925-9635}
-      \field{journaltitle}{Diamond and Related Materials}
-      \field{note}{Proceedings of Diamond 2007, the 18th European Conference on Diamond, Diamond-Like Materials, Carbon Nanotubes, Nitrides and Silicon Carbide}
-      \field{number}{7}
-      \field{title}{Theoretical study of migration processes in bulk diamond}
-      \field{volume}{17}
-      \field{year}{2008}
-      \field{pages}{1225\bibrangedash 1228}
-      \range{pages}{4}
-      \verb{doi}
-      \verb https://doi.org/10.1016/j.diamond.2008.03.038
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S0925963508002616
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S0925963508002616
-      \endverb
-      \keyw{Migration path,Activation energy,Saddle point}
-    \endentry
     \entry{radiation}{article}{}
       \name{author}{3}{}{%
         {{hash=e7fd218f25470ece8d95f42f4ecf3d1b}{%
@@ -1595,8 +1804,8 @@
       \strng{authorbibnamehash}{5ec75048918f4b0d8adea64a0f4f377d}
       \strng{authornamehash}{ee96a8eb960bf7b10d509662efa31aad}
       \strng{authorfullhash}{5ec75048918f4b0d8adea64a0f4f377d}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0953-2048}
