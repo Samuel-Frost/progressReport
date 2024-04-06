@@ -19,6 +19,155 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{DiamondHardness}{article}{}
+      \name{author}{1}{}{%
+        {{hash=044a32d13635dfe348c2fa7f455eba81}{%
+           family={Miyoshi},
+           familyi={M\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{044a32d13635dfe348c2fa7f455eba81}
+      \strng{fullhash}{044a32d13635dfe348c2fa7f455eba81}
+      \strng{bibnamehash}{044a32d13635dfe348c2fa7f455eba81}
+      \strng{authorbibnamehash}{044a32d13635dfe348c2fa7f455eba81}
+      \strng{authornamehash}{044a32d13635dfe348c2fa7f455eba81}
+      \strng{authorfullhash}{044a32d13635dfe348c2fa7f455eba81}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0917-4540}
+      \field{journaltitle}{DIAMOND FILMS AND TECHNOLOGY}
+      \field{number}{3}
+      \field{title}{Structures and mechanical properties of natural and synthetic diamonds}
+      \field{volume}{8}
+      \field{year}{1998}
+      \field{pages}{153\bibrangedash 172}
+      \range{pages}{20}
+    \endentry
+    \entry{DiamondElectronic}{article}{}
+      \name{author}{5}{}{%
+        {{hash=a46f3b4c110f2aff0808acb9b569563c}{%
+           family={Araujo},
+           familyi={A\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c3fd0179c111cf5b5deda202322a267d}{%
+           family={Suzuki},
+           familyi={S\bibinitperiod},
+           given={Masahiro},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c4ef3b1f687a6944d499739c430f86a3}{%
+           family={Lloret},
+           familyi={L\bibinitperiod},
+           given={Francesc},
+           giveni={F\bibinitperiod}}}%
+        {{hash=21c13289223451959604d01bb0ac1245}{%
+           family={Alba},
+           familyi={A\bibinitperiod},
+           given={Gonzalo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=28e3377cbcb2a745903fa634869e0b9b}{%
+           family={Villar},
+           familyi={V\bibinitperiod},
+           given={Pedro},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{6797009773792974b09ff8ade68e2d47}
+      \strng{fullhash}{082599207a87d52a2f3fb109866eddb6}
+      \strng{bibnamehash}{082599207a87d52a2f3fb109866eddb6}
+      \strng{authorbibnamehash}{082599207a87d52a2f3fb109866eddb6}
+      \strng{authornamehash}{6797009773792974b09ff8ade68e2d47}
+      \strng{authorfullhash}{082599207a87d52a2f3fb109866eddb6}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Materials (Basel, Switzerland)}
+      \field{number}{22}
+      \field{title}{Diamond for Electronics: Materials, Processing and Devices}
+      \field{volume}{14}
+      \field{year}{2021}
+      \field{pages}{7081}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/ma14227081
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3390/ma14227081
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3390/ma14227081
+      \endverb
+    \endentry
+    \entry{DiamondSensor}{article}{}
+      \name{author}{8}{}{%
+        {{hash=d0b82928374ba85720f9a0771fea94da}{%
+           family={Velthuis},
+           familyi={V\bibinitperiod},
+           given={J.\bibnamedelimi J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=43b287173f3c53bb023e81a67df34e0d}{%
+           family={Mathes},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9ea72c4fc25a43bf5f177608b7e2b74f}{%
+           family={Kagan},
+           familyi={K\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=64c2fa1087a4f236a353815d68ef34b1}{%
+           family={Cristinziani},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9cb6c6542bc748be2da972425129c099}{%
+           family={Reuen},
+           familyi={R\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=2c528ec769079cc43320d94eb0c26a74}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c16aae00568ba0cfbae9b3a220c3c3b9}{%
+           family={Trischuk},
+           familyi={T\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=16b3e49eb785d7979c89c869754e307d}{%
+           family={Wermes},
+           familyi={W\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{eb086c312e65436f0eec9e977b53e04b}
+      \strng{fullhash}{879bda6d5d94ef2b3898005b71598b09}
+      \strng{bibnamehash}{879bda6d5d94ef2b3898005b71598b09}
+      \strng{authorbibnamehash}{879bda6d5d94ef2b3898005b71598b09}
+      \strng{authornamehash}{eb086c312e65436f0eec9e977b53e04b}
+      \strng{authorfullhash}{879bda6d5d94ef2b3898005b71598b09}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0168-9002}
+      \field{journaltitle}{NUCLEAR INSTRUMENTS \& METHODS IN PHYSICS RESEARCH SECTION A-ACCELERATORS SPECTROMETERS DETECTORS AND ASSOCIATED EQUIPMENT}
+      \field{month}{6}
+      \field{note}{9th International Workshop on Radiation Imaging Detectors, Univ Erlangen, Nuremberg, GERMANY, JUL 22-26, 2007}
+      \field{number}{1}
+      \field{title}{Radiation hard diamond pixel detectors}
+      \field{volume}{591}
+      \field{year}{2008}
+      \field{pages}{221\bibrangedash 223}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1016/j.nima.2008.03.061
+      \endverb
+    \endentry
     \entry{PBE}{article}{}
       \name{author}{3}{}{%
         {{hash=49bd2640f858f16dfcddcc404b026f30}{%
@@ -46,8 +195,8 @@
       \strng{authorbibnamehash}{29da3039da81061b60722fb2fe692310}
       \strng{authornamehash}{8c918234d2e8f80ab3a3ee1d5c8b3db5}
       \strng{authorfullhash}{29da3039da81061b60722fb2fe692310}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{18}
@@ -97,8 +246,8 @@
       \strng{authorbibnamehash}{df0fefa8512cc1f78687fd1d52475d13}
       \strng{authornamehash}{5261813c67565009c124aff60300d056}
       \strng{authorfullhash}{df0fefa8512cc1f78687fd1d52475d13}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{{This work reexamines the effect of the exchange screening parameter ω on the performance of the Heyd-Scuseria-Ernzerhof (HSE) screened hybrid functional. We show that variation of the screening parameter influences solid band gaps the most. Other properties such as molecular thermochemistry or lattice constants of solids change little with ω. We recommend a new version of HSE with the screening parameter ω=0.11bohr−1 for further use. Compared to the original implementation, the new parametrization yields better thermochemical results and preserves the good accuracy for band gaps and lattice constants in solids.}}
@@ -168,8 +317,8 @@
       \strng{authorbibnamehash}{1a44883d529739bbbdd2d8dc92968014}
       \strng{authornamehash}{6ea75a05c423be917c67ca729b588919}
       \strng{authorfullhash}{1a44883d529739bbbdd2d8dc92968014}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Zeitschrift für Kristallographie}
@@ -571,8 +720,8 @@
       \strng{authorbibnamehash}{589d4ef5ff61c67a94c68dc8db34a0d7}
       \strng{authornamehash}{294483745766b26d22f75b586a490db2}
       \strng{authorfullhash}{589d4ef5ff61c67a94c68dc8db34a0d7}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{physics.chem-ph}
@@ -669,8 +818,8 @@
       \strng{authorbibnamehash}{1f14e46cd0a71b5dfc7627f1a1628a9a}
       \strng{authornamehash}{0d83af67aff31198b99e771add88433b}
       \strng{authorfullhash}{1f14e46cd0a71b5dfc7627f1a1628a9a}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Comp. Phys. Comm.}
@@ -700,8 +849,8 @@
       \strng{authorbibnamehash}{7cf5d0654fd47fcecfaf56b546a948e3}
       \strng{authornamehash}{7cf5d0654fd47fcecfaf56b546a948e3}
       \strng{authorfullhash}{7cf5d0654fd47fcecfaf56b546a948e3}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{8}
@@ -761,8 +910,8 @@
       \strng{authorbibnamehash}{c3f2ce2426a6a7733b9e7d917e895fbf}
       \strng{authornamehash}{70f0323acccedae384222e1860c543a7}
       \strng{authorfullhash}{c3f2ce2426a6a7733b9e7d917e895fbf}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{10}
@@ -800,8 +949,8 @@
       \strng{authorbibnamehash}{d28b7343e82398d0028a588688493c93}
       \strng{authornamehash}{d28b7343e82398d0028a588688493c93}
       \strng{authorfullhash}{d28b7343e82398d0028a588688493c93}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The results from EPR studies of CVD diamond which was intentionally silicon doped with isotopes in natural abundance or isotopically enriched are reported. The observation of hyperfine satellites arising due to the presence of 29Si has provided definitive evidence for the involvement of silicon in two EPR centres in diamond which were previously suspected to involve silicon: KUL1 and KUL3. KUL1 is unambiguously identified as the neutral silicon split vacancy defect (V-Si-V)0, whilst KUL3 is shown to be (V-Si-V)0 decorated with a hydrogen atom. Data have also revealed that (V-Si-V)0 is preferentially oriented in samples grown on \{110\} substrates. The negative nitrogen-vacancy centre (NV?) has been investigated. Published parameters for the nitrogen hyperfine interaction produce an unsatisfactory fit to the experimental spectra and hence these parameters are redetermined. Optically-excited EPR has been used to estimate the degree of spin polarisation of the NV-ground state and the increase in signal intensity with illumination has permitted the interaction between the unpaired electron and neighbouring 13C atoms to be studied. Two sets of 13C hyperfine satellites have been identified, which account for {\texttt{~}}100\% of the unpaired electron probability density. Despite the predictions that the neutral charge state of NV should have an S = ? ground state, this charge state has not previously been detected by EPR. Optically excited EPR measurements reveal a trigonal nitrogen containing defect in diamond with an excited state populated via optical excitation. Analysis of the spin-Hamiltonian parameters and the wavelength dependence of the optical excitation leads to assignment of this state to the 4A2 excited state of NV0.}
@@ -1317,8 +1466,8 @@
       \strng{authorbibnamehash}{75a875664a617fd0dc378f2cd55e2574}
       \strng{authornamehash}{c0285c419ba505819ead7d811d6abdfc}
       \strng{authorfullhash}{75a875664a617fd0dc378f2cd55e2574}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This review discusses atomistic modeling techniques used to simulate radiation damage in crystalline materials. Radiation damage due to energetic particles results in the formation of defects. The subsequent evolution of these defects over multiple length and time scales requiring numerous simulations techniques to model the gamut of behaviors. This work focuses attention on current and new methodologies at the atomistic scale regarding the mechanisms of defect formation at the primary damage state.}
@@ -1340,6 +1489,55 @@
       \verb https://dx.doi.org/10.1088/1361-651X/ac2f83
       \endverb
     \endentry
+    \entry{HybridMonteCarlo}{article}{}
+      \name{author}{3}{}{%
+        {{hash=fbfed0ab667772c4a6346d9f5b6711ec}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Jingxiang},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e2d8a34c12e4d23d01d23187b1cc9845}{%
+           family={Haji-Akbari},
+           familyi={H\bibinithyphendelim A\bibinitperiod},
+           given={Amir},
+           giveni={A\bibinitperiod}}}%
+        {{hash=437891cc6e5ad8752161ecf01b735d5d}{%
+           family={Palmer},
+           familyi={P\bibinitperiod},
+           given={Jeremy\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{5df0b293379c7f6154970325eddd848e}
+      \strng{fullhash}{aa918b1e4b7549eef2b2c18d7e64bad5}
+      \strng{bibnamehash}{aa918b1e4b7549eef2b2c18d7e64bad5}
+      \strng{authorbibnamehash}{aa918b1e4b7549eef2b2c18d7e64bad5}
+      \strng{authornamehash}{5df0b293379c7f6154970325eddd848e}
+      \strng{authorfullhash}{aa918b1e4b7549eef2b2c18d7e64bad5}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We describe a strategy for performing canonical and isothermal-isobaric ensemble hybrid Monte Carlo (HMC) simulations with the widely-used Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) molecular dynamics (MD) software package. The overall workflow for the HMC simulations is handled using an external Python driver script, which invokes LAMMPS’ library interface to perform numerically intensive tasks such as MD integration. We document several rigorous consistency checks that have been used to validate our HMC implementation. We also demonstrate that our approach can be readily extended to implement biased HMC sampling schemes for computing free energies. Codes and input files from the documented examples are available on the web.}
+      \field{journaltitle}{Journal of Theoretical and Computational Chemistry}
+      \field{number}{03}
+      \field{title}{Hybrid Monte Carlo with LAMMPS}
+      \field{volume}{17}
+      \field{year}{2018}
+      \field{pages}{1840002}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1142/S0219633618400023
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1142/S0219633618400023
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1142/S0219633618400023
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1142/S0219633618400023
+      \endverb
+    \endentry
     \entry{Halicioglu}{article}{}
       \name{author}{1}{}{%
         {{hash=7c99eb738a606e9cff559be953dcb259}{%
@@ -1354,8 +1552,8 @@
       \strng{authorbibnamehash}{7c99eb738a606e9cff559be953dcb259}
       \strng{authornamehash}{7c99eb738a606e9cff559be953dcb259}
       \strng{authorfullhash}{7c99eb738a606e9cff559be953dcb259}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Structure-and energy-related properties of defects formed on relaxed diamond surfaces were investigated. Simulation calculations were carried out for vacancies created on (111) and on (2×1) dimerized (100) index planes of diamond. Two different model functions (based on two-and three-body interactions) developed recently for carbon were employed in the calculations. Both functions produced comparable results. Top layer vacancies are more likely to form on the (100) surface than on the (111) surface. Calculations indicate that the diffusion of a single vacancy from the top surface layer to the second layer is not energetically favored.}
@@ -1558,8 +1756,8 @@
       \strng{authorbibnamehash}{2fe8b0e244b5462be3967e66aa93a1c4}
       \strng{authornamehash}{13955deab09088b286bf90045b25fb21}
       \strng{authorfullhash}{2fe8b0e244b5462be3967e66aa93a1c4}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Chemical Reviews}
@@ -1620,8 +1818,8 @@
       \strng{authorbibnamehash}{f9bc18deadb6ca003d2245e9398a43cb}
       \strng{authornamehash}{5c905e5c5fd144c70652321b040a0cc6}
       \strng{authorfullhash}{f9bc18deadb6ca003d2245e9398a43cb}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Diamond has many extreme physical properties and it can be used in a wide range of applications. In particular it is a highly effective particle detection material, where radiation damage is an important consideration. The WAR9 and WAR10 are electron paramagnetic resonance centres seen in irradiated, nitrogen-containing diamond. These S = 1/2 defects have C2v and C1h symmetry, respectively, and the experimental spectra have been interpreted as arising from nitrogen split-interstitial centres. Based upon the experimental and theoretical understanding of interstitial nitrogen defect structures, the AIMPRO density functional code has been used to assess the assignments for the structures of WAR9 and WAR10. Although the calculated hyperfine interaction tensors are consistent with the measured values for WAR9, the thermal stability renders the assignment problematic. The model for the WAR10 centre yields principal directions of the hyperfine tensor at variance with observation. Alternative models for both centres are discussed in this paper, but no convincing structures have been found.}
@@ -1672,8 +1870,8 @@
       \strng{authorbibnamehash}{8733d89ff4cc0bbd653ca08e41a11afc}
       \strng{authornamehash}{a7911e6f4164eaedc437bea5cd82ff11}
       \strng{authorfullhash}{8733d89ff4cc0bbd653ca08e41a11afc}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Physics: Condensed Matter}

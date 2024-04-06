@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.3)  5 APR 2024 22:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.3)  6 APR 2024 19:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1485,235 +1485,252 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \openout5 = `main.toc'.
 
 
-Underfull \hbox (badness 3168) in paragraph at lines 66--67
+Underfull \hbox (badness 3148) in paragraph at lines 54--55
+\T1/ppl/m/n/10 ic-ally in the range of $\OT1/ppl/m/n/10 45$\T1/ppl/m/n/10 --$\OT1/ppl/m/n/10 60$ \T1/ppl/m/n/10 ki-lo-b-ars and
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{d:/Software/TeXLive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+Underfull \hbox (badness 3168) in paragraph at lines 75--76
 \T1/ppl/m/n/10 ergy of a many elec-tron sys-tem maps to
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 66--67
+Underfull \hbox (badness 1137) in paragraph at lines 75--76
 \T1/ppl/m/n/10 a unique func-tional of the elec-tron dens-ity,
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 66--67
+Underfull \hbox (badness 1803) in paragraph at lines 75--76
 \T1/ppl/m/n/10 shown in equa-tion 1.2[]. This im-plies that
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 66--67
+Underfull \hbox (badness 1442) in paragraph at lines 75--76
 \T1/ppl/m/n/10 ground state en-ergy is thus rep-res-en-ted as
  []
 
-[1{d:/Software/TeXLive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 []\T1/ppl/m/n/10 When ex-pand-ing Kohn-Sham or-bit-als
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 119--120
-[]\T1/ppl/m/n/10 Maybe de-scribe how SCF works but I
- []
-
-
-Underfull \hbox (badness 1286) in paragraph at lines 122--123
+Underfull \hbox (badness 1286) in paragraph at lines 129--130
 [] []|\T1/ppl/m/n/10 Ÿ1.2. \T1/ppl/b/n/10 Mo-lecu-lar Dy-nam-ics.[] \T1/ppl/m/n/10 Mo-lecu-lar Dy-
  []
 
 
-Underfull \hbox (badness 1194) in paragraph at lines 122--123
-\T1/ppl/m/n/10 atoms are mod-elled as point particles with
- []
-
-
-Underfull \hbox (badness 1360) in paragraph at lines 125--127
+Underfull \hbox (badness 1360) in paragraph at lines 132--134
 \T1/ppl/m/n/10 de-scribes the in-ter-ac-tions between particles.
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 125--127
+Underfull \hbox (badness 1838) in paragraph at lines 132--134
 \T1/ppl/m/n/10 This po-ten-tial can take on many forms, a
  []
 
-[2] (d:/Home/Documents/School/progressReport/conv.tex)
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 149.
+[3] (d:/Home/Documents/School/progressReport/conv.tex)
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 156.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 11.46208pt on input line 149.
+(Font)              scaled to size 11.46208pt on input line 156.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.7111pt on input line 149.
+(Font)              scaled to size 8.7111pt on input line 156.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.8773pt on input line 149.
+(Font)              scaled to size 6.8773pt on input line 156.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 11.46208pt on input line 149.
+(Font)              scaled to size 11.46208pt on input line 156.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.7111pt on input line 149.
+(Font)              scaled to size 8.7111pt on input line 156.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.8773pt on input line 149.
- [3]
-Underfull \vbox (badness 6758) has occurred while \output is active []
-
-
-Underfull \hbox (badness 1237) in paragraph at lines 164--165
+(Font)              scaled to size 6.8773pt on input line 156.
+ [4]
+Underfull \hbox (badness 1237) in paragraph at lines 171--172
 []\T1/ppl/m/n/10 The fi-nal, op-tim-ised, NEB path of the
  []
 
-<n2vh_2.png, id=24, 510.90875pt x 395.4775pt>
-File: n2vh_2.png Graphic file (type png)
-<use n2vh_2.png>
-Package pdftex.def Info: n2vh_2.png  used on input line 167.
-(pdftex.def)             Requested size: 170.71393pt x 132.14333pt.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 168.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 168.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 168.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 168.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 168.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 168.
-(d:/Home/Documents/School/progressReport/neb.tex)
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4]
-Underfull \hbox (badness 1460) in paragraph at lines 190--191
+<n2vh_2.png, id=27, 510.90875pt x 395.4775pt>
+File: n2vh_2.png Graphic file (type png)
+<use n2vh_2.png>
+Package pdftex.def Info: n2vh_2.png  used on input line 174.
+(pdftex.def)             Requested size: 170.71393pt x 132.14333pt.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 175.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 175.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 175.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 175.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 175.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 175.
+ (d:/Home/Documents/School/progressReport/neb.tex)
+Underfull \vbox (badness 1221) has occurred while \output is active []
+
+ [5 <d:/Home/Documents/School/progressReport/n2vh_2.png>]
+Underfull \hbox (badness 1460) in paragraph at lines 197--198
 [] []|\T1/ppl/m/n/10 Ÿ2.2. \T1/ppl/b/n/10 Ana-lysis.[] \T1/ppl/m/n/10 With a bar-rier height and
  []
 
-[5 <d:/Home/Documents/School/progressReport/n2vh_2.png>]
-Underfull \hbox (badness 1515) in paragraph at lines 216--217
+
+Underfull \hbox (badness 1515) in paragraph at lines 223--224
 []\T1/ppl/m/n/10 A more ac-cur-ate ap-prox-im-a-tion of the
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 225--226
+Underfull \hbox (badness 1728) in paragraph at lines 232--233
 \T1/ppl/m/n/10 cu-late the tun-nel-ling rate, the at-tempt fre-
  []
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 225--226
+Underfull \hbox (badness 1895) in paragraph at lines 232--233
 \T1/ppl/m/n/10 This cal-cu-al-tion uses the op-tim-ised sys-tem
  []
 
-[6] (d:/Home/Documents/School/progressReport/hu.tex) [7]
+[6] [7] (d:/Home/Documents/School/progressReport/hu.tex) [8]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8]
-Underfull \hbox (badness 1728) in paragraph at lines 311--312
+ [9]
+Underfull \hbox (badness 1728) in paragraph at lines 316--317
 []\T1/ppl/m/n/10 Defects con-tain-ing Ni-tro-gen, va-can-cies,
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 320--322
+Underfull \hbox (badness 1558) in paragraph at lines 325--327
 [] []|\T1/ppl/m/n/10 Ÿ4.3. \T1/ppl/b/n/10 Ni-tro-gen in Dia-mond.[] \T1/ppl/m/n/10 ``Ni-tro-gen in
  []
 
 
-Underfull \hbox (badness 1521) in paragraph at lines 320--322
+Underfull \hbox (badness 1521) in paragraph at lines 325--327
 \T1/ppl/m/n/10 duc-tion and how to mit-ig-ate or en-cour-age
  []
 
-[9]
-Underfull \hbox (badness 1831) in paragraph at lines 332--333
+
+Underfull \hbox (badness 1831) in paragraph at lines 337--338
 \T1/ppl/m/n/10 gradi-ent ap-prox-im-a-tion exchange-correlation
  []
 
-
-Underfull \hbox (badness 3354) in paragraph at lines 336--338
+[10]
+Underfull \hbox (badness 3354) in paragraph at lines 341--343
 []\T1/ppl/m/n/10 The con-cen-tra-tion of NV centres was
  []
 
-[10]
-Underfull \hbox (badness 1681) in paragraph at lines 359--359
+[11]
+Underfull \hbox (badness 1242) in paragraph at lines 364--364
+\T1/ppl/m/n/10 M. Cristin-zi-ani, L. Re-uen, S. Smith,
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 364--364
+\T1/ppl/m/n/10 W. Trischuk and N. Wer-mes, \T1/ppl/m/it/10 NUC-
+ []
+
+
+Underfull \hbox (badness 3942) in paragraph at lines 364--364
+\T1/ppl/m/it/10 IN PHYS-ICS RE-SEARCH SEC-TION
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+\T1/ppl/m/it/10 A-ACCELERATORS SPEC-TRO-MET-
+ []
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 364--364
 []\T1/ppl/m/n/10 A. V. Krukau, O. A. Vy-drov, A. F.
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 359--359
+Underfull \hbox (badness 4995) in paragraph at lines 364--364
 \T1/ppl/m/n/10 Izmaylov and G. E. Scuseria, \T1/ppl/m/it/10 The
  []
 
 
-Underfull \hbox (badness 1033) in paragraph at lines 359--359
+Underfull \hbox (badness 1033) in paragraph at lines 364--364
 \T1/ppl/m/n/10 Bald-win, F. Ber-ger, N. Bern-stein, A.
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 359--359
+Underfull \hbox (badness 1960) in paragraph at lines 364--364
 \T1/ppl/m/n/10 N. Kroupa, J. Kullgren, M. C. Ku-
  []
 
 
-Underfull \hbox (badness 2205) in paragraph at lines 359--359
+Underfull \hbox (badness 2205) in paragraph at lines 364--364
 \T1/ppl/m/n/10 para-mag-netic res-on-ance and op-tical
  []
 
-[11]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 358.
- (d:/Software/TeXLive/2020/texmf-dist/tex/latex/lm/t1lmtt.fd
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 363.
+(d:/Software/TeXLive/2020/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 1122) in paragraph at lines 359--359
+Underfull \hbox (badness 1122) in paragraph at lines 364--364
 []\T1/ppl/m/n/10 A. Stukowski, \T1/ppl/m/it/10 Mod-el-ling and Sim-u-la-
  []
 
-
-Underfull \hbox (badness 1681) in paragraph at lines 359--359
+[12]
+Underfull \hbox (badness 1681) in paragraph at lines 364--364
 \T1/ppl/m/it/10 and Re-lated Ma-ter-i-als\T1/ppl/m/n/10 , 2008, \T1/ppl/b/n/10 17\T1/ppl/m/n/10 , Pro-
  []
 
 
-Underfull \hbox (badness 4084) in paragraph at lines 359--359
+Underfull \hbox (badness 4084) in paragraph at lines 364--364
 \T1/ppl/m/n/10 European Con-fer-ence on Dia-mond,
  []
 
 
-Underfull \hbox (badness 4048) in paragraph at lines 359--359
+Underfull \hbox (badness 4048) in paragraph at lines 364--364
 \T1/ppl/m/it/10 Mod-el-ling and Sim-u-la-tion in Ma-ter-i-
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 359--359
+Underfull \hbox (badness 1163) in paragraph at lines 364--364
 []\T1/ppl/m/n/10 M. N. R. Ash-fold, J. P. Goss, B. L.
  []
 
 
-Underfull \hbox (badness 3724) in paragraph at lines 359--359
+Underfull \hbox (badness 3724) in paragraph at lines 364--364
 []\T1/ppl/m/n/10 P. Deak, B. Aradi, M. Kavi-ani, T.
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 359--359
+Underfull \hbox (badness 2213) in paragraph at lines 364--364
 []\T1/ppl/m/n/10 R. L. Gray, M. J. D. Rushton and
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 359--359
+Underfull \hbox (badness 1975) in paragraph at lines 364--364
 \T1/ppl/m/n/10 S. T. Murphy, \T1/ppl/m/it/10 SU-PER-CON-DUCTOR
  []
 
-[12] (d:/Home/Documents/School/progressReport/main.aux)
+[13] (d:/Home/Documents/School/progressReport/main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44960 strings out of 479917
- 1044624 string characters out of 5882211
- 1973169 words of memory out of 5000000
- 60645 multiletter control sequences out of 15000+600000
- 626887 words of font info for 201 fonts, out of 8000000 for 9000
+ 44969 strings out of 479917
+ 1045023 string characters out of 5882211
+ 1973411 words of memory out of 5000000
+ 60654 multiletter control sequences out of 15000+600000
+ 627818 words of font info for 202 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,14n,115p,1901b,2326s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/Software/TeXLive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{d:/Software/TeXLive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/esint-type1/esint10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><d:/Software/TeXLive/2020/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on d:/Home/Documents/School/progressReport/main.pdf (12 pages, 366140 bytes).
+Output written on d:/Home/Documents/School/progressReport/main.pdf (13 pages, 370871 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
+ 107 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
