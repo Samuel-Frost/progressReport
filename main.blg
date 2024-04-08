@@ -1,32 +1,34 @@
 [0] Config.pm:312> INFO - This is Biber 2.15
 [0] Config.pm:315> INFO - Logfile is 'main.blg'
-[100] biber-MSWIN32:330> INFO - === 
-[120] Biber.pm:415> INFO - Reading 'main.bcf'
-[233] Biber.pm:952> INFO - Found 33 citekeys in bib section 0
-[251] Biber.pm:4334> INFO - Processing section 0
-[265] Biber.pm:4523> INFO - Looking for bibtex format file 'references.bib' for section 0
-[283] bibtex.pm:1682> INFO - LaTeX decoding ...
-[360] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
+[99] biber-MSWIN32:330> INFO - === 
+[117] Biber.pm:415> INFO - Reading 'main.bcf'
+[226] Biber.pm:952> INFO - Found 35 citekeys in bib section 0
+[242] Biber.pm:4334> INFO - Processing section 0
+[256] Biber.pm:4523> INFO - Looking for bibtex format file 'references.bib' for section 0
+[272] bibtex.pm:1682> INFO - LaTeX decoding ...
+[357] bibtex.pm:1494> INFO - Found BibTeX data source 'references.bib'
 [398] Utils.pm:395> WARN - month field 'JUN 11' in entry 'DiamondSensor' is not an integer - this will probably not sort properly.
-[403] Utils.pm:395> WARN - month field 'Oct' in entry 'PBE' is not an integer - this will probably not sort properly.
-[509] Utils.pm:395> WARN - month field 'August' in entry 'Hartland' is not an integer - this will probably not sort properly.
-[519] Utils.pm:395> WARN - month field 'Sep' in entry 'Shaw_QT_VH' is not an integer - this will probably not sort properly.
-[520] Utils.pm:395> WARN - month field 'July' in entry 'Edwards_N2VH_rate' is not an integer - this will probably not sort properly.
-[537] Utils.pm:395> WARN - month field 'Mar' in entry 'N2VH_CH_Bond' is not an integer - this will probably not sort properly.
-[542] Utils.pm:395> WARN - month field 'JAN' in entry 'OVITO' is not an integer - this will probably not sort properly.
-[550] Utils.pm:395> WARN - month field 'Apr' in entry 'DynamicalMatrix' is not an integer - this will probably not sort properly.
-[557] Utils.pm:395> WARN - month field 'Nov' in entry 'VacancyTemp' is not an integer - this will probably not sort properly.
-[569] Utils.pm:395> WARN - month field 'dec' in entry 'radiation_modelling' is not an integer - this will probably not sort properly.
-[587] Utils.pm:395> WARN - month field 'Nov' in entry 'Davies' is not an integer - this will probably not sort properly.
-[593] Utils.pm:395> WARN - month field 'Jul' in entry 'Bloch' is not an integer - this will probably not sort properly.
-[601] Utils.pm:395> WARN - month field 'jan' in entry 'Atumi_2013' is not an integer - this will probably not sort properly.
-[619] Utils.pm:395> WARN - month field 'FEB 4' in entry 'Deak' is not an integer - this will probably not sort properly.
-[623] Utils.pm:395> WARN - month field 'Oct' in entry 'VASP' is not an integer - this will probably not sort properly.
-[627] Utils.pm:395> WARN - month field 'MAR 1' in entry 'radiation' is not an integer - this will probably not sort properly.
-[672] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
-[672] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[672] Biber.pm:4162> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-UK'
-[672] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-UK'
-[708] bbl.pm:651> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[766] bbl.pm:754> INFO - Output to main.bbl
-[767] Biber.pm:128> INFO - WARNINGS: 16
+[411] Utils.pm:395> WARN - month field 'AUG 31' in entry 'DFT_IR' is not an integer - this will probably not sort properly.
+[420] Utils.pm:395> WARN - month field 'Oct' in entry 'PBE' is not an integer - this will probably not sort properly.
+[537] Utils.pm:395> WARN - month field 'August' in entry 'Hartland' is not an integer - this will probably not sort properly.
+[553] Utils.pm:395> WARN - month field 'Sep' in entry 'Shaw_QT_VH' is not an integer - this will probably not sort properly.
+[554] Utils.pm:395> WARN - month field 'July' in entry 'Edwards_N2VH_rate' is not an integer - this will probably not sort properly.
+[576] Utils.pm:395> WARN - month field 'Mar' in entry 'N2VH_CH_Bond' is not an integer - this will probably not sort properly.
+[587] Utils.pm:395> WARN - month field 'JAN' in entry 'OVITO' is not an integer - this will probably not sort properly.
+[599] Utils.pm:395> WARN - month field 'Apr' in entry 'DynamicalMatrix' is not an integer - this will probably not sort properly.
+[606] Utils.pm:395> WARN - month field 'Nov' in entry 'VacancyTemp' is not an integer - this will probably not sort properly.
+[618] Utils.pm:395> WARN - month field 'Dec' in entry 'Tersoff' is not an integer - this will probably not sort properly.
+[625] Utils.pm:395> WARN - month field 'dec' in entry 'radiation_modelling' is not an integer - this will probably not sort properly.
+[642] Utils.pm:395> WARN - month field 'Jul' in entry 'Bloch' is not an integer - this will probably not sort properly.
+[652] Utils.pm:395> WARN - month field 'Nov' in entry 'Davies' is not an integer - this will probably not sort properly.
+[662] Utils.pm:395> WARN - month field 'jan' in entry 'Atumi_2013' is not an integer - this will probably not sort properly.
+[681] Utils.pm:395> WARN - month field 'FEB 4' in entry 'Deak' is not an integer - this will probably not sort properly.
+[685] Utils.pm:395> WARN - month field 'Oct' in entry 'VASP' is not an integer - this will probably not sort properly.
+[690] Utils.pm:395> WARN - month field 'MAR 1' in entry 'radiation' is not an integer - this will probably not sort properly.
+[735] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
+[735] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[735] Biber.pm:4162> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-UK'
+[735] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-UK'
+[770] bbl.pm:651> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[832] bbl.pm:754> INFO - Output to main.bbl
+[832] Biber.pm:128> INFO - WARNINGS: 18

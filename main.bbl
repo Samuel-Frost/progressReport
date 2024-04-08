@@ -168,6 +168,62 @@
       \verb 10.1016/j.nima.2008.03.061
       \endverb
     \endentry
+    \entry{DFT_IR}{article}{}
+      \name{author}{6}{}{%
+        {{hash=42eda6a9d1c65d8d35fb221f54462d85}{%
+           family={Salustro},
+           familyi={S\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3d4f3d7c5d9f666b3c261b99f8acf46c}{%
+           family={Erba},
+           familyi={E\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8dac09a4702aa842480c4b1746adb6e7}{%
+           family={Zicovich-Wilson},
+           familyi={Z\bibinithyphendelim W\bibinitperiod},
+           given={Claudio\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=0a8378362f251b63953d0d9e4abad3e4}{%
+           family={Noel},
+           familyi={N\bibinitperiod},
+           given={Yves},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=3ca016bbe91c5e4ca094039bc9c4d2cc}{%
+           family={Maschio},
+           familyi={M\bibinitperiod},
+           given={Lorenzo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=55f24976c8cf44e0e70bf2694f11ae68}{%
+           family={Dovesi},
+           familyi={D\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{e14c50872b9948c7953cb7a907d181de}
+      \strng{fullhash}{6800c24a7162e6677b283a509dc59446}
+      \strng{bibnamehash}{6800c24a7162e6677b283a509dc59446}
+      \strng{authorbibnamehash}{6800c24a7162e6677b283a509dc59446}
+      \strng{authornamehash}{e14c50872b9948c7953cb7a907d181de}
+      \strng{authorfullhash}{6800c24a7162e6677b283a509dc59446}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1463-9076}
+      \field{journaltitle}{PHYSICAL CHEMISTRY CHEMICAL PHYSICS}
+      \field{month}{8}
+      \field{number}{31}
+      \field{title}{Infrared and Raman spectroscopic features of the self-interstitial defect in diamond from exact-exchange hybrid DFT calculations}
+      \field{volume}{18}
+      \field{year}{2016}
+      \field{pages}{21288\bibrangedash 21295}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1039/c6cp02403c
+      \endverb
+    \endentry
     \entry{PBE}{article}{}
       \name{author}{3}{}{%
         {{hash=49bd2640f858f16dfcddcc404b026f30}{%
@@ -195,8 +251,8 @@
       \strng{authorbibnamehash}{29da3039da81061b60722fb2fe692310}
       \strng{authornamehash}{8c918234d2e8f80ab3a3ee1d5c8b3db5}
       \strng{authorfullhash}{29da3039da81061b60722fb2fe692310}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{18}
@@ -246,8 +302,8 @@
       \strng{authorbibnamehash}{df0fefa8512cc1f78687fd1d52475d13}
       \strng{authornamehash}{5261813c67565009c124aff60300d056}
       \strng{authorfullhash}{df0fefa8512cc1f78687fd1d52475d13}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{{This work reexamines the effect of the exchange screening parameter ω on the performance of the Heyd-Scuseria-Ernzerhof (HSE) screened hybrid functional. We show that variation of the screening parameter influences solid band gaps the most. Other properties such as molecular thermochemistry or lattice constants of solids change little with ω. We recommend a new version of HSE with the screening parameter ω=0.11bohr−1 for further use. Compared to the original implementation, the new parametrization yields better thermochemical results and preserves the good accuracy for band gaps and lattice constants in solids.}}
@@ -317,8 +373,8 @@
       \strng{authorbibnamehash}{1a44883d529739bbbdd2d8dc92968014}
       \strng{authornamehash}{6ea75a05c423be917c67ca729b588919}
       \strng{authorfullhash}{1a44883d529739bbbdd2d8dc92968014}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Zeitschrift für Kristallographie}
@@ -720,8 +776,8 @@
       \strng{authorbibnamehash}{589d4ef5ff61c67a94c68dc8db34a0d7}
       \strng{authornamehash}{294483745766b26d22f75b586a490db2}
       \strng{authorfullhash}{589d4ef5ff61c67a94c68dc8db34a0d7}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{physics.chem-ph}
@@ -818,8 +874,8 @@
       \strng{authorbibnamehash}{1f14e46cd0a71b5dfc7627f1a1628a9a}
       \strng{authornamehash}{0d83af67aff31198b99e771add88433b}
       \strng{authorfullhash}{1f14e46cd0a71b5dfc7627f1a1628a9a}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Comp. Phys. Comm.}
@@ -1160,8 +1216,8 @@
       \strng{authorbibnamehash}{b864adafa3406178312ae6a4c8848a34}
       \strng{authornamehash}{b864adafa3406178312ae6a4c8848a34}
       \strng{authorfullhash}{b864adafa3406178312ae6a4c8848a34}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0965-0393}
@@ -1306,8 +1362,8 @@
       \strng{authornamehash}{86d9d5fbbe5d1ed3501668567b550c22}
       \strng{authorfullhash}{be9849396371f1e46116b66ad3060135}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{20}
@@ -1362,8 +1418,8 @@
       \strng{authorbibnamehash}{b40e29eb12f7f224fa7ab21272b68fc3}
       \strng{authornamehash}{b1410b9e7424f6f68d34c3816d9a2268}
       \strng{authorfullhash}{b40e29eb12f7f224fa7ab21272b68fc3}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The diffusion process of the vacancy near diamond (001) surface at different temperatures was investigated by molecular dynamics simulation. The vacancy in the second layer begins to diffuse towards the surface at about 1000K, and it can migrate to the surface in the temperature range of 1400–2000K. In the 1400–1800K temperature range, two migration stages, which correspond to two maxima in the mean square displacement curves, are observed in the vacancy diffusion process. In addition, the vacancy diffusion path is obtained without any constraints imposed on the atoms, and the calculated diffusion barrier of the vacancy near diamond (001) surface is about 0.42eV.}
@@ -1385,6 +1441,45 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0038109802000698
       \endverb
       \keyw{A. Diamond,C. Vacancies,D. Diffusion,E. Molecular dynamics simulation}
+    \endentry
+    \entry{Tersoff}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a1a0bc3d34d8ba3062dbbe7183481173}{%
+           family={Tersoff},
+           familyi={T\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{a1a0bc3d34d8ba3062dbbe7183481173}
+      \strng{fullhash}{a1a0bc3d34d8ba3062dbbe7183481173}
+      \strng{bibnamehash}{a1a0bc3d34d8ba3062dbbe7183481173}
+      \strng{authorbibnamehash}{a1a0bc3d34d8ba3062dbbe7183481173}
+      \strng{authornamehash}{a1a0bc3d34d8ba3062dbbe7183481173}
+      \strng{authorfullhash}{a1a0bc3d34d8ba3062dbbe7183481173}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{25}
+      \field{journaltitle}{Physical Review Letters}
+      \field{month}{12}
+      \field{title}{Empirical Interatomic Potential for Carbon, with Applications to Amorphous Carbon}
+      \field{volume}{61}
+      \field{year}{1988}
+      \field{pages}{2879\bibrangedash 2882}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.61.2879
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.61.2879
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.61.2879
+      \endverb
     \endentry
     \entry{DiffusionRigorous}{article}{}
       \name{author}{3}{}{%
@@ -1412,8 +1507,8 @@
       \strng{authorbibnamehash}{de8266f8f7e171bb65c77933a1ca0a2e}
       \strng{authornamehash}{2b610945de15232bf38da49be4c6db79}
       \strng{authorfullhash}{de8266f8f7e171bb65c77933a1ca0a2e}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{{Translational diffusion coefficients are routinely estimated from molecular dynamics simulations. Linear fits to mean squared displacement (MSD) curves have become the de facto standard, from simple liquids to complex biomacromolecules. Nonlinearities in MSD curves at short times are handled with a wide variety of ad hoc practices, such as partial and piece-wise fitting of the data. Here, we present a rigorous framework to obtain reliable estimates of the self-diffusion coefficient and its statistical uncertainty. We also assess in a quantitative manner if the observed dynamics is, indeed, diffusive. By accounting for correlations between MSD values at different times, we reduce the statistical uncertainty of the estimator and, thereby, increase its efficiency. With a Kolmogorov–Smirnov test, we check for possible anomalous diffusion. We provide an easy-to-use Python data analysis script for the estimation of self-diffusion coefficients. As an illustration, we apply the formalism to molecular dynamics simulation data of pure TIP4P-D water and a single ubiquitin protein. In another paper [S. von Bülow, J. T. Bullerjahn, and G. Hummer, J. Chem. Phys. 153, 021101 (2020)], we demonstrate its ability to recognize deviations from regular diffusion caused by systematic errors in a common trajectory “unwrapping” scheme that is implemented in popular simulation and visualization software.}}
@@ -1538,6 +1633,88 @@
       \verb https://doi.org/10.1142/S0219633618400023
       \endverb
     \endentry
+    \entry{AIMPRO}{article}{}
+      \name{author}{2}{}{%
+        {{hash=419fe4734ff5ed712226a61bf5e32b80}{%
+           family={Briddon},
+           familyi={B\bibinitperiod},
+           given={P.R.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=5f0f5b620c99fdde5a29a1d446c6aea1}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{f22a1aee5deaf800e6f2b2167dfb78bc}
+      \strng{fullhash}{f22a1aee5deaf800e6f2b2167dfb78bc}
+      \strng{bibnamehash}{f22a1aee5deaf800e6f2b2167dfb78bc}
+      \strng{authorbibnamehash}{f22a1aee5deaf800e6f2b2167dfb78bc}
+      \strng{authornamehash}{f22a1aee5deaf800e6f2b2167dfb78bc}
+      \strng{authorfullhash}{f22a1aee5deaf800e6f2b2167dfb78bc}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract In this paper we will consider some of the methods involved in carrying out density functional calculations within the framework of localised basis sets, specifically those of Gaussian type orbitals. Particular emphasis is placed on the methods used in the AIMPRO (Ab Initio Modelling PROgram) code, but mention is made of a number of developments and strategies used in other programs.}
+      \field{journaltitle}{physica status solidi (b)}
+      \field{number}{1}
+      \field{title}{LDA Calculations Using a Basis of Gaussian Orbitals}
+      \field{volume}{217}
+      \field{year}{2000}
+      \field{pages}{131\bibrangedash 171}
+      \range{pages}{41}
+      \verb{doi}
+      \verb https://doi.org/10.1002/(SICI)1521-3951(200001)217:1<131::AID-PSSB131>3.0.CO;2-M
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/%28SICI%291521-3951%28200001%29217%3A1%3C131%3A%3AAID-PSSB131%3E3.0.CO%3B2-M
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/%28SICI%291521-3951%28200001%29217%3A1%3C131%3A%3AAID-PSSB131%3E3.0.CO%3B2-M
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/%28SICI%291521-3951%28200001%29217%3A1%3C131%3A%3AAID-PSSB131%3E3.0.CO%3B2-M
+      \endverb
+    \endentry
+    \entry{Bloch}{article}{}
+      \name{author}{1}{}{%
+        {{hash=af478cd942c7ec58dc0b0928d033479a}{%
+           family={Bloch},
+           familyi={B\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{af478cd942c7ec58dc0b0928d033479a}
+      \strng{fullhash}{af478cd942c7ec58dc0b0928d033479a}
+      \strng{bibnamehash}{af478cd942c7ec58dc0b0928d033479a}
+      \strng{authorbibnamehash}{af478cd942c7ec58dc0b0928d033479a}
+      \strng{authornamehash}{af478cd942c7ec58dc0b0928d033479a}
+      \strng{authorfullhash}{af478cd942c7ec58dc0b0928d033479a}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Die Bewegung eines Elektrons im Gitter wird untersucht, indem wir uns dieses durch ein zunächst streng dreifach periodisches Kraftfeld schematisieren. Unter Hinzunahme der F ermischen Statistik auf die Elektronen gestattet unser Modell Aussagen über den von ihnen herrührenden Anteil der spezifischen Wärme des Kristalls. Ferner wird gezeigt, da{ß} die Berücksichtigung der thermischen Gitterschwingungen Grö{ß}enordnung und Temperaturabhängigkeit der elektrischen Leitfähigkeit von Metallen in qualitativer Übereinstimmung mit der Erfahrung ergibt.}
+      \field{issn}{0044-3328}
+      \field{journaltitle}{Zeitschrift für Physik}
+      \field{month}{7}
+      \field{number}{7}
+      \field{title}{Über die Quantenmechanik der Elektronen in Kristallgittern}
+      \field{volume}{52}
+      \field{year}{1929}
+      \field{pages}{555\bibrangedash 600}
+      \range{pages}{46}
+      \verb{doi}
+      \verb 10.1007/BF01339455
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/BF01339455
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/BF01339455
+      \endverb
+    \endentry
     \entry{Halicioglu}{article}{}
       \name{author}{1}{}{%
         {{hash=7c99eb738a606e9cff559be953dcb259}{%
@@ -1552,8 +1729,8 @@
       \strng{authorbibnamehash}{7c99eb738a606e9cff559be953dcb259}
       \strng{authornamehash}{7c99eb738a606e9cff559be953dcb259}
       \strng{authorfullhash}{7c99eb738a606e9cff559be953dcb259}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Structure-and energy-related properties of defects formed on relaxed diamond surfaces were investigated. Simulation calculations were carried out for vacancies created on (111) and on (2×1) dimerized (100) index planes of diamond. Two different model functions (based on two-and three-body interactions) developed recently for carbon were employed in the calculations. Both functions produced comparable results. Top layer vacancies are more likely to form on the (100) surface than on the (111) surface. Calculations indicate that the diffusion of a single vacancy from the top surface layer to the second layer is not energetically favored.}
@@ -1613,8 +1790,8 @@
       \strng{authornamehash}{86d9d5fbbe5d1ed3501668567b550c22}
       \strng{authorfullhash}{be9849396371f1e46116b66ad3060135}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{20}
@@ -1633,88 +1810,6 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevB.46.13157
-      \endverb
-    \endentry
-    \entry{AIMPRO}{article}{}
-      \name{author}{2}{}{%
-        {{hash=419fe4734ff5ed712226a61bf5e32b80}{%
-           family={Briddon},
-           familyi={B\bibinitperiod},
-           given={P.R.},
-           giveni={P\bibinitperiod}}}%
-        {{hash=5f0f5b620c99fdde5a29a1d446c6aea1}{%
-           family={Jones},
-           familyi={J\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{f22a1aee5deaf800e6f2b2167dfb78bc}
-      \strng{fullhash}{f22a1aee5deaf800e6f2b2167dfb78bc}
-      \strng{bibnamehash}{f22a1aee5deaf800e6f2b2167dfb78bc}
-      \strng{authorbibnamehash}{f22a1aee5deaf800e6f2b2167dfb78bc}
-      \strng{authornamehash}{f22a1aee5deaf800e6f2b2167dfb78bc}
-      \strng{authorfullhash}{f22a1aee5deaf800e6f2b2167dfb78bc}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Abstract In this paper we will consider some of the methods involved in carrying out density functional calculations within the framework of localised basis sets, specifically those of Gaussian type orbitals. Particular emphasis is placed on the methods used in the AIMPRO (Ab Initio Modelling PROgram) code, but mention is made of a number of developments and strategies used in other programs.}
-      \field{journaltitle}{physica status solidi (b)}
-      \field{number}{1}
-      \field{title}{LDA Calculations Using a Basis of Gaussian Orbitals}
-      \field{volume}{217}
-      \field{year}{2000}
-      \field{pages}{131\bibrangedash 171}
-      \range{pages}{41}
-      \verb{doi}
-      \verb https://doi.org/10.1002/(SICI)1521-3951(200001)217:1<131::AID-PSSB131>3.0.CO;2-M
-      \endverb
-      \verb{eprint}
-      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/%28SICI%291521-3951%28200001%29217%3A1%3C131%3A%3AAID-PSSB131%3E3.0.CO%3B2-M
-      \endverb
-      \verb{urlraw}
-      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/%28SICI%291521-3951%28200001%29217%3A1%3C131%3A%3AAID-PSSB131%3E3.0.CO%3B2-M
-      \endverb
-      \verb{url}
-      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/%28SICI%291521-3951%28200001%29217%3A1%3C131%3A%3AAID-PSSB131%3E3.0.CO%3B2-M
-      \endverb
-    \endentry
-    \entry{Bloch}{article}{}
-      \name{author}{1}{}{%
-        {{hash=af478cd942c7ec58dc0b0928d033479a}{%
-           family={Bloch},
-           familyi={B\bibinitperiod},
-           given={Felix},
-           giveni={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{af478cd942c7ec58dc0b0928d033479a}
-      \strng{fullhash}{af478cd942c7ec58dc0b0928d033479a}
-      \strng{bibnamehash}{af478cd942c7ec58dc0b0928d033479a}
-      \strng{authorbibnamehash}{af478cd942c7ec58dc0b0928d033479a}
-      \strng{authornamehash}{af478cd942c7ec58dc0b0928d033479a}
-      \strng{authorfullhash}{af478cd942c7ec58dc0b0928d033479a}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Die Bewegung eines Elektrons im Gitter wird untersucht, indem wir uns dieses durch ein zunächst streng dreifach periodisches Kraftfeld schematisieren. Unter Hinzunahme der F ermischen Statistik auf die Elektronen gestattet unser Modell Aussagen über den von ihnen herrührenden Anteil der spezifischen Wärme des Kristalls. Ferner wird gezeigt, da{ß} die Berücksichtigung der thermischen Gitterschwingungen Grö{ß}enordnung und Temperaturabhängigkeit der elektrischen Leitfähigkeit von Metallen in qualitativer Übereinstimmung mit der Erfahrung ergibt.}
-      \field{issn}{0044-3328}
-      \field{journaltitle}{Zeitschrift für Physik}
-      \field{month}{7}
-      \field{number}{7}
-      \field{title}{Über die Quantenmechanik der Elektronen in Kristallgittern}
-      \field{volume}{52}
-      \field{year}{1929}
-      \field{pages}{555\bibrangedash 600}
-      \range{pages}{46}
-      \verb{doi}
-      \verb 10.1007/BF01339455
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/BF01339455
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/BF01339455
       \endverb
     \endentry
     \entry{NitrogeninDiamond}{article}{}
@@ -1870,8 +1965,8 @@
       \strng{authorbibnamehash}{8733d89ff4cc0bbd653ca08e41a11afc}
       \strng{authornamehash}{a7911e6f4164eaedc437bea5cd82ff11}
       \strng{authorfullhash}{8733d89ff4cc0bbd653ca08e41a11afc}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Physics: Condensed Matter}
@@ -1919,8 +2014,8 @@
       \strng{authorbibnamehash}{0ce33a5e3cdb5499dcd4df5dc851d4e3}
       \strng{authornamehash}{cc12e16494ef65cda8216e04d1b370bd}
       \strng{authorfullhash}{0ce33a5e3cdb5499dcd4df5dc851d4e3}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2469-9950}
@@ -1956,8 +2051,8 @@
       \strng{authorbibnamehash}{5c66dda5fc7bfaa5597e78f4995dbab3}
       \strng{authornamehash}{5c66dda5fc7bfaa5597e78f4995dbab3}
       \strng{authorfullhash}{5c66dda5fc7bfaa5597e78f4995dbab3}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{16}
@@ -2002,8 +2097,8 @@
       \strng{authorbibnamehash}{5ec75048918f4b0d8adea64a0f4f377d}
       \strng{authornamehash}{ee96a8eb960bf7b10d509662efa31aad}
       \strng{authorfullhash}{5ec75048918f4b0d8adea64a0f4f377d}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0953-2048}
